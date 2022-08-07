@@ -86,9 +86,12 @@ section div {
 	align-content: center;
 	width: 34vw;
 	font-size: 6rem;
+	padding: 0 4vw;
+    width: 90vw;
 }
 .aboutBorder > p  {
 	width: 15rem;
+	margin: 0 auto;
 }
 
 .aboutStrich {
