@@ -29,6 +29,65 @@ section div {
 	padding: 1em;
 }
 
+
+/* HOME */
+
+#homeContainer {
+	color: white;
+	background-color: black;
+}
+
+.homeText {
+	color: red;
+}
+
+.homeText > p {
+	padding: 2rem 0;
+	transition: 3s;
+	left:0;
+	/* width: 18rem; */
+}
+
+/* .homeText > \ */
+.homeText > p:hover {
+    transition: 1s;
+    left: 0;
+}
+
+/* ende HOME */
+
+/* Anfang ABOUT */
+
+#aboutContainer {
+	color: white;
+	background-color: black;
+}
+
+.aboutText {
+	color: red;
+}
+
+.aboutText > p {
+	padding: 2rem 0;
+	transition: 3s;
+	left:0;
+	/* width: 18rem; */
+}
+
+/* .homeText > \ */
+.aboutText > p:hover {
+    transition: 1s;
+    left: 0;
+}
+.aboutBorder {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	width: 1rem;
+}
+
+/* ende ABOUT */
+
 @media screen and (max-width: 900px) {
 	section,
 	section:nth-child(even) {
