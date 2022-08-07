@@ -71,6 +71,7 @@ section div {
 	padding: 2rem 0;
 	transition: 3s;
 	left:0;
+	font-size: 2rem;
 	/* width: 18rem; */
 }
 
@@ -79,11 +80,19 @@ section div {
     transition: 1s;
     left: 0;
 }
-.aboutBorder {
+.aboutBorder  {
 	display: flex;
 	flex-direction: row;
 	align-content: center;
-	width: 1rem;
+	width: 34vw;
+	font-size: 6rem;
+}
+.aboutBorder > p  {
+	width: 15rem;
+}
+
+.aboutStrich {
+	width: 1rem !important;
 }
 
 /* ende ABOUT */

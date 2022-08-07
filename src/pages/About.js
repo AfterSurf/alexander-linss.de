@@ -16,7 +16,7 @@ const About = () => {
 				<h3>ABOUT</h3>
 				<div className={"aboutBorder"}>
 					<p>IT</p>
-					<p>|</p>
+					<p className={"aboutStrich"} >|</p>
 					<p>PRIVAT</p>
 				</div>
 			</div>
