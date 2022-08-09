@@ -5,7 +5,6 @@ import './Nav.css';
 
 const Nav = (props) => {
 
-	console.log("nav.props: ",props)
 	let navArray = [];
 
 		if(props.page === "it") {
@@ -16,8 +15,6 @@ const Nav = (props) => {
 			navArray = navLinksHome
 		}
  
-
-
 	const [isOpen, setIsOpen] = useState(false)
 	const setShowImpressum=props.setShowImpressum;
 	return (

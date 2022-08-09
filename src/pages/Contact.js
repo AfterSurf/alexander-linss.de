@@ -4,11 +4,6 @@ import { useNav } from '../customHooks/useNav';
 import './Page.css';
 
 const Contact = () => {
-	// useNav takes in a navLinkId and returns a ref
-	// this ref is used to register the navLinkId that's
-	// currently in view, and apply activeClass styling
-	// to the corresponding nav childElement
-
 	const contactRef = useNav('Contact');
 	console.log("contact")
 

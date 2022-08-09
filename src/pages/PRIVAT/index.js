@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, About, Contact, Impressum } from '..';
+import { Home,  Contact, Impressum } from '..';
 import '../Page.css';
 
 const PRIVAT = (props) => 
@@ -11,7 +11,6 @@ const PRIVAT = (props) =>
 			<Impressum setShowImpressum={props.setShowImpressum}/>
 			<main className="mainStyle">
 				<Home />
-				{/* <About /> */}
 				<Contact />
 			</main>
 
@@ -21,7 +20,6 @@ const PRIVAT = (props) =>
 		return (
 			<main className="mainStyle">
 				<Home />
-				{/* <About /> */}
 				<Contact />
 			</main>
 		);
