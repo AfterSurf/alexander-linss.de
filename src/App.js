@@ -3,6 +3,7 @@ import {useState} from 'react';
 import { Nav } from './nav';
 import { Main } from './pages';
 import IT from './pages/IT'
+import PRIVAT from './pages/PRIVAT'
 import Footer from './footer/Footer';
 import NavProvider from './context/NavContext';
 import './App.css';
@@ -23,7 +24,19 @@ function App(props) {
 			</div>
 		);
 
-	} else {
+		} else if(props.page === "privat") {
+
+				return (
+					<div className='appContainer'>
+						<NavProvider>
+								<Nav setShowImpressum={setShowImpressum}/>
+								<PRIVAT  showImpressum={showImpressum} setShowImpressum={setShowImpressum}/>
+								<Footer showImpressum={showImpressum} setShowImpressum={setShowImpressum}/>
+						</NavProvider>
+					</div>
+				);
+		}
+	 else {
 		return (
 				<div className='appContainer'>
 					<NavProvider>

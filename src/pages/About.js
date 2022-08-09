@@ -9,20 +9,14 @@ const About = () => {
 		<section ref={aboutRef} id='aboutContainer'>
 			<div>
 				<div className={"aboutBorder"}>
-					{/* <p>IT</p> */}
 					<Link to="/it">IT</Link>
 					<p className={"aboutStrich"} >|</p>
-					{/* <p>PRIVAT</p> */}
-					<Link to="/test">PRIVAT</Link>
+					<Link to="/privat">PRIVAT</Link>
 				</div>
 			</div>
 		</section>
 	);
 };
 
-
-const sendPage = (dir) => {
-
-}
 export default About;
 
