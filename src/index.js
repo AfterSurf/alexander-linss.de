@@ -11,6 +11,7 @@ ReactDOM.render(
       <Route path="/" element={<App  />} />
       <Route path="/test" element={<Contact/>} />
       <Route path="/props" element={<App test="tt"/>} />
+      <Route path="/it" element={<App page="it"/>} />
     </Routes>
   </BrowserRouter>,
 	document.getElementById('root')
