@@ -17,7 +17,7 @@ function App(props) {
 		return (
 			<div className='appContainer'>
 				<NavProvider>
-						<Nav setShowImpressum={setShowImpressum}/>
+						<Nav page={props.page} setShowImpressum={setShowImpressum}/>
 						<IT  showImpressum={showImpressum} setShowImpressum={setShowImpressum}/>
 						<Footer showImpressum={showImpressum} setShowImpressum={setShowImpressum}/>
 				</NavProvider>
@@ -29,7 +29,7 @@ function App(props) {
 				return (
 					<div className='appContainer'>
 						<NavProvider>
-								<Nav setShowImpressum={setShowImpressum}/>
+								<Nav page={props.page} setShowImpressum={setShowImpressum}/>
 								<PRIVAT  showImpressum={showImpressum} setShowImpressum={setShowImpressum}/>
 								<Footer showImpressum={showImpressum} setShowImpressum={setShowImpressum}/>
 						</NavProvider>
@@ -40,7 +40,7 @@ function App(props) {
 		return (
 				<div className='appContainer'>
 					<NavProvider>
-							<Nav setShowImpressum={setShowImpressum}/>
+							<Nav page={props.page} setShowImpressum={setShowImpressum}/>
 							<Main  showImpressum={showImpressum} setShowImpressum={setShowImpressum}/>
 							<Footer showImpressum={showImpressum} setShowImpressum={setShowImpressum}/>
 					</NavProvider>
