@@ -93,6 +93,14 @@ section div {
 	width: 15rem;
 	margin: 0 auto;
 }
+.aboutBorder > a  {
+	width: 20vw;
+	text-align: left;
+}
+
+.aboutBorder > a:first-child  {
+	text-align: right;
+}
 
 .aboutStrich {
 	width: 1rem !important;

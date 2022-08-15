@@ -9,9 +9,10 @@ const About = () => {
 		<section ref={aboutRef} id='aboutContainer'>
 			<div>
 				<div className={"aboutBorder"}>
-					<Link to="/it">IT</Link>
+					{/* TODO: diese classnames auch benutzen und die links stylen  */}
+					<Link className={"itLink"} to="/it">IT</Link> 
 					<p className={"aboutStrich"} >|</p>
-					<Link to="/privat">PRIVAT</Link>
+					<Link className={"privatLink"} to="/privat">PRIVAT</Link>
 				</div>
 			</div>
 		</section>
