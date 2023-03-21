@@ -1,6 +1,8 @@
 import React from "react";
-import { Home, Contact, Impressum } from "..";
-import "../Page.css";
+import Contact from "./Contact";
+import Home from "./Home";
+import Impressum from "./../Impressum";
+import "./../Page.css";
 
 const IT = (props) => {
   return (
