@@ -1,9 +1,20 @@
 import React, {useState} from 'react';
 import NavLink from './NavLink';
-import { navLinks } from './navLinks';
+import { navLinksHome, navLinksPrivat, navLinksIT } from './navLinks';
 import './Nav.css';
 
 const Nav = (props) => {
+
+	let navArray = [];
+
+		if(props.page === "it") {
+			navArray = navLinksIT
+		} else if (props.page === "privat") { 
+			navArray = navLinksPrivat
+		} else {
+			navArray = navLinksHome
+		}
+ 
 	const [isOpen, setIsOpen] = useState(false)
 	const setShowImpressum=props.setShowImpressum;
 	return (
@@ -23,7 +34,7 @@ const Nav = (props) => {
 									setIsOpen(false);
 									}}>&times;</button>
 									<div className="nav-list">
-			{navLinks.map(({ navLinkId, scrollToId }, idx) => (
+			{navArray.map(({ navLinkId, scrollToId }, idx) => (
 				<NavLink key={idx} setShowImpressum={setShowImpressum} navLinkId={navLinkId} scrollToId={scrollToId} setIsOpen={setIsOpen} />
 			))}
 			</div>
