@@ -4,14 +4,14 @@ Read the article here! [Link to Article](https://medium.com/geekculture/scrollab
 
 This project is bootstrapped with `create-react-app`.
 
-
 Router tutorial:
 https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm
 
-
-Lösung: 
+Lösung:
 https://stackoverflow.com/questions/43985376/how-to-organise-components-for-a-single-page-scrolling-website-in-react
 
-
-fonts: 
+fonts:
 https://www.fontspace.com/category/advertising?p=6
+
+offene Todos:
+-CookyBanner einbauen

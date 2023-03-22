@@ -8,11 +8,11 @@ const Home = () => {
   return (
     <section ref={homeRef} id="homeContainer">
       <div className="homeText">
-        <h3>HOME</h3>
-        <p>Hier bist du zu hause</p>
-        <p>Hier bist du zu hause</p>
-        <p>Hier bist du zu hause</p>
-        <p>Hier bist du zu hause</p>
+        <h3>IT</h3>
+        <p>Hier wird alles zum Thema IT stehen</p>
+        <p>...</p>
+        <p>...</p>
+        <p>Hier wird alles zum Thema IT stehen</p>
       </div>
     </section>
   );

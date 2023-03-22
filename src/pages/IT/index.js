@@ -1,5 +1,5 @@
 import React from "react";
-import Contact from "./Contact";
+import Projekte from "./Projekte";
 import Home from "./Home";
 import Impressum from "./../Impressum";
 import "./../Page.css";
@@ -14,7 +14,7 @@ const IT = (props) => {
       )}
       <main className="mainStyle">
         <Home />
-        <Contact />
+        <Projekte />
       </main>
     </>
   );
