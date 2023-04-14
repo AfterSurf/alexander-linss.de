@@ -1,66 +1,71 @@
- .impressumStyles {
-   text-align: center;
-   width: 100%;
- } 
-  
-  .overlay_desktop {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    /* safari fallback */
-    background-color: rgb(50, 45, 45);
-    background-color: rgb(11, 10, 10,0.7);
-    
-    overflow-y: hidden;
-    overflow: scroll;
-    transition: 0.5s;
-  }
+.impressumStyles {
+  text-align: center;
+  width: 100%;
+}
 
-  .overlay_d_0 {
-    height: 0%;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color:#2c2d2b;
-    overflow-y: hidden;
-    transition: 0.5s;
-  }
+.overlay_desktop {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* safari fallback */
+  background-color: rgb(50, 45, 45);
+  background-color: rgb(11, 10, 10, 0.7);
 
-  .overlay_desktop a {
-    margin: 1% 0;
-    padding: 15px 0;
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: #000;
-    display: block;
-    transition: 0.3s;
+  overflow-y: hidden;
+  overflow: scroll;
+  transition: 0.5s;
+}
+
+.overlay_d_0 {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2c2d2b;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay_desktop a {
+  margin: 1% 0;
+  padding: 15px 0;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay_d a:hover,
+.overlay_d a:focus {
+  color: #f1f1f1;
+}
+
+.overlay_d .closebtn_d {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay_d {
+    overflow-y: auto;
   }
-  
-  .overlay_d a:hover, .overlay_d a:focus {
-    color: #f1f1f1;
+  .overlay_d a {
+    font-size: 20px;
   }
-  
   .overlay_d .closebtn_d {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .overlay_d {overflow-y: auto;}
-    .overlay_d a {font-size: 20px}
-    .overlay_d .closebtn_d {
     font-size: 40px;
     top: 15px;
     right: 35px;
-    }
   }
+}
 
 /* impressumStyles */
 .impressum {
@@ -69,20 +74,19 @@
 
 .impressumStyles {
   padding-bottom: 3.4%;
-    color: white;
-    margin-top: auto;
-    margin-bottom: auto;
-  
-    position: absolute;
-    top: 50%;
-    left: 50%;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
 
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
 }
 .closeImpressum {
   margin-left: 90%;
   height: 2rem;
   padding-top: 1rem;
   cursor: pointer;
-
 }

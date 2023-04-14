@@ -6,7 +6,7 @@ import IT from "./pages/IT";
 import PRIVAT from "./pages/PRIVAT";
 import Footer from "./footer/Footer";
 import NavProvider from "./context/NavContext";
-import "./App.css";
+import "./index.css";
 
 function App(props) {
   const [showImpressum, setShowImpressum] = useState(false);
