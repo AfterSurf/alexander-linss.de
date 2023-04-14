@@ -10,7 +10,6 @@ import "./App.css";
 
 function App(props) {
   const [showImpressum, setShowImpressum] = useState(false);
-  console.log("APPprops: ", props);
   if (props.page === "it") {
     return (
       <div className="appContainer">

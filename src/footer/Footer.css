@@ -1,0 +1,16 @@
+.footer {
+  background-color: white;
+  display: flex;
+  flex: 1;
+  border-top: 1px solid #eaeaea;
+  align-items: center;
+  justify-content: space-around;
+  height: 1vh;
+  bottom: 0;
+  position: sticky;
+  width: 100%;
+  z-index: 9;
+
+  /* wanted?! - was ist mit dem Menu? */
+  cursor: pointer;
+}

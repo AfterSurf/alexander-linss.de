@@ -29,43 +29,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 h3 {
   font-size: 4em;
   text-align: center;
   padding: 1em;
   font-weight: 500;
-}
-
-/* Footer */
-/* .footer {
-	display: flex;
-	flex: 1;
-	padding: 2rem 0;
-	border-top: 1px solid #eaeaea;
-	justify-content: center;
-	align-items: center;
-	height: 8vh;
-  } */
-
-.footer {
-  background-color: goldenrod;
-  display: flex;
-  flex: 1;
-  border-top: 1px solid #eaeaea;
-  /* justify-content: center; */
-  align-items: center;
-  justify-content: space-around;
-  height: 1vh;
-  bottom: 0;
-  position: sticky;
-  width: 100%;
-  z-index: 9;
-
-  /* wanted?! - was ist mit dem Menu? */
-  cursor: pointer;
 }
