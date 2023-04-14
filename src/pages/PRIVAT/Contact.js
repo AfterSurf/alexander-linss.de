@@ -4,11 +4,11 @@ import { useNav } from "../../customHooks/useNav";
 import "./../Page.css";
 
 const Contact = () => {
-  const contactRef = useNav("Contact");
+  const contactRef = useNav("ContactIT");
   console.log("contact");
 
   return (
-    <section ref={contactRef} id="contactContainer">
+    <section ref={contactRef} id="contactContainerIt">
       <img
         src="https://source.unsplash.com/random/600x600/?nature,water"
         alt="unsplash-img"

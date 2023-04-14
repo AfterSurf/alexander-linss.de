@@ -2,7 +2,7 @@ import React from "react";
 import Contact from "./Contact";
 import Home from "./Home";
 import Impressum from "./../Impressum";
-import "./../Page.css";
+import "./privatStyles.css";
 
 const PRIVAT = (props) => {
   return (
@@ -12,6 +12,7 @@ const PRIVAT = (props) => {
       ) : (
         <></>
       )}
+      {/* checken wo mainstyles genau gesetzt wird */}
       <main className="mainStyle">
         <Home />
         <Contact />
