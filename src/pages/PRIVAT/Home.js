@@ -1,13 +1,13 @@
 import React from "react";
 import { useNav } from "../../customHooks/useNav";
-import "./../Page.css";
+import "./privatStyles.css";
 
 const Home = () => {
-  const homeRef = useNav("Home");
-  console.log("home");
+  const homeRef = useNav("HomePrivat");
   return (
-    <section ref={homeRef} id="homeContainer">
-      <div className="homeText">
+    <section ref={homeRef} id="homePrivatContainer">
+      <div className="homePrivatText">
+        <h2>HOME</h2>
         <h3>HOME</h3>
         <p>Hier bist du zu hause</p>
         <p>Hier bist du zu hause</p>

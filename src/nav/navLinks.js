@@ -1,13 +1,13 @@
 export const navLinksHome = [
-	{ navLinkId: 'About', scrollToId: 'aboutContainer' },
+  { navLinkId: "About", scrollToId: "aboutContainer" },
 ];
 
 export const navLinksPrivat = [
-	{ navLinkId: 'Home', scrollToId: 'homeContainer' },
-	{ navLinkId: 'Contact', scrollToId: 'contactContainer' },
+  { navLinkId: "HomePrivat", scrollToId: "homePrivatContainer" },
+  { navLinkId: "Contact", scrollToId: "contactContainer" },
 ];
 
 export const navLinksIT = [
-	{ navLinkId: 'Home', scrollToId: 'homeContainer' },
-	{ navLinkId: 'Contact', scrollToId: 'contactContainer' },
+  { navLinkId: "Home", scrollToId: "homeContainer" },
+  { navLinkId: "Contact", scrollToId: "contactContainer" },
 ];
