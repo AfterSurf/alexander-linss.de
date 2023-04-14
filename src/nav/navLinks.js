@@ -8,6 +8,6 @@ export const navLinksPrivat = [
 ];
 
 export const navLinksIT = [
-  { navLinkId: "Home", scrollToId: "homeContainer" },
+  { navLinkId: "HomeIt", scrollToId: "homeItContainer" },
   { navLinkId: "Contact", scrollToId: "contactContainer" },
 ];
