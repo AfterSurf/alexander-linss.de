@@ -3,7 +3,7 @@ import { useNav } from "../../customHooks/useNav";
 import "./privatStyles.css";
 
 const Home = () => {
-  const homeRef = useNav("HomePrivat");
+  const homeRef = useNav("Home");
   return (
     <section ref={homeRef} id="homePrivatContainer">
       <div className="homePrivatText">

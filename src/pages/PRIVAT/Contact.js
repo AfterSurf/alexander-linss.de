@@ -2,13 +2,15 @@ import React from "react";
 import { useNav } from "../../customHooks/useNav";
 
 import "./../Page.css";
-import image from "../../pictures/alex_bw.jpg";
 
 const Contact = () => {
-  const contactRef = useNav("ContactIT");
+  const contactRef = useNav("Contact");
   return (
     <section ref={contactRef} id="contactContainerIt">
-      <img src={image} alt="unsplash-img" />
+      <img
+        src="https://source.unsplash.com/random/600x600/?nature,water"
+        alt="unsplash-img"
+      />
       <div>
         <h3>CONTACT</h3>
         <p>This is the contact section</p>
