@@ -4,7 +4,7 @@ import { useNav } from "../../customHooks/useNav";
 import "./../Page.css";
 
 const Projekte = () => {
-  const contactRef = useNav("ContactIt");
+  const contactRef = useNav("Projects");
   return (
     <section ref={contactRef} id="contactItContainer">
       <img

@@ -3,7 +3,7 @@ import { useNav } from "../../customHooks/useNav";
 import "./itStyles.css";
 
 const Home = () => {
-  const homeRef = useNav("HomeIt");
+  const homeRef = useNav("Home");
   return (
     <section ref={homeRef} id="homeItContainer">
       <div className="homeItText">
