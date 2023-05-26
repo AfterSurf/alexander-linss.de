@@ -2,6 +2,7 @@ import React from "react";
 import Projekte from "./Projekte";
 import Home from "./Home";
 import Impressum from "./../Impressum";
+import References from "./References";
 import "./itStyles.css";
 
 const IT = (props) => {
@@ -16,6 +17,7 @@ const IT = (props) => {
       <main className="mainStyle">
         <Home />
         <Projekte />
+        <References />
       </main>
     </>
   );
