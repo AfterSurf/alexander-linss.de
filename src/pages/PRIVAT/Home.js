@@ -7,12 +7,11 @@ const Home = () => {
   return (
     <section ref={homeRef} id="homePrivatContainer">
       <div className="homePrivatText">
-        <h2>HOME</h2>
-        <h3>HOME</h3>
-        <p>Hier bist du zu hause</p>
-        <p>Hier bist du zu hause</p>
-        <p>Hier bist du zu hause</p>
-        <p>Hier bist du zu hause</p>
+        <h2>Alexander Linß</h2>
+        <h3>Privat</h3>
+        <p>Wer bist du?</p>
+        <p>Was hast du bis jetzt alles gemacht?</p>
+        <p>Wie denkst du über die Welt?</p>
       </div>
     </section>
   );

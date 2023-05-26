@@ -6,7 +6,7 @@ import "./../Page.css";
 const Contact = () => {
   const contactRef = useNav("Contact");
   return (
-    <section ref={contactRef} id="contactContainerIt">
+    <section ref={contactRef} id="contactContainerPrivat">
       <img
         src="https://source.unsplash.com/random/600x600/?nature,water"
         alt="unsplash-img"
