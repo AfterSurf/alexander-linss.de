@@ -10,12 +10,18 @@ const References = () => {
     <section ref={referencesRec} id="ReferencesItContainer">
       <div>
         <h3>LinkedinProfile</h3>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/alexander-lin%C3%9F/"
+        >
+          LINKedin
+        </a>
         <p>GitHub:</p>
         <a
           target="_blank"
           href="https://github.com/AfterSurf/alexander-linss.de"
         >
-          LINK
+          LINKedHub
         </a>
       </div>
     </section>
