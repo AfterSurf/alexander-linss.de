@@ -7,7 +7,7 @@ const References = () => {
   const referencesRec = useNav("References");
 
   return (
-    <section ref={referencesRec} id="">
+    <section ref={referencesRec} id="ReferencesItContainer">
       <div>
         <h3>LinkedinProfile</h3>
         <p>GitHub</p>
@@ -15,3 +15,5 @@ const References = () => {
     </section>
   );
 };
+
+export default References;

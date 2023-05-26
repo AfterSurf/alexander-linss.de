@@ -12,4 +12,5 @@ export const navLinksPrivat = [
 export const navLinksIT = [
   { navLinkId: "Home", scrollToId: "homeItContainer" },
   { navLinkId: "Projects", scrollToId: "contactItContainer" },
+  { navLinkId: "References", scrollToId: "ReferencesItContainer" },
 ];
