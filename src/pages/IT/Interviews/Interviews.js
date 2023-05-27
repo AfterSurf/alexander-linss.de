@@ -1,7 +1,7 @@
 import React from "react";
-import { useNav } from "../../customHooks/useNav";
+import { useNav } from "../../../customHooks/useNav";
 
-import "./../Page.css";
+import "./Interviews.css";
 
 const Interviews = () => {
   const interviewsRef = useNav("Interviews");
@@ -18,6 +18,11 @@ const Interviews = () => {
           entgegennehmen..
         </p>
         <p></p>
+        <div className="aufgaben">
+          <div>Aufgabe 1</div>
+          <div>Aufgabe 2</div>
+          <div>Aufgabe 3</div>
+        </div>
       </div>
     </section>
   );

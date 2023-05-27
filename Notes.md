@@ -15,5 +15,10 @@ https://www.fontspace.com/category/advertising?p=6
 
 https://fontlibrary.org/en/font/anarchist-mustache
 
-offene Todos:
+### offene Todos:
+
 -CookyBanner einbauen
+
+### weitere Optiemierungen
+
+css modules einführen (oder andere "css templates" - sass, scss ... )
