@@ -12,10 +12,12 @@ const Projekte = () => {
         alt="unsplash-img"
       />
       <div>
-        <h3>Projekte</h3>
-        <p>GitHub</p>
-        <p>Projekte</p>
-        <p>Licht zB</p>
+        <h3>Projekt(e)</h3>
+        <p>Aktuell möchte ich vorstellen wie meine Homepage aufgebaut ist: </p>
+        <ul>
+          <li>Next.js</li>
+          <li>Next.js</li>
+        </ul>
       </div>
     </section>
   );

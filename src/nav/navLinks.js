@@ -1,6 +1,6 @@
-export const navLinksHome = [
-  { navLinkId: "About", scrollToId: "aboutContainer" },
-];
+// export const navLinksHome = [
+//   { navLinkId: "About", scrollToId: "aboutContainer" },
+// ];
 
 export const navLinksPrivat = [
   { navLinkId: "Home", scrollToId: "homePrivatContainer" },
