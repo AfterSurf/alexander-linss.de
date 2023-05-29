@@ -23,18 +23,18 @@ const Interviews = () => {
         <p></p>
         <div className="aufgaben">
           <Aufgabe
-            title="Aufgabe 1"
-            description="Das ist die erste Aufgabe"
+            title="Slider (ida - mdr)"
+            description="Bitte bau uns einen Slider, der Bilder slidet (animiert)."
             img={imgLink}
           />
           <Aufgabe
-            title="Aufgabe 2"
-            description="Das ist die zweite Aufgabe"
+            title="Rechteverwaltung-anzeige (Raylytic)"
+            description="Bau eine Anwendung, die view-rechte für verschiedene Nutzer einschränken kann"
             img={imgLink}
           />
           <Aufgabe
             title="Aufgabe 3"
-            description="Das ist die dritte Aufgabe"
+            description="Style uns verschiedene Produkte, zeige sie nach Kategorien (responsive) an und mach die Artikel likeable "
             img={imgLink}
           />
         </div>
