@@ -33,7 +33,7 @@ const Interviews = () => {
             img={imgLink}
           />
           <Aufgabe
-            title="Aufgabe 3"
+            title="Zeige eine Auswahl an Produkten an + liken und sortieren nach Kategorien (QUDOsoft)"
             description="Style uns verschiedene Produkte, zeige sie nach Kategorien (responsive) an und mach die Artikel likeable "
             img={imgLink}
           />

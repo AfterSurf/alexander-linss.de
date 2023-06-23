@@ -18,6 +18,16 @@ const Projekte = () => {
           <li>Next.js</li>
           <li>Next.js</li>
         </ul>
+        <h3>Studien</h3>
+        <p>Diese Seite soll auch ein Ort für Studien sein. </p>
+        <p>
+          Hier aktuell Technologien, die mich interessieren und die ich
+          vertiefend studieren möchte:
+        </p>
+        <ul>
+          <li>Webpack und andere Buildtools</li>
+          <li>Next.js</li>
+        </ul>
       </div>
     </section>
   );
