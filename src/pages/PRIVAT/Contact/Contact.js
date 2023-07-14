@@ -1,7 +1,9 @@
 import React from "react";
-import { useNav } from "../../customHooks/useNav";
+import { useNav } from "../../../customHooks/useNav";
 
-import "./../Page.css";
+import "./../../Page.css";
+
+import Form from "./Form.js";
 
 const Contact = () => {
   const contactRef = useNav("Contact");
@@ -14,6 +16,9 @@ const Contact = () => {
       <div>
         <h3>CONTACT</h3>
         <p>This is the contact section</p>
+
+        <Form/>
+        
       </div>
     </section>
   );
