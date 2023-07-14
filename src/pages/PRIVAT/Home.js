@@ -5,7 +5,7 @@ import "./privatStyles.css";
 const Home = () => {
   const homeRef = useNav("Home");
   return (
-    <section ref={homeRef} id="homePrivatContainer">
+    <section ref={homeRef} id="homeContainerPrivat">
       <div className="homePrivatText">
         <h2>Alexander Linß</h2>
         <h3>Privat</h3>
