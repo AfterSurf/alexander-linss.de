@@ -9,31 +9,23 @@ const Form = () => {
     return (
         <div>
             <div className="container ">
-                <form onSubmit={onSubmit}>
-                <h2 className="">React Contact Form Component Example</h2>
-                    <div className="">
-                        <label className="form-label" htmlFor="name">
+                <form onSubmit={onSubmit} className="contact-form">
+                {/* <h2 >React Contact Form Component Example</h2> */}
+                        <label className="name-label" htmlFor="name">
                             Name
                         </label>
-                        <input className="form-control" type="text" id="name" required />
-                    </div>
-                    <div className="">
-                        <label className="form-label" htmlFor="email">
+                        <input className="name-input" type="text" id="name" required />
+                        <label className="email-label" htmlFor="email">
                             Email
                         </label>
-                        <input className="form-control" type="email" id="email" required />
-                    </div>
-                    <div className="">
-                        <label className="form-label" htmlFor="message">
+                        <input className="email-input" type="email" id="email" required />
+                        <label className="message-label" htmlFor="message">
                             Message
                         </label>
-                        <textarea className="form-control" id="message" required />
-                    </div>
-                    {/* <button className="btn btn-danger" type="submit"> */}
-                    
+                        <textarea className="message-textarea" id="message" required />
                     <div className="">
                     <button className="btn btn-danger" type="button" onClick={onSubmit}>
-                        {/* {formStatus} */}BUTTON
+                        BUTTON
                     </button>
                     </div>
                 

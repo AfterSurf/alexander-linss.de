@@ -7,48 +7,35 @@ oder: hoovern --> Effekt + Erklärung
 
 .container {
     background: grey;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: min-content 1fr min-content;
-    justify-content: self;
+
 }
 
 
 /* Form */
-
-.form-label {
-    justify-self: center;
-    min-width: 11rem;
-    min-height: 3rem;
-    /* width: 20%; */
-    color: green;
-    background-color: rebeccapurple;
-    
-    margin: 1rem 5rem;
-    padding: 1rem 5.5rem 0rem; 
-    
-    /* width: 10%;
-    margin:  10% auto; */
+.contact-form {
+    background: grey;
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-rows: min-content 1fr min-content;
+    justify-content: self; */
+}
+.name-label, .name-input {
+    grid-column: 1;
 }
 
-.form-control {
-    min-width: 11rem;
+.email-label, .email-input {
+    grid-column: 2;
+}
 
-    justify-self: center;
-    min-width: 11rem;
-    min-height: 3rem;
-    /* width: 20%;  */
-
-    
-    margin: 1rem 5rem;
-    padding: 1rem 5.5rem 0rem; 
+.message-label, .message-input {
+    grid-column: span 2;
 }
 
 
 .btn {
     color: red;
     min-width: 12rem;
-    width: 10%;
-    margin:  10% auto;
+    grid-column: 2;
 }
 
