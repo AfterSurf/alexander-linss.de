@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import NavLink from "./NavLink";
-import { navLinksHome, navLinksPrivat, navLinksIT } from "./navLinks";
+import { navLinksPrivat, navLinksIT } from "./navLinks";
 import "./Nav.css";
 import logo from "./AlexanderLinssNone.svg"
 
@@ -12,9 +12,6 @@ const Nav = (props) => {
   } else if (props.page === "privat") {
     navArray = navLinksPrivat;
   }
-  // } else {
-  // 	navArray = navLinksHome
-  // }
 
   const [isOpen, setIsOpen] = useState(false);
   const setShowImpressum = props.setShowImpressum;
@@ -22,10 +19,7 @@ const Nav = (props) => {
     <>
       <div class="header-content">
         <a class="logo-link" href="/">
-          {/* <img src={logo} alt="" class="logo"></img> */}
-          {/* <p className="logo">[ L O G O ]</p> */}
           <img src={logo} alt="Your SVG" className="logo"/>
-          {/* <p className="logo">{logo}</p> */}
         </a>
         <button
           aria-label="open navigation"
