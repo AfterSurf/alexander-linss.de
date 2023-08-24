@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { navLinksHome, navLinksPrivat, navLinksIT } from "./navLinks";
 import "./Nav.css";
+import logo from "./AlexanderLinssNone.svg"
 
 const Nav = (props) => {
   let navArray = [];
@@ -22,7 +23,9 @@ const Nav = (props) => {
       <div class="header-content">
         <a class="logo-link" href="/">
           {/* <img src={logo} alt="" class="logo"></img> */}
-          <p className="logo">[ L O G O ]</p>
+          {/* <p className="logo">[ L O G O ]</p> */}
+          <img src={logo} alt="Your SVG" className="logo"/>
+          {/* <p className="logo">{logo}</p> */}
         </a>
         <button
           aria-label="open navigation"
