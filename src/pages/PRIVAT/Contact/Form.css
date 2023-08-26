@@ -7,35 +7,54 @@ oder: hoovern --> Effekt + Erklärung
 
 .container {
     background: grey;
+}
 
+.contact-form {
+    display: grid; 
+}
+
+/* needed for styling not for grid */
+
+input,
+textarea {
+    margin-bottom: .75em;
+    padding: .4em;
+    font-family: inherit;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
 }
 
 
 /* Form */
-.contact-form {
-    background: grey;
-    display: grid;
-    grid-auto-flow: dense;
-    grid-template-columns: repeat(2,1fr);
-    /* grid-template-rows: min-content 1fr min-content;
-    justify-content: self; */
-}
-.name-label, .name-input {
-    grid-column: 1;
-}
+/* KEY: hier  */
+@media (min-width: 600px) { 
+    .contact-form {
+        background: grey;
+        display: grid;
+        grid-auto-flow: dense;
+        grid-template-columns: repeat(2,1fr);
+        /* grid-template-rows: min-content 1fr min-content;
+        justify-content: self; */
+    }
+    .name-label, .name-input {
+        grid-column: 1;
+    }
 
-.email-label, .email-input {
-    grid-column: 2;
+    .email-label, .email-input {
+        grid-column: 2;
+    }
+
+    .message-label, .message-input {
+        grid-column: span 2;
+    }
+
+
+    .btn {
+        color: red;
+        min-width: 12rem;
+        grid-column: 2;
+    }
 }
-
-.message-label, .message-input {
-    grid-column: span 2;
-}
-
-
-.btn {
-    color: red;
-    min-width: 12rem;
-    grid-column: 2;
-}
-

@@ -17,13 +17,11 @@ https://fontlibrary.org/en/font/anarchist-mustache
 
 ### offene Todos:
 
+-die Initialen Styles wieder rausbauen..
 -CookyBanner einbauen
 -multilanguage: de / eng 
 
 --> simplify 
-
-
--eigenes Logo designen 
 
 ### weitere Optiemierungen
 

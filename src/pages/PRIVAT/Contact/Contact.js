@@ -1,22 +1,23 @@
 import React from "react";
 import { useNav } from "../../../customHooks/useNav";
 
-import "./../../Page.css";
+// test
+// import "./../../Page.css";
 
+import "./Contact.css"
 import Form from "./Form.js";
+
 
 const Contact = () => {
   const contactRef = useNav("Contact");
   return (
     <section ref={contactRef} id="contactContainerPrivat">
-      {/* <img
-        src="https://source.unsplash.com/random/600x600/?nature,water"
-        alt="unsplash-img"
-      /> */}
-      <div>
-        <h3>CONTACT</h3>
-        <p>This is the contact section</p>
-
+      <div className="main-grid main-template">
+        <h3 className="page-title">CONTACT</h3>
+        <div className="secondary-text">
+                    <h2 className="section-title">This is the contact section</h2>
+                    <p>melden Sie sich bei mir</p>
+                </div>
         <Form/>
         
       </div>
