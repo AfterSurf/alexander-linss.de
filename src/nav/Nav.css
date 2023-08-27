@@ -269,37 +269,3 @@ h1, h2, strong {
         background: transparent;
     }
 }
-
-/* ==================
-    template page
-===================== */
-
-
-.main-template {
-    padding: 4em 0;
-}
-
-.main-template > * {
-    grid-column: 2 / -1;
-}
-
-.main-image {
-    margin-bottom: 1.5em;
-    box-shadow: 5px 5px 0px black, 10px 10px 0 #FFE600;;
-}
-
-@media (min-width: 600px) {
-    .main-image, .secondary-text {
-        grid-column: 2;
-    }
-
-    .main-text {
-        grid-column: 3 / span 2;
-        grid-row: span 2;
-    }
-
-    .secondary-text {
-        order: 2;
-    }
-}
-

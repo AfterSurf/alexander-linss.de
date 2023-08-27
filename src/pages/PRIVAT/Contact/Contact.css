@@ -4,6 +4,16 @@
     grid-column-gap: 2em;
 }
 
+.main-template {
+    padding: 4em 0;
+}
+
+.main-template > * {
+    /* grid-column: 2 / -1; */
+    grid-column: 1 / -1;
+}
+
+
 @media (min-width: 600px) {
     .main-grid {
         /* grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(150px, 320px)) minmax(1em, 1fr); */
@@ -71,3 +81,4 @@ textarea {
         grid-column: 2;
     }
 }
+

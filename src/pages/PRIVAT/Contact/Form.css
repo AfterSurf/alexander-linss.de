@@ -7,13 +7,16 @@ oder: hoovern --> Effekt + Erklärung
 
 .container {
     background: grey;
+    display: block;
+}
+
+.form-column {
+    grid-column: 2/-1;
 }
 
 .contact-form {
     display: grid; 
 }
-
-/* needed for styling not for grid */
 
 input,
 textarea {
@@ -34,8 +37,6 @@ textarea {
         display: grid;
         grid-auto-flow: dense;
         grid-template-columns: repeat(2,1fr);
-        /* grid-template-rows: min-content 1fr min-content;
-        justify-content: self;  */
     }
     .name-label, .name-input {
         grid-column: 1;

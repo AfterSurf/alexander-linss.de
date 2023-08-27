@@ -7,7 +7,7 @@ const Form = () => {
     }
 
     return (
-        <div>
+        <div className="form-column">
             <div className="container ">
                 <form onSubmit={onSubmit} className="contact-form">
                 {/* <h2 >React Contact Form Component Example</h2> */}
