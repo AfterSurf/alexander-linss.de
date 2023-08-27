@@ -42,3 +42,36 @@ h3 {
   margin: 0;
   padding: 0;
 }
+
+/* SECTION */
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  border-bottom: 1px solid lightgrey;
+}
+
+section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+section img,
+section div {
+  height: auto;
+  width: 100%;
+}
+
+section img {
+  width: 50%;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1em;
+} 

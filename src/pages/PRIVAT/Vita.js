@@ -11,7 +11,7 @@ const Vita = () => {
       <img src={image} alt="unsplash-img" />
       <div>
         <h3>Vita</h3>
-        <p>This is the contact section</p>
+        <p>This is the vita section</p>
       </div>
     </section>
   );

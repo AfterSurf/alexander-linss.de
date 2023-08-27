@@ -1,41 +1,9 @@
-/* Hier alle styles sammeln, die die private Page betreffen  */
+/* Hier alle styles sammeln, die die private Page betreffen */
 
-/* font */
+
 @import url("https://fontlibrary.org//face/exo");
 
-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100%;
-  border-bottom: 1px solid lightgrey;
-}
-
-section:nth-child(even) {
-  flex-direction: row-reverse;
-}
-
-section img,
-section div {
-  height: auto;
-  width: 100%;
-}
-
-section img {
-  width: 50%;
-}
-
-section div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 1em;
-}
-
 /* HOME */
-
 #homeContainerPrivat {
   color: white;
   background-color: orange;
@@ -53,29 +21,10 @@ section div {
   padding: 2rem 0;
   transition: 3s;
   left: 0;
-  /* width: 18rem; */
 }
 
-/* .homeText > \ */
 .homeText > p:hover {
   transition: 1s;
   left: 0;
 }
 
-/* ende HOME */
-
-@media screen and (max-width: 900px) {
-  section,
-  section:nth-child(even) {
-    flex-direction: column;
-  }
-
-  section img {
-    height: auto;
-    width: auto;
-    max-width: 100vw;
-  }
-  .mainStyle {
-    margin-top: 2.2rem;
-  }
-}
