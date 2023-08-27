@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="secondary-text">
                     <h2 className="section-title">This is the contact section</h2>
                     <p>melden Sie sich bei mir</p>
-                </div>
+        </div>
         <Form/>
         
       </div>

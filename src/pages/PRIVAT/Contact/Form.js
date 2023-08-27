@@ -23,12 +23,9 @@ const Form = () => {
                             Message
                         </label>
                         <textarea className="message-textarea" id="message" required />
-                    <div className="">
                     <button className="btn btn-danger" type="button" onClick={onSubmit}>
                         BUTTON
                     </button>
-                    </div>
-                
                 </form>
             </div>
         </div>

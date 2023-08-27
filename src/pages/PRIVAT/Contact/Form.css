@@ -28,8 +28,6 @@ textarea {
 }
 
 
-/* Form */
-/* KEY: hier  */
 @media (min-width: 600px) { 
     .contact-form {
         background: grey;
@@ -37,14 +35,14 @@ textarea {
         grid-auto-flow: dense;
         grid-template-columns: repeat(2,1fr);
         /* grid-template-rows: min-content 1fr min-content;
-        justify-content: self; */
+        justify-content: self;  */
     }
     .name-label, .name-input {
         grid-column: 1;
     }
 
     .email-label, .email-input {
-        grid-column: 2;
+        grid-column:2;
     }
 
     .message-label, .message-input {
@@ -54,7 +52,6 @@ textarea {
 
     .btn {
         color: red;
-        min-width: 12rem;
         grid-column: 2;
     }
 }
