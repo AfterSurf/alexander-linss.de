@@ -14,9 +14,6 @@ html {
   line-height: 1em;
   padding: 0;
   margin: 0;
-  /* hat individuelle schriften überschrieben
-  - warum eigentlich? */
-  /* font-family: 'Libre Franklin', sans-serif; */
 }
 
 body {
@@ -38,10 +35,10 @@ h3 {
 
 /* App.js */
 .appContainer {
-  /* height: 100%;
-  width: 100vw; */
-  /* display: flex;
-  flex-direction: column; */
-  /* margin: 0;
-  padding: 0; */
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column; 
+  margin: 0;
+  padding: 0;
 }
