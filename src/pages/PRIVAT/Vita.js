@@ -7,11 +7,11 @@ import image from "../../pictures/alex_bw.jpg";
 const Vita = () => {
   const contactRef = useNav("Vita");
   return (
-    <section ref={contactRef} id="VitaContainerIt">
+    <section ref={contactRef} id="vitaContainerPrivat">
       <img src={image} alt="unsplash-img" />
       <div>
         <h3>Vita</h3>
-        <p>This is the contact section</p>
+        <p>This is the vita section</p>
       </div>
     </section>
   );

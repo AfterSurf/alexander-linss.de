@@ -5,13 +5,12 @@ import "./privatStyles.css";
 const Home = () => {
   const homeRef = useNav("Home");
   return (
-    <section ref={homeRef} id="homePrivatContainer">
+    <section ref={homeRef} id="homeContainerPrivat">
       <div className="homePrivatText">
         <h2>Alexander Linß</h2>
-        <h3>Privat</h3>
-        <p>Wer bist du?</p>
-        <p>Was hast du bis jetzt alles gemacht?</p>
-        <p>Wie denkst du über die Welt?</p>
+        <p>Das hier ist mein privater Abschnitt</p>
+        <p>Ich werde kurz mein Vita abbilden</p>
+        <p>Außerdem gibt es hier die Möglichkeit mit mir in Kontakt zu treten?</p>
       </div>
     </section>
   );

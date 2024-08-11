@@ -1,5 +1,5 @@
 import React from "react";
-import Contact from "./Contact";
+import Contact from "./Contact/Contact";
 import Home from "./Home";
 import Vita from "./Vita";
 import Impressum from "./../Impressum";
