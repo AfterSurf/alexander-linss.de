@@ -1,7 +1,7 @@
 import "./Aufgabe.css";
 
 const aufgabe = (props) => {
-  const { title, description, img } = props;
+  const { title, description, img, link2project } = props;
 
   return (
     <div>

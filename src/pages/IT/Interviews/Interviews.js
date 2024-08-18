@@ -26,16 +26,25 @@ const Interviews = () => {
             title="Slider (ida - mdr)"
             description="Bitte bau uns einen Slider, der Bilder slidet (animiert)."
             img={imgLink}
+            link2project={""}
           />
           <Aufgabe
             title="Rechteverwaltung-anzeige (Raylytic)"
             description="Bau eine Anwendung, die view-rechte für verschiedene Nutzer einschränken kann"
             img={imgLink}
+            link2project={["https://github.com/AfterSurf/Clinical-Data-Lab-FrontEnd", "https://github.com/AfterSurf/Clinical-Data-Lab-Middleware"]}
           />
           <Aufgabe
             title="Zeige eine Auswahl an Produkten an + liken und sortieren nach Kategorien (QUDOsoft)"
             description="Style uns verschiedene Produkte, zeige sie nach Kategorien (responsive) an und mach die Artikel likeable "
             img={imgLink}
+            link2project={""}
+          />
+          <Aufgabe
+            title="GraphQL + verschiedene Views im FE (GeoMagic)"
+            description="Style uns verschiedene Produkte, zeige sie nach Kategorien (responsive) an und mach die Artikel likeable "
+            img={imgLink}
+            link2project={"https://github.com/AfterSurf/geomagic"}
           />
         </div>
       </div>

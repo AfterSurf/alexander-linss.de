@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <section ref={homeRef} id="homeItContainer">
       <div className="homeItText">
+      <div>BILD</div>
         <h3>IT</h3>
         <p>Hier wird alles zum Thema IT stehen</p>
         <p>...</p>
