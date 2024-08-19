@@ -13,13 +13,15 @@ const About = () => {
         <div>
           <h2 className="aboutTitle">Alexander Linß</h2>
           <img className="aboutPic" src={img}/>
-          <h4 className="aboutText">Quote: Learn the rules like a pro, break them like an artist. - picasso</h4>
+          <h4 className="aboutText">"Learn the rules like a pro,</h4>
+          <h4 className="aboutText">so you can break them like an artist."</h4>
+          <h4 className="aboutTextAutor">- P. Picasso</h4>
         </div>
             
           
           <div className={"aboutBorder"}>
             <Link className={"itLink"} to="/it">
-              IT
+              TECH
             </Link>
             <p className={"aboutStrich"}>|</p>
             <Link className={"privatLink"} to="/privat">
