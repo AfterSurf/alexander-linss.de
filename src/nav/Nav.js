@@ -6,15 +6,15 @@ import logo from "./AlexanderLinssNone.svg"
 
 const Nav = (props) => {
   let navArray = [];
+  const {page, setShowImpressum } = props
 
-  if (props.page === "it") {
+  if (page === "it") {
     navArray = navLinksIT;
-  } else if (props.page === "privat") {
+  } else if (page === "privat") {
     navArray = navLinksPrivat;
   }
 
   const [isOpen, setIsOpen] = useState(false);
-  const setShowImpressum = props.setShowImpressum;
   return (
     <>
       <div class="header-content">

@@ -17,9 +17,9 @@ const IT = (props) => {
       {/* checken wo mainstyles genau gesetzt wird */}
       <main className="mainStyle">
         <Home />
+        <Interviews />
         <Projekte />
         <References />
-        <Interviews />
       </main>
     </>
   );

@@ -9,21 +9,6 @@
   background-color: greenyellow;
 }
 
-.homeItText {
-  color: red;
-  font-family: "AnarchistMustacheRegular" !important;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 2rem;
-}
-
-.homeText > p {
-  padding: 2rem 0;
-  transition: 3s;
-  left: 0;
-}
-
-.homeText > p:hover {
-  transition: 1s;
-  left: 0;
+.homeItSplit {
+  /* FLEXBOX */
 }
