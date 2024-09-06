@@ -12,6 +12,7 @@ const Home = () => {
           <h3>Text</h3>
         </div>
 
+{/* profile component */}
         <div>
           <h3>Profile:</h3>
           <a
@@ -28,10 +29,14 @@ const Home = () => {
           </a>
         </div>
 
+{/* profile component */}
+
       </div>
 
     </section>
   );
 };
+
+
 
 export default Home;

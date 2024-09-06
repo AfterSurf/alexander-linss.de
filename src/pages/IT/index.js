@@ -2,7 +2,6 @@ import React from "react";
 import Projekte from "./Projekte";
 import Home from "./Home";
 import Impressum from "./../Impressum";
-import References from "./References";
 import Interviews from "./Interviews/Interviews";
 import "./itStyles.css";
 
@@ -19,7 +18,6 @@ const IT = (props) => {
         <Home />
         <Interviews />
         <Projekte />
-        {/* <References /> */}
       </main>
     </>
   );
