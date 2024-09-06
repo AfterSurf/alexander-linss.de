@@ -6,7 +6,7 @@ const Home = () => {
   const homeRef = useNav("Home");
   return (
     <section ref={homeRef} id="homeItContainer" className="">
-      <div className="homeItSplit">
+      <div>
         {textComponent}
         {profileComponent}
       </div>

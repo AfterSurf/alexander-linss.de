@@ -5,10 +5,11 @@ import "./privatStyles.css";
 const Home = () => {
   const homeRef = useNav("Home");
   return (
+    // id richtig benamen homePrivatContainer
     <section ref={homeRef} id="homeContainerPrivat">
       <pre>
         <div className="homePrivatText">
-          <h2>Alexander Linß</h2>
+          <h3>Alexander Linß</h3>
           <p>Das hier ist mein privater Abschnitt</p>
           <p>Ich werde kurz mein Vita abbilden</p>
           <p>
