@@ -26,3 +26,4 @@ https://fontlibrary.org/en/font/anarchist-mustache
 ### weitere Optiemierungen
 
 css modules einführen (oder andere "css templates" - sass, scss ... )
+oder Tailwind oder Uno (https://unocss.dev/guide/)

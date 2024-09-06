@@ -19,7 +19,7 @@ const IT = (props) => {
         <Home />
         <Interviews />
         <Projekte />
-        <References />
+        {/* <References /> */}
       </main>
     </>
   );
