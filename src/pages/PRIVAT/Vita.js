@@ -9,10 +9,12 @@ const Vita = () => {
   return (
     <section ref={contactRef} id="vitaContainerPrivat">
       <img className="vitaPic" src={image} alt="unsplash-img" />
-      <div>
-        <h3>Vita</h3>
-        <p>This is the vita section</p>
-      </div>
+      <pre>
+        <div>
+          <h3>Vita</h3>
+          <p>This is the vita section</p>
+        </div>
+      </pre>
     </section>
   );
 };
