@@ -6,6 +6,7 @@ oder: hoovern --> Effekt + Erklärung
 
 
 .container {
+    color: white;
     background: grey;
     display: block;
 }
@@ -30,6 +31,9 @@ textarea {
     height: 100px;
 }
 
+.page-title {
+    color:white
+}
 
 @media (min-width: 600px) { 
     .contact-form {
@@ -52,7 +56,6 @@ textarea {
 
 
     .btn {
-        color: red;
         grid-column: 2;
     }
 }

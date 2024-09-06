@@ -1,3 +1,9 @@
+
+#contactContainerPrivat {
+    color: white;
+    background-color: rgb(220, 118, 151);
+}
+
 .main-grid {
     display: grid;
     grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
@@ -9,7 +15,6 @@
 }
 
 .main-template > * {
-    /* grid-column: 2 / -1; */
     grid-column: 1 / -1;
 }
 
@@ -40,23 +45,6 @@
 .contact-form {
     display: grid; 
 }
-/*
-label {
-    font-weight: 700;
-}
-
-input,
-textarea {
-    margin-bottom: .75em;
-    padding: .4em;
-    font-family: inherit;
-}
-
-textarea {
-    resize: none;
-    height: 100px;
-}
-*/
 
 @media (min-width: 600px) { 
     .contact-form {

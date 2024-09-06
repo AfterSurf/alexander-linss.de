@@ -89,7 +89,7 @@ h1, h2, strong {
     display: block;
     width: 100%;
     height: 30px;
-    background-color: #FFE600;
+    background-color: rgb(65, 112, 167);;
     margin-top: -40px;
     margin-left: 15px;
 }
