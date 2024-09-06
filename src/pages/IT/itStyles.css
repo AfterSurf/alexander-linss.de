@@ -21,3 +21,36 @@
   color: white;
   background-color: rgb(90, 182, 119);
 }
+
+/* home */
+
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.socialmedia > a {
+  margin:auto;
+  background-color: rgb(222, 90, 90);
+  padding: 1.2rem 2.4rem;
+  border-radius: 4.5rem;
+
+}
+
+.socialmedia > a:link {
+  text-decoration: none;
+}
+
+.socialmedia > a:visited {
+  text-decoration: none;
+}
+
+.socialmedia > a:hover {
+  text-decoration: underline;
+  background-color: rgb(148, 211, 170);
+}
+
+.socialmedia > a:active {
+  text-decoration: underline;
+}

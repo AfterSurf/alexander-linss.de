@@ -23,23 +23,28 @@ const textComponent = (
       <h3>{text}</h3>
     </pre>
   </>
-)
-
-
+);
 
 const profileComponent = (
   <>
     <div>
+      <pre>
       <h3>Profile:</h3>
-      <a
-        target="_blank"
-        href="https://www.linkedin.com/in/alexander-lin%C3%9F/"
-      >
-        LINKedin
-      </a>
-      <a target="_blank" href="https://github.com/AfterSurf/alexander-linss.de">
-        LINKedHub
-      </a>
+      <div className="socialmedia">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/alexander-lin%C3%9F/"
+        >
+          Linked:in
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/AfterSurf/alexander-linss.de"
+        >
+          Git:Hub
+        </a>
+      </div>
+      </pre>
     </div>
   </>
 );
