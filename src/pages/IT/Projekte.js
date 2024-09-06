@@ -13,6 +13,7 @@ const Projekte = () => {
     <section ref={contactRef} id="contactItContainer">
       {/* Hier checken wir man das Image einbindet */}
       <img src={image} alt="unsplash-img" />
+      <pre>
       <div>
         <h3>Projekt(e)</h3>
         <p>Aktuell möchte ich vorstellen wie meine Homepage aufgebaut ist: </p>
@@ -31,6 +32,7 @@ const Projekte = () => {
           <li>Next.js</li>
         </ul>
       </div>
+      </pre>
     </section>
     </>
   );

@@ -11,19 +11,11 @@ const Interviews = () => {
   return (
     <section ref={interviewsRef} id="interviewsItContainer">
       <div>
+      <pre>
         <h2>INTERVIEWS</h2>
-        <p>
-          Hier steht alles über die Interviewerfahrungen, die ich in den letzten
-          Jahren machen durfte.
-        </p>
-        <p>
-          Hier ein Referenzprojekt mit folgendem Techstack: 
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-          </ul>
-        </p>
+        
+          Jobinterviews, liveCodingChallenges und Aufgaben für zu Hause sind standard im Bewerbungsprozess als Softwareentwickler. 
+        </pre>
         <p></p>
         <div className="aufgaben">
           <Aufgabe
