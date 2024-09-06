@@ -8,7 +8,7 @@ const Vita = () => {
   const contactRef = useNav("Vita");
   return (
     <section ref={contactRef} id="vitaContainerPrivat">
-      <img src={image} alt="unsplash-img" />
+      <img className="vitaPic" src={image} alt="unsplash-img" />
       <div>
         <h3>Vita</h3>
         <p>This is the vita section</p>
