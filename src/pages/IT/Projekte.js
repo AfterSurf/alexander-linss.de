@@ -1,25 +1,18 @@
-// import React from "react";
+import React from "react";
 import { useNav } from "../../customHooks/useNav";
 
 import "./../Page.css";
-import Image from 'next/image';
-
+import image from "../../pictures/heaven.jpg";
 
 
 const Projekte = () => {
   const contactRef = useNav("Projects");
 
-
-
-
-
-
-
   return (
     <>
     <section ref={contactRef} id="contactItContainer">
       {/* Hier checken wir man das Image einbindet */}
-    <Image src={'swv_logo.png'} width={150} height={150} />
+      <img src={image} alt="unsplash-img" />
       <div>
         <h3>Projekt(e)</h3>
         <p>Aktuell möchte ich vorstellen wie meine Homepage aufgebaut ist: </p>
