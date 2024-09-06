@@ -1,7 +1,7 @@
 export const navLinksPrivat = [
   { navLinkId: "Home", scrollToId: "homeContainerPrivat" },
   { navLinkId: "Vita", scrollToId: "vitaContainerPrivat" },
-  { navLinkId: "Contact", scrollToId: "contactContainerPrivat" },
+  // { navLinkId: "Contact", scrollToId: "contactContainerPrivat" },
 ];
 
 export const navLinksIT = [

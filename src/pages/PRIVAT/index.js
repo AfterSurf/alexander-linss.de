@@ -18,7 +18,7 @@ const PRIVAT = (props) => {
       <main className="mainStyle">
         <Home />
         <Vita />
-        <Contact />
+        {/* <Contact /> */}
       </main>
     </>
   );
