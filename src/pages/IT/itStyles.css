@@ -10,8 +10,17 @@
 } 
 
 
-.frontText {
-  background-color: wheat;
+.FrontText {
+  width: 90vw;
+}
+
+.FrontText > h3 {
+  /* display: inline-block; */
+  min-width: 100%; /* this is to prevent shorter text animate to right */
+  white-space: wrap;
+  font-size: 2.5em;
+  animation: marquee 4s ease-in-out forwards;
+  overflow-wrap: break-word;
 }
 
 #contactItContainer {
