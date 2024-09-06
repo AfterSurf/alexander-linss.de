@@ -1,6 +1,6 @@
 #aboutContainer {
   color: purple;
-  background-color: grey;
+  background-color: rgb(198 106 132)
 }
 
 .aboutText > p {
@@ -25,15 +25,16 @@
 .aboutBorder > p {
   width: 15rem;
   margin: 0 auto;
+  color: rgb(198 106 132);
 }
-.aboutBorder > a {
+/* .aboutBorder > a {
   width: 20vw;
   text-align: left;
 }
 
 .aboutBorder > a:first-child {
   text-align: right;
-}
+} */
 
 .aboutStrich {
   width: 1rem !important;
@@ -76,4 +77,16 @@
 .vitaPic {
   height: 91vh;
   width: auto;
+}
+
+/* front page */
+.itLink, .privatLink {
+  background-color: white;
+  padding: 0 2rem;
+  border-radius: 14rem;
+  border:none;
+  text-decoration: none;
+  /* width: 3rem; */
+  /* margin: auto; */
+  /* padding: 0 20% */
 }
