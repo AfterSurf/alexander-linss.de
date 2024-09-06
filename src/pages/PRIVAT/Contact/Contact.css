@@ -19,14 +19,12 @@
 }
 
 
-@media (min-width: 600px) {
+@media (width >= 600px) {
     .main-grid {
         /* grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(150px, 320px)) minmax(1em, 1fr); */
         grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(1em, 1fr)) minmax(1em, 1fr);
     }
-}
 
-@media (min-width: 600px) {
     .main-image, .secondary-text {
         grid-column: 1;
         grid-row: 2;

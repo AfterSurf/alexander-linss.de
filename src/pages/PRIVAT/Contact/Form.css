@@ -35,7 +35,7 @@ textarea {
     color:white
 }
 
-@media (min-width: 600px) { 
+@media (width >= 600px) { 
     .contact-form {
         background: grey;
         display: grid;

@@ -27,3 +27,6 @@ https://fontlibrary.org/en/font/anarchist-mustache
 
 css modules einführen (oder andere "css templates" - sass, scss ... )
 oder Tailwind oder Uno (https://unocss.dev/guide/)
+
+### idee
+beide Startseiten (IT/Privat) folgen dem gleichen Style 
