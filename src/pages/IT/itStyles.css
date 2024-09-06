@@ -6,9 +6,18 @@
 /* HOME */
 #homeItContainer {
   color: white;
-  background-color: greenyellow;
-}
+  background-color: rgb(136, 196, 235);
+} 
 
 .homeItSplit {
   /* FLEXBOX */
+}
+
+.frontText {
+  background-color: wheat;
+}
+
+#contactItContainer {
+  color: white;
+  background-color: rgb(90, 182, 119);
 }

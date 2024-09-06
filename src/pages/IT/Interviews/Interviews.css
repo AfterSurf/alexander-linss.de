@@ -4,3 +4,9 @@
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+
+
+#interviewsItContainer {
+  color: white;
+  background-color: rgb(215, 124, 96);
+} 
