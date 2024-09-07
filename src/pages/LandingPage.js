@@ -3,7 +3,7 @@ import "./Page.css";
 import { Link } from "react-router-dom";
 import img from "../pictures/alex_color_MP.jpeg"
 
-const About = () => {
+const LandingPage = () => {
   return (
     <>
     {/* hier gibt die Section zu viel Höhe mit */}
@@ -35,4 +35,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default LandingPage;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { About, Impressum } from './';
+import { LandingPage, Impressum } from './';
 import './Page.css';
 
 const Main = (props) => 
@@ -8,7 +8,7 @@ const Main = (props) =>
 		<>
 			{props.showImpressum ? <Impressum setShowImpressum={props.setShowImpressum}/> : <></>}
 			<main className="mainStyle">
-				<About />
+				<LandingPage />
 			</main>
 
 		</>

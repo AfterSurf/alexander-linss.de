@@ -27,14 +27,6 @@
   margin: 0 auto;
   color: rgb(198 106 132);
 }
-/* .aboutBorder > a {
-  width: 20vw;
-  text-align: left;
-}
-
-.aboutBorder > a:first-child {
-  text-align: right;
-} */
 
 .aboutStrich {
   width: 1rem !important;
@@ -86,7 +78,4 @@
   border-radius: 14rem;
   border:none;
   text-decoration: none;
-  /* width: 3rem; */
-  /* margin: auto; */
-  /* padding: 0 20% */
 }

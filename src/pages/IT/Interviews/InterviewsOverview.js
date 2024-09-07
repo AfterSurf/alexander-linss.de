@@ -32,7 +32,10 @@ const InterviewsOverview = () => {
             title="Rechteverwaltung-anzeige (Raylytic)"
             description="Bau eine Anwendung, die view-rechte für verschiedene Nutzer einschränken kann"
             img={imgLink}
-            link2project={["https://github.com/AfterSurf/Clinical-Data-Lab-FrontEnd", "https://github.com/AfterSurf/Clinical-Data-Lab-Middleware"]}
+            link2project={[
+              "https://github.com/AfterSurf/Clinical-Data-Lab-FrontEnd",
+              "https://github.com/AfterSurf/Clinical-Data-Lab-Middleware",
+            ]}
           />
           <Aufgabe
             title="Zeige eine Auswahl an Produkten an + liken und sortieren nach Kategorien (QUDOsoft)"
