@@ -26,6 +26,10 @@
 #projectsItContainer {
   color: white;
   background-color: rgb(90, 182, 119);
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: normal;
+  justify-content: unset;
 }
 
 /* home */
@@ -59,4 +63,18 @@
 
 .socialmedia > a:active {
   text-decoration: underline;
+}
+
+
+/* project:  */
+.projectImage {
+  /* width: 40%; */
+  object-position: 50% 50%;
+  /* object-position: top 0 right 10px; */
+  object-fit: cover;
+}
+
+.projectText {
+  white-space: wrap;
+  margin: auto;
 }

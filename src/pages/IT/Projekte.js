@@ -11,8 +11,9 @@ const Projekte = () => {
     <>
       <section ref={projectsRef} id="projectsItContainer">
 
-        <img src={image} alt="unsplash-img" />
-        <pre>
+        <img src={image} alt="unsplash-img" className="projectImage"/>
+        <pre className="projectText">
+          {/* <div className="projectText"> */}
           <div>
             <h3>Projekt(e)</h3>
             <p>
@@ -25,10 +26,8 @@ const Projekte = () => {
 
             <h3>Studien</h3>
             <p>Diese Seite soll auch ein Ort für Studien sein. </p>
-            <p>
-              Hier aktuell Technologien, die mich interessieren und die ich
-              vertiefend studieren möchte:
-            </p>
+            <p> Hier aktuell Technologien, die mich interessieren </p>
+            <p>  und die ich vertiefend studieren möchte: </p>
             <ul>
               <li>Webpack und andere Buildtools</li>
               <li>Next.js</li>
