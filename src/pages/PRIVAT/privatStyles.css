@@ -16,14 +16,14 @@
   background-color: rgb(65, 112, 167);
 }
 
+#vitaContainerPrivat > * {
+  padding: 8vw;
+}
+
 .homePrivatText {
   color: white;
   background-color: rgb(241, 179, 33);
   font-size: 1.4rem; 
-  /* font-family: "ExoRegular" !important;
-  font-weight: bold;
-  font-style: normal;
-  font-size: 2rem; */
 }
 
 .homeText > p {
@@ -37,3 +37,6 @@
   left: 0;
 }
 
+.vitaPic {
+  max-height: 80vh;
+}
