@@ -10,13 +10,27 @@ const Home = () => {
       <pre>
         <div className="homePrivatText">
           <h3>Alexander Linß</h3>
-          <p>Das hier ist mein privater Abschnitt</p>
-          <p>Ich werde kurz mein Vita abbilden</p>
+
+          <div>
+          <h4 className="aboutText">"Learn the rules like a pro,</h4>
+          <h4 className="aboutText">so you can break them like an artist."</h4>
+          <h4 className="aboutTextAutor">- P. Picasso</h4>
+        </div>
+
+          <p>Gesagt, getan.</p>
+          <br></br>
+          <p>Das Coden gibt Freiheiten, gleichzeitig zu Recht etablierte Standards und best practices.</p>
           <p>
-            Außerdem gibt es hier die Möglichkeit mit mir in Kontakt zu treten?
+            Es gibt einem die Möglichkeit etwas zu erschaffen. 
+          </p>
+          <br></br>
+          <p>
+            Frontend bedeutet für mich Technik + Design. 
           </p>
         </div>
       </pre>
+      {/* styles from page.css */}
+
     </section>
   );
 };
