@@ -11,7 +11,7 @@ export default function footer(props) {
         >
           Impressum
         </p>
-        <p> &copy; 2022 Alexander Linß</p>
+        <p> &copy; 2024 Alexander Linß</p>
       </div>
     </>
   );
