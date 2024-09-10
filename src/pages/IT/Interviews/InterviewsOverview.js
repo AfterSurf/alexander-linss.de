@@ -2,7 +2,6 @@ import React from "react";
 import { useNav } from "../../../customHooks/useNav";
 
 import Aufgabe from "./Aufgabe";
-import "./Interviews.css";
 
 const InterviewsOverview = () => {
   const imgLink =

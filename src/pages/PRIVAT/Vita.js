@@ -5,14 +5,10 @@ import "./../Page.css";
 import image from "../../pictures/alex_bw.jpg";
 
 
-// ### IDEE
-// Das Bild könnte sich animiert "öffnen" --> wie ein vorhang der aufgezogen wird 
-
 const Vita = () => {
   const contactRef = useNav("Vita");
   return (
     <section ref={contactRef} id="vitaContainerPrivat">
-      <img className="vitaPic" src={image} alt="unsplash-img" />
       <pre>
         <div>
           <h3>Vita</h3>
@@ -25,6 +21,7 @@ const Vita = () => {
           <h4>Eager To Learn</h4>
         </div>
       </pre>
+      <img className="vitaPic" src={image} alt="unsplash-img" />
     </section>
   );
 };

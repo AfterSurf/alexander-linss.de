@@ -76,5 +76,13 @@
 
 .projectText {
   white-space: wrap;
-  margin: auto;
+  /* margin: auto; */
+}
+
+.aufgaben {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  /* grid-auto-rows: minmax(10px, auto); */
+  height: 60vh;
 }

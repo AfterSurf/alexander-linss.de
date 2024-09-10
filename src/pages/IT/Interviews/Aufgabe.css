@@ -1,4 +1,15 @@
+.aufgabenTitle {
+  font-size: x-large;
+}
+
+.aufgabenText {
+  /* font-size: medium;
+  width: 80%; */
+  text-wrap: wrap;
+  padding: 0 5rem;
+}
+
 .aufgabenImage {
   margin: 1rem;
-  width: 18rem;
+  width: 12rem;
 }

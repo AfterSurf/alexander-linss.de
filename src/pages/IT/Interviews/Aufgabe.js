@@ -5,9 +5,9 @@ const aufgabe = (props) => {
 
   return (
     <div>
-      <h2>{title}</h2>
+      <h1 className="aufgabenTitle">{title}</h1>
       <img className="aufgabenImage" src={img} />
-      <p>{description}</p>
+      <p className="aufgabenText">{description}</p>
     </div>
   );
 };
