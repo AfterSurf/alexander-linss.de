@@ -2,6 +2,8 @@ import React from "react";
 import { useNav } from "../../customHooks/useNav";
 
 import "./../Page.css";
+import imageProducts from "../../pictures/products.jpg";
+import imageWebsite from "../../pictures/laptop.jpg";
 import image from "../../pictures/heaven.jpg";
 import Aufgabe from "./Interviews/Aufgabe";
 
@@ -14,7 +16,6 @@ const Projekte = () => {
       <section ref={projectsRef} id="projectsItContainer">
         <img src={image} alt="unsplash-img" className="projectImage" />
         <pre className="projectText">
-          {/* <div className="projectText"> */}
           <div>
             <h3>Projekt(e)</h3>
 
@@ -22,16 +23,13 @@ const Projekte = () => {
             <Aufgabe
               title="Product Overview (react.js and graphQL)"
               description="Style uns verschiedene Produkte, zeige sie nach Kategorien (responsive) an und mach die Artikel likeable "
-              img={imgLink}
+              img={imageProducts}
               link2project={"https://github.com/AfterSurf/SPARX"}
             />
-          {/* </div>
-
-          <div className="aufgaben"> */}
             <Aufgabe
-              title="Product Overview (react.js and graphQL)"
-              description="Style uns verschiedene Produkte, zeige sie nach Kategorien (responsive) an und mach die Artikel likeable "
-              img={imgLink}
+              title="www.alexander-linss.de"
+              description="Hier das Repo zu dieser Website"
+              img={imageWebsite}
               link2project={"https://github.com/AfterSurf/SPARX"}
             />
           </div>
