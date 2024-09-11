@@ -63,7 +63,7 @@ h1, h2, strong {
 
 .logo {
     width: 100%;
-    min-width: 105px;
+    min-width: 115px;
     padding: auto;
 }
 
@@ -164,7 +164,7 @@ h1, h2, strong {
 
 .logo-link {
     background-color: #FFE600;
-    padding: 1em 1em;
+    padding: 1em 0;
     text-decoration: none;
 }
 

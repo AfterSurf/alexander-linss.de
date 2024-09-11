@@ -2,6 +2,9 @@ import React from "react";
 import { useNav } from "../../customHooks/useNav";
 import "./privatStyles.css";
 
+// quote: https://www.goodreads.com/quotes/558213-learn-the-rules-like-a-pro-so-you-can-break
+
+
 const Home = () => {
   const homeRef = useNav("Home");
   return (
@@ -9,7 +12,7 @@ const Home = () => {
     <section ref={homeRef} id="homeContainerPrivat">
       <pre>
         <div className="homePrivatText">
-          <h3>Alexander Linß</h3>
+
 
           <div>
           <h4 className="aboutText">"Learn the rules like a pro,</h4>
@@ -19,7 +22,8 @@ const Home = () => {
 
           <p>Gesagt, getan.</p>
           <br></br>
-          <p>Das Coden gibt Freiheiten, gleichzeitig zu Recht etablierte Standards und best practices.</p>
+          <p>Das Coden gibt Freiheiten, gleichzeitig zu Recht</p>
+          <p>etablierte Standards und best practices.</p>
           <p>
             Es gibt einem die Möglichkeit etwas zu erschaffen. 
           </p>

@@ -3,6 +3,7 @@ import NavLink from "./NavLink";
 import { navLinksPrivat, navLinksIT } from "./navLinks";
 import "./Nav.css";
 import logo from "./AlexanderLinssNone.svg";
+// import logo from "./AlexanderLinß.svg";
 
 const Nav = (props) => {
   const { page, setShowImpressum } = props;

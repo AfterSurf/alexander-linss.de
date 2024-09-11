@@ -18,21 +18,20 @@ const Projekte = () => {
         <pre className="projectText">
           <div>
             <h3>Projekt(e)</h3>
-
             <div className="aufgaben">
-            <Aufgabe
-              title="Product Overview (react.js and graphQL)"
-              description="Style uns verschiedene Produkte, zeige sie nach Kategorien (responsive) an und mach die Artikel likeable "
-              img={imageProducts}
-              link2project={"https://github.com/AfterSurf/SPARX"}
-            />
-            <Aufgabe
-              title="www.alexander-linss.de"
-              description="Hier das Repo zu dieser Website"
-              img={imageWebsite}
-              link2project={"https://github.com/AfterSurf/SPARX"}
-            />
-          </div>
+              <Aufgabe
+                title="Product Overview (react.js and graphQL)"
+                description="Style uns verschiedene Produkte, zeige sie nach Kategorien (responsive) an und mach die Artikel likeable "
+                img={imageProducts}
+                link2project={"https://github.com/AfterSurf/SPARX"}
+              />
+              <Aufgabe
+                title="www.alexander-linss.de"
+                description="Hier das Repo zu dieser Website"
+                img={imageWebsite}
+                link2project={"https://github.com/AfterSurf/alexander-linss.de"}
+              />
+            </div>
           </div>
         </pre>
       </section>
