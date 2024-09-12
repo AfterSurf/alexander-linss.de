@@ -6,7 +6,6 @@ import img from "../pictures/alex_color_MP.jpeg"
 const LandingPage = () => {
   return (
     <>
-    {/* hier gibt die Section zu viel Höhe mit */}
       <section id="aboutContainer">
       <div className="aboutContent">
 

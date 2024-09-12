@@ -10,8 +10,9 @@
   position: sticky;
   width: 100%;
   z-index: 9;
-
-  /* wanted?! - was ist mit dem Menu? */
-  cursor: pointer;
   padding: 0.4rem 0;
+}
+
+.impressum {
+  cursor: pointer;
 }

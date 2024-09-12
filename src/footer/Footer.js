@@ -8,7 +8,7 @@ export default function footer(props) {
           onClick={() => {
             props.setShowImpressum(!props.showImpressum);
           }}
-        >
+         className="impressum">
           Impressum
         </p>
         <p> &copy; 2024 Alexander Linß</p>

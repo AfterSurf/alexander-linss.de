@@ -19,8 +19,8 @@
   display: flex;
   flex-direction: row;
   align-content: center;
-  font-size: 4rem;
-  width: 80vw;
+  /* font-size: 4rem; */
+  width: 50vw;
 }
 .aboutBorder > p {
   width: 15rem;
@@ -78,4 +78,10 @@
   border-radius: 14rem;
   border:none;
   text-decoration: none;
+  font-size: 2.3rem;
+  padding:0.7rem 1.7rem;
+}
+
+.itLink {
+  padding:0.7rem 2.65rem;
 }

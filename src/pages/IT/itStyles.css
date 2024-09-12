@@ -1,7 +1,3 @@
-/* Hier alle styles sammeln, die die Ite Page betreffen  */
-
-
-@import url("https://fontlibrary.org//face/anarchist-mustache");
 
 /* HOME */
 #homeItContainer {
@@ -15,7 +11,6 @@
 }
 
 .FrontText > h3 {
-  /* display: inline-block; */
   min-width: 100%; /* this is to prevent shorter text animate to right */
   white-space: wrap;
   font-size: 2.5em;
@@ -69,9 +64,7 @@
 
 /* project:  */
 .projectImage {
-  /* width: 40%; */
   object-position: 50% 50%;
-  /* object-position: top 0 right 10px; */
   object-fit: cover;
 }
 
@@ -84,6 +77,5 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
-  /* grid-auto-rows: minmax(10px, auto); */
   height: 60vh;
 }
