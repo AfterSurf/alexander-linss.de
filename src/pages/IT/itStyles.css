@@ -58,6 +58,7 @@
 
 .socialmedia > a:hover {
   text-decoration: underline;
+  text-underline-offset: 2px;
   background-color: rgb(148, 211, 170);
 }
 

@@ -33,13 +33,15 @@ const profileComponent = (
       <div className="socialmedia">
         <a
           target="_blank"
+          rel="noreferrer"
           href="https://www.linkedin.com/in/alexander-lin%C3%9F/"
         >
           Linked:in
         </a>
         <a
           target="_blank"
-          href="https://github.com/AfterSurf/alexander-linss.de"
+          rel="noreferrer"
+          href="https://github.com/AfterSurf/"
         >
           Git:Hub
         </a>
