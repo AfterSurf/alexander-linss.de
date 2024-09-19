@@ -80,7 +80,7 @@
   height: 60vh;
 }
 
-@media (width <= 600px) {
+@media (width <= 880px) {
   .projectImage {
     display: none;
   }
