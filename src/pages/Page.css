@@ -1,6 +1,6 @@
 #aboutContainer {
   color: purple;
-  background-color: rgb(198 106 132)
+  background-color: var(--mainPink)
 }
 
 .aboutText > p {
@@ -19,9 +19,9 @@
   display: flex;
   flex-direction: row;
   align-content: center;
-  /* font-size: 4rem; */
-  width: 50vw;
+  width: 28rem;
 }
+
 .aboutBorder > p {
   width: 15rem;
   margin: 0 auto;
@@ -65,11 +65,6 @@
   min-height: 60vh;
 }
 
-/* vita */
-.vitaPic {
-  height: 91vh;
-  width: auto;
-}
 
 /* front page */
 .itLink, .privatLink {
@@ -84,4 +79,20 @@
 
 .itLink {
   padding:0.7rem 2.65rem;
+}
+
+/* vita --> privat */
+.vitaPic {
+  height: 91vh;
+  width: auto;
+}
+
+
+/*  media queries */
+
+@media (width <= 600px) {
+  .aboutBorder {
+    flex-direction: column;
+    align-content: center;
+  }
 }

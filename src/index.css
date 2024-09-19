@@ -3,6 +3,13 @@
 :root {
   --darkAccent: rgba(2, 0, 36, 1);
   --lightAccent: #f3d6e2;
+
+  /* custom variables */
+  /* colors */
+  --mainPink: rgb(198, 106, 132);
+
+  /* breakpoints */
+  --minWidthNav: 600px;
 }
 
 * {
@@ -54,10 +61,6 @@ section {
   border-bottom: 1px solid lightgrey;
 }
 
-/* section:nth-child(even) {
-  flex-direction: row-reverse;
-} */
-
 section img,
 section div {
   height: auto;
@@ -73,5 +76,4 @@ section div {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  /* padding: 1em; */
 }

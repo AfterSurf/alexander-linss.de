@@ -3,17 +3,30 @@ import NavLink from "./NavLink";
 import { navLinksPrivat, navLinksIT } from "./navLinks";
 import "./Nav.css";
 import logo from "./AlexanderLinssNone.svg";
-// import logo from "./AlexanderLinß.svg";
 
 const Nav = (props) => {
   const { page, setShowImpressum } = props;
   const [isOpen, setIsOpen] = useState(false);
   let navArray = [];
 
+  const burger = <>&#9776;</>
+
   if (page === "it") {
     navArray = navLinksIT;
   } else if (page === "privat") {
     navArray = navLinksPrivat;
+  } 
+
+  // try
+  else {
+    return (
+    <>      
+      <div class="header-content">         
+        <a class="logo-link" href="/">
+          <img src={logo} alt="Your SVG" className="logo" />
+        </a>
+      </div>
+    </>)
   }
 
   return (
@@ -26,11 +39,10 @@ const Nav = (props) => {
           aria-label="open navigation"
           class="open-nav open-nav-button"
           onClick={() => {
-            console.log("clicked open");
             setIsOpen(true);
           }}
         >
-          &#9776;
+          {burger}
         </button>
         <nav className={isOpen ? "nav navigation-open" : "nav"}>
           <button

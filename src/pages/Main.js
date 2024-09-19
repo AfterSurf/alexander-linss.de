@@ -4,16 +4,14 @@ import './Page.css';
 
 const Main = (props) => 
 {
-		return (
-		<>
-			{props.showImpressum ? <Impressum setShowImpressum={props.setShowImpressum}/> : <></>}
-			<main className="mainStyle">
-				<LandingPage />
-			</main>
-
-		</>
-		);
-
+	return (
+	<>
+		{props.showImpressum ? <Impressum setShowImpressum={props.setShowImpressum}/> : <></>}
+		<main className="mainStyle">
+			<LandingPage />
+		</main>
+	</>
+	);
 }
 
 export default Main;
