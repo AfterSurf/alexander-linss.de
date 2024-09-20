@@ -1,3 +1,5 @@
+/* Landing Page */
+
 #aboutContainer {
   color: purple;
   background-color: var(--mainPink)
@@ -66,7 +68,7 @@
 }
 
 
-/* front page */
+
 .itLink, .privatLink {
   background-color: white;
   padding: 0 2rem;
@@ -80,13 +82,6 @@
 .itLink {
   padding:0.7rem 2.65rem;
 }
-
-/* vita --> privat */
-.vitaPic {
-  height: 91vh;
-  width: auto;
-}
-
 
 /*  media queries */
 

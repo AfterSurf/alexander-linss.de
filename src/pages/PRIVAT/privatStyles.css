@@ -11,15 +11,6 @@
   flex-direction: column;
 }
 
-#vitaContainerPrivat {
-  color: white;
-  background-color: rgb(65, 112, 167);
-}
-
-#vitaContainerPrivat > * {
-  padding: 8vw;
-}
-
 .homePrivatText {
   color: white;
   background-color: rgb(241, 179, 33);
@@ -37,6 +28,41 @@
   left: 0;
 }
 
+/* VITA */
+
+#vitaContainerPrivat {
+  color: white;
+  background-color: rgb(65, 112, 167);
+  padding: 3rem 0;
+  font-size: 1rem;
+}
+
+#vitaContainerPrivat > * {
+  padding: 8vw;
+  width: 40vw;
+  text-wrap: wrap;
+  text-align: left;
+}
+
 .vitaPic {
   max-height: 80vh;
+  object-fit: contain;
+}
+
+.vitaText > p {
+  width: 100%;
+}
+
+/* media queries */
+@media (width <= 1000px ) {
+
+  #vitaContainerPrivat  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #vitaContainerPrivat > * {
+    padding: 5vw;
+    width: 80vw;
+  }
 }
