@@ -30,3 +30,5 @@ oder Tailwind oder Uno (https://unocss.dev/guide/)
 
 ### idee
 beide Startseiten (IT/Privat) folgen dem gleichen Style 
+
+-transitions in den Text überführen
