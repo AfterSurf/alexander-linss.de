@@ -1,6 +1,12 @@
 ## texts: 
 Hier sollen alle Texte stehen, die zur privaten Seite gehören.
 
+### Landing page 
+
+### Home - tech
+
+### Projects - tech
+
 ### Home - privat
 
 "Learn the rules like a pro,
@@ -15,10 +21,12 @@ Frontend bedeutet für mich Technik und Design.
 
 > man lernt nie aus. aber umso weiter man auf seiner Reise kommt, umso mehr Freiheiten ergeben sich.
 > keiner schafft es alleine. Mit einem starken Team macht es mehr Spaß 
+> Teil eines Teams (aus DevOps, FE, BE, WebDesigner,ProductOwner, ScrumMaster)
+> gute FrontendLeute werden gebraucht
 
 
 
-### Vita 
+### Vita - privat
 
 Milestones: 
 
@@ -29,11 +37,11 @@ seit 2021 Vollzeit Frontend (react.js, next.js, vue.js, html und css )
 2019 Vollzeit Webdevelopement (Node.js, docker..)
 
 
-2019 Master - Business Information Systems
+2019 Master - Business Information Systems \
 2016 Bachelor - Business Information Systems 
-(Coding since 2014 - etliche Werkstudentenjobs seit dem, react.js, node.js, java etc.)
+(Coding since 2014 - etliche Werkstudentenjobs seit dem, react.js, node.js, java etc.) \
 2014 Bachelor - Sports and Economics
 
 
-### Contact 
+### Contact - privat
 - unused - 
