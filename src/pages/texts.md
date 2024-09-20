@@ -5,7 +5,17 @@ Hier sollen alle Texte stehen, die zur privaten Seite gehören.
 
 ### Home - tech
 
+> Das soll ein Ort sein, an dem man sich austoben und Technologien / Projekte untersuchen kann 
+> das ist der ORt an dem aktuell mit mir Kontakt ( über LinkedIn ) aufgenommen werden kann 
+
 ### Projects - tech
+
+-diese Website 
+-GeoMagic
+
+#### Projects - zukunft
+-wetterApp
+
 
 ### Home - privat
 
