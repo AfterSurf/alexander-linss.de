@@ -5,8 +5,14 @@ Hier sollen alle Texte stehen, die zur privaten Seite gehören.
 
 ### Home - tech
 
+Wie sieht die typische IT Story aus? 
+Und was macht so Spaß daran?
+
 > Das soll ein Ort sein, an dem man sich austoben und Technologien / Projekte untersuchen kann 
 > das ist der ORt an dem aktuell mit mir Kontakt ( über LinkedIn ) aufgenommen werden kann 
+> welche Technologien könnten / sind in der Zukunft interessant
+
+> > > Was ist meine Geschichte?
 
 ### Projects - tech
 
@@ -14,7 +20,7 @@ Hier sollen alle Texte stehen, die zur privaten Seite gehören.
 -GeoMagic
 
 #### Projects - zukunft
--wetterApp
+> wetterApp
 
 
 ### Home - privat

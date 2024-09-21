@@ -46,6 +46,11 @@
   object-fit: contain;
 }
 
+/* Hier nochmal schauen, dass der Text mit dem Bild abschließt */
+.vitaText {
+  margin-top: -9rem;
+}
+
 .vitaText > p {
   width: 100%;
 }
@@ -58,8 +63,17 @@
     flex-direction: column;
   }
 
+  /* #vitaContainerPrivat :nth-child(1) { order: 1; }
+  #vitaContainerPrivat :nth-child(2) { order: 3; }
+  #vitaContainerPrivat :nth-child(3) { order: 2; } */
+
   #vitaContainerPrivat > * {
     padding: 5vw;
     width: 80vw;
   }
+
+  .vitaText {
+    margin-top: 0;
+  }
+  
 }

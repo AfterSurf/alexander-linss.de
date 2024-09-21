@@ -12,8 +12,7 @@ const Vita = () => {
     <section ref={contactRef} id="vitaContainerPrivat">
       <pre>
         <div className="vitaText">
-          <h3>Vita</h3>
-          
+          <h3>Vita</h3>  
           <p>2024 immer noch verliebt in JavaScript und das Web </p>
           <p>2023 Frontend in e-commerce</p>
           <p>2022 Frontend in Healthtech </p>

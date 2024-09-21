@@ -23,6 +23,9 @@ https://fontlibrary.org/en/font/anarchist-mustache
 
 --> simplify 
 
+-Daniel als Fotografen eintragen 
+-email adresse von Strato hinterlegen
+
 ### weitere Optiemierungen
 
 css modules einführen (oder andere "css templates" - sass, scss ... )

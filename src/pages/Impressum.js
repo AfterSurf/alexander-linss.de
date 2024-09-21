@@ -54,7 +54,7 @@ const Impressum = (props) => {
                                 <div><em>fotografie:</em> Foto GRaf</div>
                                 <div>schöne@adresse-desing.eu</div>
                                 <br></br>
-                                <div>&#9400; 2021 Alexander Linß</div>
+                                <div>&#9400; 2024 Alexander Linß</div>
                             </div>
                         </div>
                     </div>
