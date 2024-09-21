@@ -77,3 +77,20 @@ section div {
   align-items: center;
   justify-content: flex-start;
 }
+
+
+
+/* global containers */
+#homeItContainer {
+  color: white;
+  background-color: rgb(136, 196, 235);
+} 
+
+#projectsItContainer {
+  color: white;
+  background-color: rgb(90, 182, 119);
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: normal;
+  justify-content: unset;
+}

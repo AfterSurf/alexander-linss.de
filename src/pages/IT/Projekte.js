@@ -1,7 +1,8 @@
 import React from "react";
 import { useNav } from "../../customHooks/useNav";
 
-import "./../Page.css";
+import styles from "./itStyles.module.css"
+// import "./../Page.css"; // needed?! 
 import imageProducts from "../../pictures/products.jpg";
 import imageWebsite from "../../pictures/laptop.jpg";
 import image from "../../pictures/heaven.jpg";
@@ -13,11 +14,11 @@ const Projekte = () => {
   return (
     <>
       <section ref={projectsRef} id="projectsItContainer">
-        <img src={image} alt="unsplash-img" className="projectImage" />
-        <pre className="projectText">
+        <img src={image} alt="unsplash-img" className={styles.projectImage} />
+        <pre className={styles.projectText}>
           <div>
             <h3>Projekt(e)</h3>
-            <div className="aufgaben">
+            <div className={styles.aufgaben}>
               <Aufgabe
                 title="Product Overview (react.js and graphQL)"
                 description="Style uns verschiedene Produkte, zeige sie nach Kategorien (responsive) an und mach die Artikel likeable "

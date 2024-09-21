@@ -44,6 +44,7 @@
 		]
 	},
 	"devDependencies": {
-		"openssl": "^2.0.0"
+		"openssl": "^2.0.0",
+		"@babel/plugin-proposal-private-property-in-object":"7.21.11"
 	}
 }

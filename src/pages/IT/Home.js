@@ -1,11 +1,11 @@
 import React from "react";
 import { useNav } from "../../customHooks/useNav";
-import "./itStyles.css";
+import styles from "./itStyles.module.css"
 
 const Home = () => {
   const homeRef = useNav("Home");
   return (
-    <section ref={homeRef} id="homeItContainer" className="">
+    <section ref={homeRef} id="homeItContainer">
       <div>
         {textComponent}
         {profileComponent}
@@ -19,7 +19,7 @@ und was macht so Spaß daran?`;
 
 const textComponent = (
   <>
-    <pre className="FrontText">
+    <pre className={styles.frontText}>
       <h3>{text}</h3>
     </pre>
   </>
@@ -30,7 +30,7 @@ const profileComponent = (
     <div>
       <pre>
       <h3>Profile:</h3>
-      <div className="socialmedia">
+      <div className={styles.socialmedia}>
         <a
           target="_blank"
           rel="noreferrer"
