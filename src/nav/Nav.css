@@ -1,9 +1,9 @@
 nav {
-	width: 100%;
+	/* width: 100%; */
 	position: sticky;
 	z-index: 10;
 	top: 0;
-	padding: 1.2em 0;
+	padding: 1.35em 0;
 	color: white;
 	background-color: var(--darkAccent);
 	max-height: 4em;
@@ -62,9 +62,11 @@ h1, h2, strong {
 }
 
 .logo {
-    width: 100%;
+    /* width: 100%; */
+    width: 238px;
+    height: 38px;
     min-width: 115px;
-    padding: auto;
+
 }
 
 .accent-color {
@@ -160,13 +162,18 @@ h1, h2, strong {
     top: 0;
     z-index: 9;
     background-color: #000;
+    height: 7vh;
 }
 
 .logo-link {
     background-color: #FFE600;
-    padding: 1em 0;
+    padding: 0.8em 0;
     text-decoration: none;
+    line-height: 0;
+    /* width: 15rem; */
 }
+
+/* EDIT: einmal wird alles auf das navElement referenziert und einmal auf die nav klasse */
 
 .nav {
     position: fixed;
@@ -195,6 +202,10 @@ h1, h2, strong {
     justify-content: space-around;
     flex-direction: column;
     background-color: #000;
+}
+
+.nav-list > span:hover {
+    cursor: pointer;
 }
 
 .nav-link {
@@ -246,6 +257,7 @@ h1, h2, strong {
     
     .nav {
         position: initial;
+        width: auto;
     }
     
     .nav-list {

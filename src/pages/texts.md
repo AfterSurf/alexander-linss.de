@@ -3,6 +3,8 @@ Hier sollen alle Texte stehen, die zur privaten Seite gehören.
 
 ### Landing page 
 
+Darf ich mich Vorstellen? 
+
 ### Home - tech
 
 Wie sieht die typische IT Story aus? 

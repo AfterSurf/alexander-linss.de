@@ -49,7 +49,6 @@ const Nav = (props) => {
             aria-label="close navigation"
             class="close-nav"
             onClick={() => {
-              console.log("clicked close");
               setIsOpen(false);
             }}
           >

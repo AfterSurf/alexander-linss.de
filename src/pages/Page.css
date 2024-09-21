@@ -36,7 +36,7 @@
 
 .aboutTitle {
   font-size: xx-large;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .aboutPic {
@@ -66,8 +66,6 @@
   justify-content: space-between;
   min-height: 60vh;
 }
-
-
 
 .itLink, .privatLink {
   background-color: white;

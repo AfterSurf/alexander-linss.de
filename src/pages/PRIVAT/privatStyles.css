@@ -63,10 +63,6 @@
     flex-direction: column;
   }
 
-  /* #vitaContainerPrivat :nth-child(1) { order: 1; }
-  #vitaContainerPrivat :nth-child(2) { order: 3; }
-  #vitaContainerPrivat :nth-child(3) { order: 2; } */
-
   #vitaContainerPrivat > * {
     padding: 5vw;
     width: 80vw;
