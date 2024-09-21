@@ -1,14 +1,14 @@
-import "./Footer.css";
+import styles from "./Footer.module.css"
 
 export default function footer(props) {
   return (
     <>
-      <div className="footer">
+      <div className={styles.footer}>
         <p
           onClick={() => {
             props.setShowImpressum(!props.showImpressum);
           }}
-         className="impressum">
+         className={styles.impressum}>
           Impressum
         </p>
         <p> &copy; 2024 Alexander Linß</p>
