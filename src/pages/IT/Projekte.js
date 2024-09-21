@@ -9,8 +9,7 @@ import Aufgabe from "./Interviews/Aufgabe";
 
 const Projekte = () => {
   const projectsRef = useNav("Projects");
-  const imgLink =
-    "https://www.tortoisetown.com/wp-content/uploads/2017/12/red-ear-slider-for-sale-1.jpg";
+
   return (
     <>
       <section ref={projectsRef} id="projectsItContainer">

@@ -11,7 +11,7 @@ const LandingPage = () => {
 
         <div>
           <h2 className="aboutTitle">Alexander Linß</h2>
-          <img className="aboutPic" src={img}/>
+          <img className="aboutPic" src={img} alt=""/>
 
           {/* <h4 className="aboutText">Darf ich mich vorstellen?</h4> */}
           {/* <h4 className="aboutText">"Zu überzeugen</h4>
