@@ -3,7 +3,7 @@ import Home from "./Home";
 import Vita from "./Vita";
 import Impressum from "./../Impressum";
 
-import "./privatStyles.css";
+import styles from "./privatStyles.module.css";
 
 const PRIVAT = (props) => {
   return (
@@ -13,7 +13,7 @@ const PRIVAT = (props) => {
       ) : (
         <></>
       )}
-      <main className="mainStyle">
+      <main className={styles.mainStyle}>
         <Home />
         <Vita />
       </main>

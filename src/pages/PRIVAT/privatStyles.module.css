@@ -1,5 +1,7 @@
 @import url("https://fontlibrary.org//face/exo");
 
+/* nextToDo home und vita anpassen */
+
 /* HOME */
 #homeContainerPrivat {
   color: white;
@@ -24,6 +26,33 @@
   transition: 1s;
   left: 0;
 }
+
+
+.aboutText {
+  font-size: large;
+  font-style: italic;
+  line-height: 1.3;
+}
+
+.aboutTextAutor {
+  font-size: large;
+  padding-left: 16rem;
+  padding-top: 0.1rem;
+  line-height: 2;
+}
+
+.aboutText > p {
+  padding: 2rem 0;
+  transition: 3s;
+  left: 0;
+  font-size: 2rem;
+}
+
+.aboutText > p:hover {
+  transition: 1s;
+  left: 0;
+}
+
 
 /* VITA */
 

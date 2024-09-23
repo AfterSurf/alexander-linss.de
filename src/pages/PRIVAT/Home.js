@@ -1,9 +1,10 @@
 import React from "react";
 import { useNav } from "../../customHooks/useNav";
-import "./privatStyles.css";
+import styles from "./privatStyles.module.css";
+
+
 
 // quote: https://www.goodreads.com/quotes/558213-learn-the-rules-like-a-pro-so-you-can-break
-
 
 const Home = () => {
   const homeRef = useNav("Home");
@@ -11,13 +12,13 @@ const Home = () => {
     // id richtig benamen homePrivatContainer
     <section ref={homeRef} id="homeContainerPrivat">
       <pre>
-        <div className="homePrivatText">
+        <div className={styles.homePrivatText}>
 
 
           <div>
-          <h4 className="aboutText">"Learn the rules like a pro,</h4>
-          <h4 className="aboutText">so you can break them like an artist."</h4>
-          <h4 className="aboutTextAutor">- P. Picasso</h4>
+          <h4 className={styles.aboutText}>"Learn the rules like a pro,</h4>
+          <h4 className={styles.aboutText}>so you can break them like an artist."</h4>
+          <h4 className={styles.aboutTextAutor}>- P. Picasso</h4>
         </div>
 
           <p>Gesagt, getan.</p>

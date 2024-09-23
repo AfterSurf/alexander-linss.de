@@ -1,7 +1,7 @@
 import React from "react";
 import { useNav } from "../../customHooks/useNav";
 
-import "./privatStyles.css";
+import styles from "./privatStyles.module.css";
 import image from "../../pictures/alex_bw.jpg";
 
 const Vita = () => {
@@ -9,7 +9,7 @@ const Vita = () => {
   return (
     <section ref={contactRef} id="vitaContainerPrivat">
       <pre>
-        <div className="vitaText">
+        <div className={styles.vitaText}>
           <h3>Vita</h3>
           <p>2024 immer noch verliebt in JavaScript und das Web </p>
           <p>2023 Frontend in e-commerce</p>
@@ -29,7 +29,7 @@ const Vita = () => {
         </div>
       </pre>
 
-      <img className="vitaPic" src={image} alt="unsplash-img" />
+      <img className={styles.vitaPic} src={image} alt="unsplash-img" />
     </section>
   );
 };
