@@ -133,4 +133,9 @@ section div {
   }
 }
 
-  
+  /* Landing Page */
+
+#aboutContainer {
+  color: purple;
+  background-color: var(--mainPink)
+}

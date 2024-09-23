@@ -1,10 +1,4 @@
 /* Landing Page */
-
-#aboutContainer {
-  color: purple;
-  background-color: var(--mainPink)
-}
-
 .aboutBorder {
   display: flex;
   flex-direction: row;
