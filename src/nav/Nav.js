@@ -21,8 +21,8 @@ const Nav = (props) => {
   else {
     return (
     <>      
-      <div class="header-content">         
-        <a class="logo-link" href="/">
+      <div className="header-content">         
+        <a className="logo-link" href="/">
           <img src={logo} alt="Your SVG" className="logo" />
         </a>
       </div>
@@ -31,13 +31,13 @@ const Nav = (props) => {
 
   return (
     <>
-      <div class="header-content">
-        <a class="logo-link" href="/">
+      <div className="header-content">
+        <a className="logo-link" href="/">
           <img src={logo} alt="Your SVG" className="logo" />
         </a>
         <button
           aria-label="open navigation"
-          class="open-nav open-nav-button"
+          className="open-nav open-nav-button"
           onClick={() => {
             setIsOpen(true);
           }}
@@ -47,7 +47,7 @@ const Nav = (props) => {
         <nav className={isOpen ? "nav navigation-open" : "nav"}>
           <button
             aria-label="close navigation"
-            class="close-nav"
+            className="close-nav"
             onClick={() => {
               setIsOpen(false);
             }}

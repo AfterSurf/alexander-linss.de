@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./Aufgabe.module.css";
 
 const Aufgabe = (props) => {

@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/MA4SyuYorT8h1_xO9Bnsb/_buildManifest.js",
-    "static/MA4SyuYorT8h1_xO9Bnsb/_ssgManifest.js"
+    "static/iHXLQme1SvGxqjDxRm2AF/_buildManifest.js",
+    "static/iHXLQme1SvGxqjDxRm2AF/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -24,7 +24,7 @@
       "static/chunks/main-8888cdfbc2591dcd.js",
       "static/chunks/framework-ffd2ec547402f00d.js",
       "static/css/fcfc3c6e117e2d69.css",
-      "static/chunks/pages/IT-e77a419ac36b932f.js"
+      "static/chunks/pages/IT-30b2e18b7a7fda83.js"
     ],
     "/IT/Home": [
       "static/chunks/webpack-0b5d8249fb15f5f3.js",
@@ -38,14 +38,14 @@
       "static/chunks/main-8888cdfbc2591dcd.js",
       "static/chunks/framework-ffd2ec547402f00d.js",
       "static/css/77e67ece04975321.css",
-      "static/chunks/pages/IT/Interviews/Aufgabe-5f550de149672a86.js"
+      "static/chunks/pages/IT/Interviews/Aufgabe-d20c6283c5dcc456.js"
     ],
     "/IT/Projekte": [
       "static/chunks/webpack-0b5d8249fb15f5f3.js",
       "static/chunks/main-8888cdfbc2591dcd.js",
       "static/chunks/framework-ffd2ec547402f00d.js",
       "static/css/4696a32b777b83e3.css",
-      "static/chunks/pages/IT/Projekte-77a895dbf11ba7fd.js"
+      "static/chunks/pages/IT/Projekte-70112491966d985a.js"
     ],
     "/PRIVAT": [
       "static/chunks/webpack-0b5d8249fb15f5f3.js",

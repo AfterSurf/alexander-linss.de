@@ -1,6 +1,4 @@
 {
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/IT/Home": "pages/IT/Home.js",
   "/IT/Interviews/Aufgabe": "pages/IT/Interviews/Aufgabe.js",
   "/IT/Projekte": "pages/IT/Projekte.js",
@@ -11,5 +9,7 @@
   "/PRIVAT/Vita": "pages/PRIVAT/Vita.js",
   "/PRIVAT": "pages/PRIVAT.js",
   "/": "pages/index.js",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js"
 }

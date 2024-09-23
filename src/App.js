@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 
 import { Nav } from "./nav";
@@ -8,13 +9,13 @@ import Footer from "./footer/Footer";
 import NavProvider from "./context/NavContext";
 import "./index.css";
 
-function App(props) {
+function App({page}) {
   const [showImpressum, setShowImpressum] = useState(false);
-  if (props.page === "it") {
+  if (page === "it") {
     return (
       <div className="appContainer">
         <NavProvider>
-          <Nav page={props.page} setShowImpressum={setShowImpressum} />
+          <Nav page={page} setShowImpressum={setShowImpressum} />
           <IT
             showImpressum={showImpressum}
             setShowImpressum={setShowImpressum}
@@ -26,11 +27,11 @@ function App(props) {
         </NavProvider>
       </div>
     );
-  } else if (props.page === "privat") {
+  } else if (page === "privat") {
     return (
       <div className="appContainer">
         <NavProvider>
-          <Nav page={props.page} setShowImpressum={setShowImpressum} />
+          <Nav page={page} setShowImpressum={setShowImpressum} />
           <PRIVAT
             showImpressum={showImpressum}
             setShowImpressum={setShowImpressum}
@@ -46,7 +47,7 @@ function App(props) {
     return (
       <div className="appContainer">
         <NavProvider>
-          <Nav page={props.page} setShowImpressum={setShowImpressum} />
+          <Nav page={page} setShowImpressum={setShowImpressum} />
           <Main
             showImpressum={showImpressum}
             setShowImpressum={setShowImpressum}
