@@ -35,3 +35,9 @@ oder Tailwind oder Uno (https://unocss.dev/guide/)
 beide Startseiten (IT/Privat) folgen dem gleichen Style 
 
 -transitions in den Text überführen
+
+
+## deployment
+
+> npm run build 
+> /build/ auf sftp schicken 
