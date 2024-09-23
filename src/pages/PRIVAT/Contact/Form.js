@@ -1,5 +1,5 @@
-
-import "./Form.css"
+import React from "react"
+import styles from "./Form.module.css"
 const Form = () => {
 
     const onSubmit = () => {
@@ -7,30 +7,27 @@ const Form = () => {
     }
 
     return (
-        <div className="form-column">
-            <div className="container ">
-                <form onSubmit={onSubmit} className="contact-form">
-                {/* <h2 >React Contact Form Component Example</h2> */}
-                        <label className="name-label" htmlFor="name">
+        <div className={styles.form_column}>
+            <div className={styles.container}>
+                <form onSubmit={onSubmit} className={styles.contact_form}>
+                        <label className={styles.name_label} htmlFor="name">
                             Name
                         </label>
-                        <input className="name-input" type="text" id="name" required />
-                        <label className="email-label" htmlFor="email">
+                        <input className={styles.name_input} type="text" id="name" required />
+                        <label className={styles.email_label} htmlFor="email">
                             Email
                         </label>
-                        <input className="email-input" type="email" id="email" required />
-                        <label className="message-label" htmlFor="message">
+                        <input className={styles.email_input} type="email" id="email" required />
+                        <label className={styles.message_label} htmlFor="message">
                             Message
                         </label>
-                        <textarea className="message-textarea" id="message" required />
-                    <button className="btn btn-danger" type="button" onClick={onSubmit}>
+                        <textarea className={styles.message_textarea} id="message" required />
+                    <button className={styles.btn} type="button" onClick={onSubmit}>
                         BUTTON
                     </button>
                 </form>
             </div>
         </div>
-
-
     )
 }
 

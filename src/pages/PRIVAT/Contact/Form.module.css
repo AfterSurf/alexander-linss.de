@@ -1,0 +1,54 @@
+.form_column {
+    grid-column: 2/-1;
+}
+
+.container {
+    color: white;
+    background: grey;
+    display: block;
+}
+
+.contact_form {
+    display: grid; 
+}
+
+input.name_input, input.email_input,
+textarea.message_textarea {
+    margin-bottom: .75em;
+    padding: .4em;
+    font-family: inherit;
+}
+
+textarea.message_textarea {
+    resize: none;
+    height: 100px;
+}
+
+.page_title {
+    color:white
+}
+
+@media (width >= 600px) { 
+    .contact_form {
+        background: grey;
+        display: grid;
+        grid-auto-flow: dense;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .name_label, .name_input {
+        grid-column: 1;
+    }
+
+    .email_label, .email_input {
+        grid-column:2;
+    }
+
+    .message_label, .message_input {
+        grid-column: span 2;
+    }
+
+
+    .btn {
+        grid-column: 2;
+    }
+}

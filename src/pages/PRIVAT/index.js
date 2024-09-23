@@ -1,7 +1,8 @@
 import React from "react";
 import Home from "./Home";
 import Vita from "./Vita";
-import Impressum from "./../Impressum";
+// import Impressum from "./../Impressum";
+import Impressum from "../../components/Impressum"
 
 import styles from "./privatStyles.module.css";
 
