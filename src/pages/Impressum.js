@@ -1,5 +1,5 @@
 import React from 'react';
-import './Impressum.css';
+import styles from "./Impressum.module.css"
 
 
 const Impressum = (props) => {
@@ -7,18 +7,16 @@ const Impressum = (props) => {
     if(props.impressumState === true) {
                 return (
                     <div>
-                        <div className="overlay_d_0"> 
-                            <div className="overlay-content_d">
-                            </div>
+                        <div className={styles.overlay_d_0}> 
                         </div>
                     </div>
                 )
     } else {
                 return (
                     <div>
-                        <div  className="overlay_desktop impressum"> 
-                            <div className="impressumStyles">
-                                <div className="closeImpressum" onClick={() => props.setShowImpressum(false)}>x</div> 
+                        <div  className={`${styles.overlay_desktop} ${styles.impressum}`}> 
+                            <div className={styles.impressumStyles}>
+                                <div className={styles.closeImpressum} onClick={() => props.setShowImpressum(false)}>x</div> 
                                 <div>IMPRESSUM</div>
                                 <br></br>
                                 <em>verantwortlich für alle inhalte dieser internetseite:</em>
