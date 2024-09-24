@@ -10,6 +10,7 @@
 
   /* breakpoints */
   --minWidthNav: 600px;
+
 }
 
 * {
@@ -31,6 +32,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* kill mobile extra space */
+  /* overflow: hidden; */
 }
 
 h3 {
@@ -42,8 +46,6 @@ h3 {
 
 /* App.js */
 .appContainer {
-  height: 100%;
-  width: 100vw;
   display: flex;
   flex-direction: column; 
   margin: 0;
@@ -137,5 +139,8 @@ section div {
 
 #aboutContainer {
   color: purple;
-  background-color: var(--mainPink)
+  background-color: var(--mainPink);
+
+  /* kill mobile extra space */
+  overflow: hidden;
 }

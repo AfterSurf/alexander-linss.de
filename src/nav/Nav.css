@@ -197,6 +197,7 @@ h1, h2, strong {
     margin: 0;
     padding: 0;
     height: 100vh;
+    width: 100vw;
     z-index: 39;
     align-items: center;
     justify-content: space-around;

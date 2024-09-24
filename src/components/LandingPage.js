@@ -12,7 +12,7 @@ const LandingPage = () => {
 
         <div>
           <h2 className={styles.aboutTitle}>Alexander Linß</h2>
-          <img className={styles.aboutPic} src={img} alt=""/>
+          <img className={styles.aboutPic} src={img} alt="profile alex at montpellier"/>
         </div>
                 
         <div className={styles.aboutBorder}>
