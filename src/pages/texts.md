@@ -13,6 +13,9 @@ Und was macht so Spaß daran?
 > Das soll ein Ort sein, an dem man sich austoben und Technologien / Projekte untersuchen kann 
 > das ist der ORt an dem aktuell mit mir Kontakt ( über LinkedIn ) aufgenommen werden kann 
 > welche Technologien könnten / sind in der Zukunft interessant
+> mit welchen technologien arbeite ich gerne
+> React, Next.js, docker, Css
+> welche Projelte von mir sind zZ online: LICHT 
 
 > > > Was ist meine Geschichte?
 
