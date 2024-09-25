@@ -12,6 +12,7 @@
 /build
 /.next
 .next/
+.next
 
 # misc
 .DS_Store
