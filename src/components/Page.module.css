@@ -17,8 +17,9 @@
 } 
 
 .aboutTitle {
-  font-size: xx-large;
+  font-size: 3rem;
   margin-bottom: 5vh;
+  /* color: #7e6ac6; */
 }
 
 .aboutPic {
@@ -40,12 +41,19 @@
 
 .itLink, .privatLink {
   background-color: white;
+  /* color: #7e6ac6; */
+  color: purple;
   padding: 0 2rem;
   border-radius: 14rem;
   border:none;
   text-decoration: none;
   font-size: 2.3rem;
-  padding:0.7rem 1.7rem;
+  padding:0.8rem 1.7rem 0.6rem;
+}
+
+.itLink:hover, .privatLink:hover {
+  /* background-color: #a3d7c8; */
+  background-color: #bdd5ce;
 }
 
 .itLink {
@@ -54,7 +62,22 @@
 
 /*  media queries */
 
+/* @media (width <= 920px) {
+  .aboutBorder {
+    width: 22rem;
+  }
+  .itLink, .privatLink {
+    font-size: 1.6rem;
+  }
+} */
+
+
 @media (width <= 600px) {
+
+  .aboutPic {
+    margin-bottom: 6vh;
+  }
+
   .aboutBorder {
     flex-direction: column;
     align-content: center;

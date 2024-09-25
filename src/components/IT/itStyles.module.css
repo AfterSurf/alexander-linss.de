@@ -56,7 +56,8 @@
   white-space: wrap;
   margin-bottom: 2rem;
   /* Falls es mehr Projekte als platz gibt */
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .aufgaben {

@@ -1,5 +1,11 @@
+.aufgabe {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 .aufgabenTitle {
   font-size: x-large;
+  text-wrap: wrap;
 }
 
 .aufgabenText {

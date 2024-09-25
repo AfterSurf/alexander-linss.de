@@ -5,7 +5,7 @@ const Aufgabe = (props) => {
   const { title, description, img, link2project } = props;
 
   return (
-    <div>
+    <div  className={styles.aufgabe}>
       <h1 className={styles.aufgabenTitle}>{title}</h1>
       <a href={link2project} target="_blank" rel="noreferrer">
         <img className={styles.aufgabenImage} src={img} alt="symbolic"/>
