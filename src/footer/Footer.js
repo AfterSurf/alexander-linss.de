@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./Footer.module.css"
 
-export default function footer(props) {
+export default function footer({setShowImpressum, showImpressum}) {
   return (
     <>
       <div className={styles.footer}>
         <p
           onClick={() => {
-            props.setShowImpressum(!props.showImpressum);
+            setShowImpressum(!showImpressum);
           }}
          className={styles.impressum}>
           Impressum

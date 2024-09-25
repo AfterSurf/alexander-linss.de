@@ -1,5 +1,5 @@
 import React from "react";
-import { useNav } from "../../../customHooks/useNav";
+import { useNav } from "../../customHooks/useNav.js";
 
 import styles from "./Contact.module.css"
 import Form from "./Form.js";

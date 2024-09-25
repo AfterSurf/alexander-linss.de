@@ -1,10 +1,9 @@
 import React from "react";
-import Home from "./Home";
-import Vita from "./Vita";
-// import Impressum from "./../Impressum";
+import Home from "../../components/PRIVAT/Home";
+import Vita from "../../components/PRIVAT/Vita";
 import Impressum from "../../components/Impressum"
 
-import styles from "./privatStyles.module.css";
+import styles from "../../components/PRIVAT/privatStyles.module.css";
 
 const PRIVAT = (props) => {
   return (

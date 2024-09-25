@@ -2,11 +2,10 @@ import React from "react";
 import { useNav } from "../../customHooks/useNav";
 
 import styles from "./itStyles.module.css"
-// import "./../Page.css"; // needed?! 
 import imageProducts from "../../pictures/products.jpg";
 import imageWebsite from "../../pictures/laptop.jpg";
 import image from "../../pictures/heaven.jpg";
-import Aufgabe from "./Interviews/Aufgabe";
+import Aufgabe from "../Interviews/Aufgabe";
 
 const Projekte = () => {
   const projectsRef = useNav("Projects");
