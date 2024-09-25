@@ -1,7 +1,7 @@
 import React from "react";
-import Projekte from "../../components/IT/Projekte";
-import Home from "../../components/IT/Home";
-import Impressum from "../../components/Impressum"
+import Projekte from "../components/IT/Projekte";
+import Home from "../components/IT/Home";
+import Impressum from "../components/Impressum"
 
 const IT = ({showImpressum,setShowImpressum}) => {
   return (
