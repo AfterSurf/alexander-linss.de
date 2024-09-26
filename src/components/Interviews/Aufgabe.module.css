@@ -5,7 +5,8 @@
 
 .aufgabenTitle {
   font-size: x-large;
-  text-wrap: wrap;
+  text-wrap: balance;
+  padding: 0 3rem;
 }
 
 .aufgabenText {

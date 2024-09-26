@@ -50,6 +50,7 @@ h3 {
   flex-direction: column; 
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 
 /* SECTION */

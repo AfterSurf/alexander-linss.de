@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./Aufgabe.module.css";
 
-const Aufgabe = (props) => {
-  const { title, description, img, link2project } = props;
+const Aufgabe = ({ title, description, img, link2project }) => {
 
   return (
     <div  className={styles.aufgabe}>
