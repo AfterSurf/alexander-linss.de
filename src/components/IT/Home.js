@@ -14,7 +14,7 @@ const Home = () => {
         {textComponent}
         <div className={styles.PointsContainer}>
           <Points title="Warum diese Seite" Component={<Why/>}/>
-          <Points title="Wo fühle ich mich zuhause" alternativTitle="Hier fühle ich mich zuhause" Component={<FavTech/>}/>
+          <Points title="Wo bin ich zuhause" alternativTitle="Hier bin ich zuhause" Component={<FavTech/>}/>
         </div>
         {profileComponent}
       </div>

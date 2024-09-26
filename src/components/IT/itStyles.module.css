@@ -17,6 +17,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-bottom: 5rem;
 }
 
 .socialmedia > a {
@@ -76,6 +77,7 @@
   padding: 0 3rem;
   text-wrap: balance;
   overflow-wrap: break-word;
+  width: 75vw;
 }
 
 @media (width <= 880px) {

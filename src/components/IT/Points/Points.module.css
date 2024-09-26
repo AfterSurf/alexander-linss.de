@@ -3,19 +3,21 @@
     flex-direction: column;
     border: 0.08rem  solid black;
     border-radius: 35px;
-    width: 40%;
+    max-width: 20.5rem;
     align-items: center;
     background-color: white;
     color:black
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     display: flex;
     flex-direction: row;
     padding: 1rem 0;
     justify-content: center;
 }
+
+
 
 .title_border {
     border-bottom: 0.1rem solid green;
@@ -26,8 +28,29 @@
     cursor: pointer;
 }
 
+.title:nth-child(0) {
+    padding: 0 2rem;
+}
+
+.why_text {
+    margin: 1rem;
+    font-size: large;
+    line-height: 2rem;
+}
+
+.why_text > * {
+    padding: 0 10% 0 20%;
+    line-height: 1.15rem;
+}
+
+#icon {
+    margin: -1px -0.22rem;
+    box-sizing: border-box;
+}
+
 @media (width <= 880px) {
     .point {
-        width: 60%;
+        min-width: 23rem;
+        width: 100%;
     }
   }
