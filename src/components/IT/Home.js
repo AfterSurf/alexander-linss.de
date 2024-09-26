@@ -2,9 +2,9 @@ import React from "react";
 import { useNav } from "../../customHooks/useNav";
 import styles from "./itStyles.module.css"
 
-import Points from "./Homecomponent/Points";
-import Why from "./Homecomponent/Why";
-import FavTech from "./Homecomponent/FavTech";
+import Points from "./Points/Points";
+import Why from "./Points/Why";
+import FavTech from "./Points/FavTech";
 
 const Home = () => {
   const homeRef = useNav("Home");

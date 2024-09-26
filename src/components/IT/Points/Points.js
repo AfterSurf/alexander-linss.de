@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import styles from "./Points.module.css"
-import 'boxicons'
+import styles from "./Points.module.css";
+import 'boxicons';
 
 
 const Points = ({title, Component}) => {
@@ -14,10 +14,9 @@ const Points = ({title, Component}) => {
     return (
         <>
            <div className={styles.point}>
-                <div onClick={clickHandler} className={styles.title}>
-                    <box-icon name="chevron-right" rotate={open ? "90" : ""}/> {title} {open ? ":" : "?"}
+                <div onClick={clickHandler}  className={`${styles.title} ${open ? styles.title_border: ""}`}> 
+                    <box-icon name="chevron-right" rotate={open ? "90" : ""} size="sm"/> {title} {open ? ":" : "?"}
                 </div>
-                {/* {open ? <div>{Component}</div> : <div>...</div>} */}
                 {open ? <div>{Component}</div> : <></>}
             </div> 
         </>
