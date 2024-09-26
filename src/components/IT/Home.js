@@ -2,20 +2,25 @@ import React from "react";
 import { useNav } from "../../customHooks/useNav";
 import styles from "./itStyles.module.css"
 
+import Points from "./Homecomponent/Points";
+import Why from "./Homecomponent/Why";
+import FavTech from "./Homecomponent/FavTech";
+
 const Home = () => {
   const homeRef = useNav("Home");
   return (
     <section ref={homeRef} id="homeItContainer">
       <div>
         {textComponent}
+        <Points title="Warum diese Seite" Component={<Why/>}/>
+        <Points title="Meine lieblings Technologien" Component={<FavTech/>}/>
         {profileComponent}
       </div>
     </section>
   );
 };
 
-const text = `Wie sieht die typische ITstory aus? 
-und was macht so Spaß daran?`;
+const text = `Herzlich Willkomen auf dem technischen Teil der Website.`;
 
 const textComponent = (
   <>

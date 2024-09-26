@@ -18,7 +18,7 @@ https://fontlibrary.org/en/font/anarchist-mustache
 ### offene Todos:
 
 -CookyBanner einbauen
--Daniel + Patrick als Fotografen eintragen 
+-Daniel + Patrick als Fotografen eintragen --> impressum generell updaten
 -GitHub ready machen
 -responsive design implementieren und testen 
 
