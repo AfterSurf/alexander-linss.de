@@ -1,5 +1,19 @@
+.point {
+    display: flex;
+    flex-direction: column;
+    border: 0.08rem  solid red;
+    border-radius: 8%;
+    /* height: 10rem; */
+    width: 40%;
+    align-items: center;
+}
+
 .title {
     font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.1rem solid green;
+    padding: 1rem 0;
 }
 
 .title:hover {

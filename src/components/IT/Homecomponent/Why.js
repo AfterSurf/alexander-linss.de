@@ -1,7 +1,14 @@
 import React from "react";
 
 const Why = () => {
-    return (<div>Why</div>)
+    return (
+        <div>
+            <div>Why</div>
+            <div>Why</div>
+            <div>Why</div>
+            <div>Why</div>
+        </div>
+    )
 }
 
 export default Why

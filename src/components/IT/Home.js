@@ -12,8 +12,10 @@ const Home = () => {
     <section ref={homeRef} id="homeItContainer">
       <div>
         {textComponent}
-        <Points title="Warum diese Seite" Component={<Why/>}/>
-        <Points title="Meine lieblings Technologien" Component={<FavTech/>}/>
+        <div className={styles.PointsContainer}>
+          <Points title="Warum diese Seite" Component={<Why/>}/>
+          <Points title="Lieblingstechnologien" Component={<FavTech/>}/>
+        </div>
         {profileComponent}
       </div>
     </section>

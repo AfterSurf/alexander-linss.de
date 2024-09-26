@@ -15,6 +15,9 @@ https://www.fontspace.com/category/advertising?p=6
 
 https://fontlibrary.org/en/font/anarchist-mustache
 
+Icons: 
+https://boxicons.com/
+
 ### offene Todos:
 
 -CookyBanner einbauen
