@@ -3,8 +3,8 @@ import { useState } from "react";
 import styles from "./Points.module.css";
 import 'boxicons';
 
-
-const Points = ({title, Component}) => {
+// alternativTitle
+const Points = ({title, Component, alternativTitle}) => {
     const [open, setOpen] = useState(false)
 
     function clickHandler() {
@@ -15,7 +15,8 @@ const Points = ({title, Component}) => {
         <>
            <div className={styles.point}>
                 <div onClick={clickHandler}  className={`${styles.title} ${open ? styles.title_border: ""}`}> 
-                    <box-icon name="chevron-right" rotate={open ? "90" : ""} size="sm"/> {title} {open ? ":" : "?"}
+                    <box-icon name="chevron-right" rotate={open ? "90" : ""} size="sm"/> 
+                    {open && alternativTitle ?  alternativTitle : title} {open ? ":" : "?"}
                 </div>
                 {open ? <div>{Component}</div> : <></>}
             </div> 

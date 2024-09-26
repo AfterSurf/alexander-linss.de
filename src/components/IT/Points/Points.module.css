@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     border: 0.08rem  solid black;
-    border-radius: 8%;
-    /* height: 10rem; */
+    border-radius: 35px;
     width: 40%;
     align-items: center;
     background-color: white;
@@ -14,7 +13,6 @@
     font-size: 2rem;
     display: flex;
     flex-direction: row;
-    /* border-bottom: 0.1rem solid green; */
     padding: 1rem 0;
     justify-content: center;
 }
@@ -27,3 +25,9 @@
 .title:hover {
     cursor: pointer;
 }
+
+@media (width <= 880px) {
+    .point {
+        width: 60%;
+    }
+  }

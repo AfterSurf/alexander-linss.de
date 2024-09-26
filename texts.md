@@ -10,10 +10,12 @@ Darf ich mich Vorstellen?
 Wie sieht die typische IT Story aus? 
 Und was macht so Spaß daran?
 
-> Das soll ein Ort sein, an dem man sich austoben und Technologien / Projekte untersuchen kann 
+> Diese Seite ist ein Ort, an dem man sich austoben und Technologien / Projekte untersuchen kann 
 > das ist der ORt an dem aktuell mit mir Kontakt ( über LinkedIn ) aufgenommen werden kann 
-> welche Technologien könnten / sind in der Zukunft interessant
-> mit welchen technologien arbeite ich gerne
+> (diese Seite ist in stetigem wandel)
+
+> Welche Technologien sind interessant?
+> mit welchen technologien arbeite ich gerne;
 > React, Next.js, docker, Css
 > welche Projelte von mir sind zZ online: LICHT 
 

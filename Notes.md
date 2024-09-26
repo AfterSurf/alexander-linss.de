@@ -35,7 +35,7 @@ beide Startseiten (IT/Privat) folgen dem gleichen Style
 
 -transitions in den Text überführen
 
-
+-Logo background mit anpassen für einheitlichen Style auf der Seite?
 ## deployment
 
 > npm run build 
