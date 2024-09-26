@@ -17,14 +17,10 @@ https://fontlibrary.org/en/font/anarchist-mustache
 
 ### offene Todos:
 
--die Initialen Styles wieder rausbauen..
 -CookyBanner einbauen
--multilanguage: de / eng 
-
---> simplify 
-
--Daniel als Fotografen eintragen 
--email adresse von Strato hinterlegen
+-Daniel + Patrick als Fotografen eintragen 
+-GitHub ready machen
+-responsive design implementieren und testen 
 
 ### weitere Optiemierungen
 
@@ -41,3 +37,7 @@ beide Startseiten (IT/Privat) folgen dem gleichen Style
 
 > npm run build 
 > /build/ auf sftp schicken 
+
+## Plan
+### 26. September
+-Texte für Tech/Privat implementieren und online stellen 
