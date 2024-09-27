@@ -22,7 +22,7 @@ const Home = () => {
   );
 };
 
-const text = `Herzlich Willkomen auf dem technischen Teil der Website.`;
+const text = `Das ist der technischen Teil der Website.`;
 
 const textComponent = (
   <>
