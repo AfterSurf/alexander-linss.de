@@ -14,7 +14,7 @@
 
 .aboutStrich {
   width: 1rem !important;
-} 
+}
 
 .aboutTitle {
   font-size: 3rem;
@@ -30,7 +30,6 @@
   margin-bottom: 10vh;
 }
 
-
 .aboutContent {
   display: flex;
   flex-direction: column;
@@ -39,25 +38,27 @@
   min-height: 60vh;
 }
 
-.itLink, .privatLink {
+.itLink,
+.privatLink {
   background-color: white;
   /* color: #7e6ac6; */
   color: purple;
   padding: 0 2rem;
   border-radius: 14rem;
-  border:none;
+  border: none;
   text-decoration: none;
   font-size: 2.3rem;
-  padding:0.8rem 1.7rem 0.6rem;
+  padding: 0.8rem 1.7rem 0.6rem;
 }
 
-.itLink:hover, .privatLink:hover {
+.itLink:hover,
+.privatLink:hover {
   /* background-color: #a3d7c8; */
   background-color: #bdd5ce;
 }
 
 .itLink {
-  padding:0.7rem 2.65rem;
+  padding: 0.7rem 2.65rem;
 }
 
 /*  media queries */
@@ -71,9 +72,7 @@
   }
 } */
 
-
 @media (width <= 600px) {
-
   .aboutPic {
     margin-bottom: 6vh;
   }

@@ -12,7 +12,6 @@
   overflow-wrap: break-word;
 }
 
-
 .socialmedia {
   display: flex;
   flex-direction: row;
@@ -23,7 +22,7 @@
 }
 
 .socialmedia > a {
-  margin:auto;
+  margin: auto;
   background-color: rgb(222, 90, 90);
   padding: 1.2rem 0;
   border-radius: 4.5rem;
@@ -51,19 +50,20 @@
   text-decoration: underline;
 }
 
-
 /* project:  */
 .projectImage {
   object-position: 50% 50%;
   object-fit: cover;
 }
 
+/* whole project componets */
 .projectText {
   white-space: wrap;
   margin-bottom: 2rem;
   /* Falls es mehr Projekte als platz gibt */
   overflow-y: auto;
   overflow-x: hidden;
+  margin: auto;
 }
 
 .aufgaben {
@@ -85,7 +85,13 @@
   width: 76vw;
   min-width: 50rem;
   align-items: baseline;
-  gap: 1.5rem
+  gap: 1.5rem;
+}
+
+@media (width < 1553px){
+/* .aufgaben {
+  grid-template-rows: none
+} */
 }
 
 @media (width <= 880px) {

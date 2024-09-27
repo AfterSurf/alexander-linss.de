@@ -11,7 +11,6 @@
 
   /* breakpoints */
   --minWidthNav: 600px;
-
 }
 
 * {
@@ -48,7 +47,7 @@ h3 {
 /* App.js */
 .appContainer {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -82,13 +81,11 @@ section div {
   justify-content: flex-start;
 }
 
-
-
 /* global containers */
 #homeItContainer {
   color: white;
   background-color: rgb(136, 196, 235);
-} 
+}
 
 #projectsItContainer {
   color: white;
@@ -98,7 +95,6 @@ section div {
   align-items: normal;
   justify-content: unset;
 }
-
 
 /* Privat */
 @import url("https://fontlibrary.org//face/exo");
@@ -124,9 +120,8 @@ section div {
   text-align: left;
 }
 
-@media (width <= 1000px ) {
-
-  #vitaContainerPrivat  {
+@media (width <= 1000px) {
+  #vitaContainerPrivat {
     display: flex;
     flex-direction: column;
   }
@@ -137,7 +132,7 @@ section div {
   }
 }
 
-  /* Landing Page */
+/* Landing Page */
 
 #aboutContainer {
   color: purple;

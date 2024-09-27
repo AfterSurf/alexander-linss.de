@@ -1,21 +1,45 @@
 .aufgabe {
   max-width: 80%;
+  /* margin: 0 auto; */
   margin: 0 auto;
+  background-color: rgb(222, 114, 93);
 }
 
 .aufgabenTitle {
+  margin: 1.5rem 0 1rem;
+  padding: 0 0 0 1rem;
   font-size: x-large;
   text-wrap: balance;
   padding: 0 3rem;
+
+  min-width: 15rem;
+  max-width:30em;
 }
 
 .aufgabenText {
+  /* width: 80%; */
+  margin: 1.5rem 0 1rem;
   text-wrap: wrap;
-  padding: 0 5rem;
+  padding: 0 2rem;
+  /* min-width: 15rem; */
+  max-width:30rem;
 }
 
 .aufgabenImage {
   margin: 1rem;
   width: 15rem;
   height: auto;
+}
+
+@media (width < 1553px){
+  .aufgabe {
+    max-width: 65%;
+    min-width: none;
+    /* width: 35rem; */
+  }
+  /* .aufgabenTitle {
+    padding: 0 0 0 1rem;
+    max-width: 17rem;
+    color: green
+  } */
 }
