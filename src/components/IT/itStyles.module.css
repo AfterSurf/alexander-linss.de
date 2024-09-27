@@ -74,10 +74,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 3rem;
-  text-wrap: balance;
+  padding: 0 7vw;
+  text-wrap: pretty;
   overflow-wrap: break-word;
-  width: 75vw;
+  width: 78vw;
+  min-width: 50rem;
+  align-items: baseline;
+  gap: 1.5rem
 }
 
 @media (width <= 880px) {
@@ -87,6 +90,8 @@
 
   .PointsContainer {
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
+    max-width: 30rem;
   }
 }

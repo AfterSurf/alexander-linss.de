@@ -3,7 +3,7 @@
     flex-direction: column;
     border: 0.08rem  solid black;
     border-radius: 35px;
-    max-width: 20.5rem;
+    max-width: 21.5rem;
     align-items: center;
     background-color: white;
     color:black
@@ -20,7 +20,7 @@
 
 
 .title_border {
-    border-bottom: 0.1rem solid green;
+    border-bottom: 0.1rem solid black;
 
 }
 
@@ -36,10 +36,11 @@
     margin: 1rem;
     font-size: large;
     line-height: 2rem;
+    height: 12rem;
 }
 
 .why_text > * {
-    padding: 0 10% 0 20%;
+    padding: 0 10% 0 14%;
     line-height: 1.15rem;
 }
 

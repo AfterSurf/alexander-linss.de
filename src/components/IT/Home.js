@@ -13,8 +13,8 @@ const Home = () => {
       <div>
         {textComponent}
         <div className={styles.PointsContainer}>
-          <Points title="Warum diese Seite" Component={<Why/>}/>
-          <Points title="Wo bin ich zuhause" alternativTitle="Hier bin ich zuhause" Component={<FavTech/>}/>
+          <Points title="Warum diese Seite" alternativTitle="Darum diese Seite" Component={<Why/>}/>
+          <Points title="Wo bin ich zu Hause" alternativTitle="Hier bin ich zu Hause" Component={<FavTech/>}/>
         </div>
         {profileComponent}
       </div>
