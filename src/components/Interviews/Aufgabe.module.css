@@ -29,6 +29,8 @@
   margin: 1rem;
   width: 15rem;
   height: auto;
+  max-width: 80%;
+  margin: 1rem 1.5rem;
 }
 
 @media (width < 1553px){
