@@ -19,6 +19,7 @@
   align-items: center;
   padding-bottom: 5rem;
   font-size: 1.3rem;
+  min-width: 23rem;
 }
 
 .socialmedia > a {
@@ -29,6 +30,7 @@
   width: 10rem;
   text-align: center;
   margin: 0 1rem;
+  color: black;
 }
 
 .socialmedia > a:link {
@@ -80,7 +82,7 @@
   padding: 0 7vw;
   text-wrap: pretty;
   overflow-wrap: break-word;
-  width: 78vw;
+  width: 76vw;
   min-width: 50rem;
   align-items: baseline;
   gap: 1.5rem

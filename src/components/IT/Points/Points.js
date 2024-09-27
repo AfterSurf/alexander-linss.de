@@ -14,7 +14,7 @@ const Points = ({title, Component, alternativTitle}) => {
     return (
         <>
            <div className={styles.point}>
-                <div onClick={clickHandler}  className={`${styles.title} ${open ? styles.title_border: ""}`}> 
+                <div onClick={clickHandler}  className={`${styles.title} ${open ? styles.title_border: ""} ${open ? "" : styles.title_hover}`}> 
                     <box-icon name="chevron-right" rotate={open ? "90" : ""} size="sm" /> 
                     {open && alternativTitle ?  alternativTitle : title}{open ? ":" : "?"}
                 </div>
