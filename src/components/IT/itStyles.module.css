@@ -13,12 +13,7 @@
 }
 
 .socialmedia {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-bottom: 5rem;
   font-size: 1.3rem;
-  min-width: 23rem;
 }
 
 .socialmedia > a {
@@ -75,6 +70,8 @@
 
 /* Points */
 /* für die gesammte seite könnte man auch ein Grid verwenden */
+
+/*
 .PointsContainer {
   display: flex;
   flex-direction: row;
@@ -88,6 +85,55 @@
   align-items: baseline;
   gap: 1.75rem;
 }
+*/
+
+.PointsContainer {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: 
+  "titel1 titel1"
+  "titel2 titel3"
+  "titel4 titel5"
+  "titel6 titel6"
+  ;
+  /* justify-items: stretch;
+  align-items: center; */
+
+  place-items: center;
+  justify-content: content;
+  /* /* align-content: space-between;  */
+  gap: 1rem;
+}
+
+.gridElement1 {
+  background-color: green;
+  grid-area: titel1;
+}
+.gridElement2 {
+  background-color: blue;
+  grid-area: titel2;
+}
+.gridElement3 {
+  background-color: yellow;
+  grid-area: titel3;
+}
+
+.gridElement4 {
+  background-color: red;
+  grid-area: titel4;
+}
+.gridElement5 {
+  background-color: red;
+  grid-area: titel5;
+}
+.gridElement6 {
+  background-color: red;
+  grid-area: titel6;
+  margin-bottom: 3rem;
+  width: 90vw;
+}
+
 
 @media (width < 1553px){
 /* .aufgaben {
@@ -100,10 +146,32 @@
     display: none;
   }
 
+  /* .PointsContainer {
+    grid-template-columns: 50vw;
+    grid-template-rows: auto auto auto auto auto auto;
+  } */
+
   .PointsContainer {
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-    max-width: 30rem;
+    /* grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 50px); */
+
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 0.5fr) 5rem 5rem 15rem;
+    grid-template-areas: 
+    "titel1"
+    "titel2"
+    "titel3" 
+    "titel4"
+    "titel5" 
+    "titel6"
+    ;
+    gap: 1.1rem;
+  }
+
+  .gridElement2 {
+    margin: 2rem 0;
+  }
+  .gridElement3 {
+    margin: 2rem 0;
   }
 }
