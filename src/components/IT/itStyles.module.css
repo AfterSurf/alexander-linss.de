@@ -84,8 +84,9 @@
   overflow-wrap: break-word;
   width: 76vw;
   min-width: 50rem;
+  max-width: 61.5rem;
   align-items: baseline;
-  gap: 1.5rem;
+  gap: 1.75rem;
 }
 
 @media (width < 1553px){

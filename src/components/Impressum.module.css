@@ -87,9 +87,6 @@
   margin-left: 90%;
 
   border: white;
-  /* border-radius: 17rem;
-  border-style: solid;
-  border-width: 0.12rem; */
   padding-left: 0.11rem;
   padding-bottom: 0.11rem;
   font-weight: 900;
@@ -100,19 +97,30 @@
 
 .closeImpressum:hover {
   cursor: pointer;
-} 
+}
+
+.textFlow {
+  display: none;
+}
 
 @media (width <= 600px) {
+  .textLines {
+    display: none;
+  }
+
+  .textFlow {
+    display: unset;
+  }
 
   .closeImpressum {
     margin-top: 0;
   }
 
-.titleLine {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: auto;
-  width: 20%;
-}
+  .titleLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    width: 20%;
+  }
 }

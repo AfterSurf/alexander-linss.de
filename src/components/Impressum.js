@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from "./Impressum.module.css"
 
-const textStatic =
-    <>
+const text =
+<>
+    <div className={styles.textLines}>
         <div>unser angebot enthält links zu externen webseiten dritter, auf deren inhalte</div>
         <div>wir keinen einfluss haben. deshalb können wir für diese fremden inhalte auch keine</div>
         <div>gewähr übernehmen. für die inhalte der verlinkten seiten ist stets der jeweilige</div>
@@ -12,10 +13,8 @@ const textStatic =
         <div>inhaltliche kontrolle der verlinkten seiten ist jedoch ohne konkrete anhaltspunkte</div>
         <div>einer rechtsverletzung nicht zumutbar. bei bekanntwerden von rechtsverletzungen</div>
         <div>werden wir derartige links umgehend entfernen.</div>
-    </>
-
-const textFlow =
-    <>
+    </div>
+    <div className={styles.textFlow}>
         unser angebot enthält links zu externen webseiten dritter, auf deren inhalte
         wir keinen einfluss haben. deshalb können wir für diese fremden inhalte auch keine
         gewähr übernehmen. für die inhalte der verlinkten seiten ist stets der jeweilige
@@ -25,7 +24,8 @@ const textFlow =
         inhaltliche kontrolle der verlinkten seiten ist jedoch ohne konkrete anhaltspunkte
         einer rechtsverletzung nicht zumutbar. bei bekanntwerden von rechtsverletzungen
         werden wir derartige links umgehend entfernen.
-    </>
+    </div>
+</>
 
 const Impressum = (props) => {
 
@@ -60,7 +60,7 @@ const Impressum = (props) => {
                                 <em>haftung für links: </em>
                                 <br></br>
                                 <br></br>
-                                {textFlow}
+                                {text}
                                 <br></br>
                                 <br></br>
                                 <div><em>gestaltung:</em> Gesta lte</div>
