@@ -72,10 +72,9 @@
   text-align: center;
   width: 100%;
 
-  padding-bottom: 3.4%;
+  padding: 0 1rem 0.5rem;
   color: white;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin: 2rem 0;
 
   position: absolute;
   top: 50%;
@@ -86,12 +85,34 @@
 
 .closeImpressum {
   margin-left: 90%;
-  cursor: pointer;
+
   border: white;
-  border-radius: 17rem;
+  /* border-radius: 17rem;
   border-style: solid;
-  border-width: 0.12rem;
-  width: 1.1rem;
-  padding-left: 0.01rem;
-  padding-bottom: 0.01rem;
+  border-width: 0.12rem; */
+  padding-left: 0.11rem;
+  padding-bottom: 0.11rem;
+  font-weight: 900;
+  font-size: 1.4rem;
+  margin-top: -1.3rem;
+  padding-right: 6rem;
+}
+
+.closeImpressum:hover {
+  cursor: pointer;
+} 
+
+@media (width <= 600px) {
+
+  .closeImpressum {
+    margin-top: 0;
+  }
+
+.titleLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  width: 20%;
+}
 }

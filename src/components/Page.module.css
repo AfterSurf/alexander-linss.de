@@ -53,24 +53,12 @@
 
 .itLink:hover,
 .privatLink:hover {
-  /* background-color: #a3d7c8; */
   background-color: #bdd5ce;
 }
 
 .itLink {
   padding: 0.7rem 2.65rem;
 }
-
-/*  media queries */
-
-/* @media (width <= 920px) {
-  .aboutBorder {
-    width: 22rem;
-  }
-  .itLink, .privatLink {
-    font-size: 1.6rem;
-  }
-} */
 
 @media (width <= 600px) {
   .aboutPic {

@@ -71,7 +71,8 @@
 }
 
 .vitaPic {
-  max-height: 80vh;
+  max-height: 60vh;
+  max-width: 30rem;
   object-fit: contain;
 }
 

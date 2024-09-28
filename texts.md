@@ -47,6 +47,8 @@ Frontend bedeutet für mich Technik und Design.
 > Teil eines Teams (aus DevOps, FE, BE, WebDesigner,ProductOwner, ScrumMaster)
 > gute FrontendLeute werden gebraucht
 
+> jeder freut sich, wenn er seine Passion findet und ein Feld, in dem er aufgeht.. Das habe ich im Entwickeln / Schreiben von Software gefunden
+
 
 
 ### Vita - privat
