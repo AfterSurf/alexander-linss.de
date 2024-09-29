@@ -1,6 +1,5 @@
 .aufgabe {
   max-width: 80%;
-  /* margin: 0 auto; */
   margin: auto;
   background-color: rgb(222, 114, 93);
   height: 30rem;
@@ -19,11 +18,9 @@
 }
 
 .aufgabenText {
-  /* width: 80%; */
   margin: 1.5rem 0 1rem;
   text-wrap: wrap;
   padding: 0 2rem;
-  /* min-width: 15rem; */
   max-width:30rem;
 }
 

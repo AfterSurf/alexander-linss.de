@@ -11,9 +11,8 @@ const Home = () => {
   return (
     <section ref={homeRef} id="homeItContainer">
       <div className={styles.PointsContainer}>
+
         {textComponent}
-        
-          {/* <div className={styles.PointsContainer}> */}
           <Points
             className={styles.gridElement2}
             title="Warum diese Seite"
@@ -21,7 +20,6 @@ const Home = () => {
             Component={<Why />}
           />
           <Points
-
             className={styles.gridElement3}
             title="Wo bin ich zu Hause"
             alternativTitle="Hier bin ich zu Hause"
@@ -30,7 +28,7 @@ const Home = () => {
         
         {profileComponent4}
         {profileComponent5}
-        {profileComponent6}
+        {/* {profileComponent6} */}
       </div>
     </section>
   );
@@ -48,7 +46,7 @@ return (  <>
 }
 
 
-const textComponent = getTextComponent("ADSDSA","gridElement1")
+const textComponent = getTextComponent("Technics","gridElement1")
 // const profileComponent1 = getTextComponent("gridElement4","gridElement4")
 // const profileComponent2 =  getTextComponent("gridElement5","gridElement5")
 const profileComponent6 =  getTextComponent("gridElement6","gridElement6")

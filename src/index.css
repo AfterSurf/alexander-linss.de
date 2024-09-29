@@ -85,6 +85,7 @@ section div {
 #homeItContainer {
   color: white;
   background-color: rgb(136, 196, 235);
+  display: block;
 }
 
 #projectsItContainer {
