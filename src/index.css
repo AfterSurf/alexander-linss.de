@@ -140,7 +140,7 @@ section div {
 #aboutContainer {
   color: purple;
   background-color: var(--mainPink);
-
+height: 96.5vh;
   /* kill mobile extra space */
   overflow: hidden;
 }
