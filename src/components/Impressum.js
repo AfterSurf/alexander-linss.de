@@ -49,9 +49,9 @@ const Impressum = (props) => {
                                 <em>verantwortlich für alle inhalte dieser internetseite:</em>
                                 <br></br>
                                 <br></br>
-                                <div>Mister KAI</div>
-                                <div>KAIstraße 99</div>
-                                <div>20251 KAIburg</div>
+                                <div>alexander linß</div>
+                                <div>wiedebachstraße 12</div>
+                                <div>04277 leipzig</div>
                                 <br></br>
                                 <div>+49 131 2040000</div>
                                 <div>schöne@adresse-desing.eu</div>
@@ -63,14 +63,13 @@ const Impressum = (props) => {
                                 {text}
                                 <br></br>
                                 <br></br>
-                                <div><em>gestaltung:</em> Gesta lte</div>
-                                <div>schöne@adresse-desing.eu</div>
-                                <br></br>
-                                <div><em>programmierung:</em> alexander linß</div>
+                                <div><em>programmierung:</em></div>
+                                <div> alexander linß</div>
                                 <div>alexanderlinss@web.de</div>
                                 <br></br>
-                                <div><em>fotografie:</em> Foto GRaf</div>
-                                <div>schöne@adresse-desing.eu</div>
+                                <div><em>fotografien:</em></div>
+                                <div>franz schumann</div>
+                                <div>daniel kipshagen</div>
                                 <br></br>
                                 <div>&#9400; 2024 Alexander Linß</div>
                             </div>

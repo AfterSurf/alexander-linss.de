@@ -47,7 +47,6 @@ function App({page}) {
     return (
       <div className="appContainer">
         <NavProvider>
-          {/* <Nav page={page} setShowImpressum={setShowImpressum} /> */}
           <Main
             showImpressum={showImpressum}
             setShowImpressum={setShowImpressum}
