@@ -3,12 +3,25 @@
 /* nextToDo home und vita anpassen */
 
 /* HOME */
-#homeContainerPrivat {
-  color: white;
-  background-color: rgb(241, 179, 33);
-  display: flex;
-  flex-direction: column;
-}
+/* #homeContainerPrivat {
+  display: grid !important;
+  color: rgb(241, 179, 33);
+  align-items: safe;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 0.5fr) 5rem 5rem 15rem;
+  grid-template-areas: 
+  "titel1"
+  "titel2"
+  "titel3" 
+  "titel4"
+  "titel5" 
+  "titel6"
+  ;
+  gap: 1.1rem;
+  place-items: center;
+  justify-content: content;
+  margin-bottom: 2rem;
+} */
 
 .homePrivatText {
   color: white;;
@@ -53,6 +66,30 @@
   left: 0;
 }
 
+/* privat */
+
+.titel {
+  background-color: green;
+  grid-area: titel1;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  padding: 1em;
+  text-align: center;
+}
+
+.quote {
+  background-color: red;
+  grid-area: titel2;
+}
+
+.ownWords {
+  background-color: blue;
+  grid-area: titel3;
+}
 
 /* VITA */
 
