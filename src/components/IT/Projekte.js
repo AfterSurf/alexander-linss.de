@@ -13,10 +13,10 @@ const Projekte = () => {
   return (
     <>
       <section ref={projectsRef} id="projectsItContainer">
-        <img src={image} alt="unsplash-img" className={styles.projectImage} />
+        {/* <img src={image} alt="unsplash-img" className={styles.projectImage} /> */}
         <pre className={styles.projectText}>
           <div>
-            <h3>Projekt(e)</h3>
+            <h3>Projekte</h3>
             <div className={styles.aufgaben}>
               <Aufgabe
                 title="Product Overview (react.js and graphQL)"

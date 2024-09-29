@@ -1,8 +1,9 @@
 .aufgabe {
   max-width: 80%;
   /* margin: 0 auto; */
-  margin: 0 auto;
+  margin: auto;
   background-color: rgb(222, 114, 93);
+  height: 30rem;
 }
 
 .aufgabenTitle {
@@ -14,6 +15,7 @@
 
   min-width: 15rem;
   max-width:30em;
+  height: 4rem;
 }
 
 .aufgabenText {
@@ -29,19 +31,12 @@
   margin: 1rem;
   width: 15rem;
   height: auto;
-  max-width: 80%;
   margin: 1rem 1.5rem;
 }
 
 @media (width < 1553px){
   .aufgabe {
     max-width: 65%;
-    min-width: none;
-    /* width: 35rem; */
+    height: 100%;
   }
-  /* .aufgabenTitle {
-    padding: 0 0 0 1rem;
-    max-width: 17rem;
-    color: green
-  } */
 }
