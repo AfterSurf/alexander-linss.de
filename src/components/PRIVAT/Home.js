@@ -9,7 +9,7 @@ const Home = () => {
   return (
     // id richtig benamen homePrivatContainer
     <section ref={homeRef} id="homeContainerPrivat">
-      <div className={`${styles.titel} ${styles.titel1}`}>PRIVATE</div>
+      <div className={styles.titel}>Private</div>
       <pre>
         <div className={styles.homePrivatText}>
           <div className={`${styles.quote} ${styles.titel2}`}>

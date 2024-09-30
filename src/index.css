@@ -110,26 +110,23 @@ section div {
 #homeContainerPrivat {
   display: grid !important;
   background-color: rgb(241, 179, 33);
-  align-items: safe;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(3, 0.5fr);
-  grid-template-areas: 
-  "titel1"
-  "titel2"
-  "titel3" 
-  ;
+  grid-template-rows: repeat(4, 0.5fr);
+  grid-template-areas:
+    "titel1"
+    "titel2"
+    "titel3";
   gap: 1.1rem;
   place-items: center;
   justify-content: content;
-  /* margin-bottom: 2rem; */
 }
-
 
 #vitaContainerPrivat {
   color: white;
   background-color: rgb(65, 112, 167);
   padding: 3rem 0;
   font-size: 1rem;
+  min-height: 80vh;
 }
 
 #vitaContainerPrivat > * {
@@ -142,7 +139,7 @@ section div {
 @media (width <= 1000px) {
   #vitaContainerPrivat {
     /* test */
-    padding: 8vw; 
+    padding: 8vw;
     display: flex;
     flex-direction: column;
   }
@@ -164,6 +161,6 @@ section div {
 }
 
 /* Main - IT/Privat */
-.mainStyle{
+.mainStyle {
   overflow-x: hidden;
 }
