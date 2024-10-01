@@ -111,14 +111,15 @@ section div {
   display: grid !important;
   background-color: rgb(241, 179, 33);
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(4, 0.5fr);
+  grid-template-rows: 0.5fr repeat(2, 1fr);
+  /* grid-template-rows: repeat(4, 0.5fr); */
   grid-template-areas:
     "titel1"
     "titel2"
-    "titel3";
+    "titel3"
+    "titel4";
   gap: 1.1rem;
   place-items: center;
-  justify-content: content;
 }
 
 #vitaContainerPrivat {

@@ -114,7 +114,7 @@
   }
 
   #vitaContainerPrivat > * {
-    padding: 5vw;
+    padding:0 5vw 5vw;
     width: 80vw;
   }
 

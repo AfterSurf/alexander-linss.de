@@ -50,13 +50,10 @@
   object-fit: cover;
 }
 
-/* whole project componets */
 .projectText {
   white-space: wrap;
   margin-bottom: 2rem;
   /* Falls es mehr Projekte als platz gibt */
-  overflow-y: auto;
-  overflow-x: hidden;
   margin: auto;
 }
 
@@ -66,22 +63,9 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
-
-/* .PointsContainer {
-  display: grid;
-  grid-template-columns: 50vw 50vw;
-  grid-template-rows: repeat(4, 0.5fr);
-  grid-template-areas: 
-  "titel1 titel1"
-  "titel2 titel3"
-  "titel4 titel5"
-  "titel6 titel6";
-
-  place-items: center;
-  justify-content: content;
-  gap: 1rem;
-} */
 
 .PointsContainer {
   align-items: safe;
