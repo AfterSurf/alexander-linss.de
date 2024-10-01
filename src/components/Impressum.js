@@ -53,8 +53,8 @@ const Impressum = (props) => {
                                 <div>wiedebachstraße 12</div>
                                 <div>04277 leipzig</div>
                                 <br></br>
-                                <div>+49 131 2040000</div>
-                                <div>schöne@adresse-desing.eu</div>
+                                <div>+49 157 78955216</div>
+                                <div>alexanderlinss@web.de</div>
                                 <br></br>
                                 <br></br>
                                 <em>haftung für links: </em>
@@ -65,7 +65,6 @@ const Impressum = (props) => {
                                 <br></br>
                                 <div><em>programmierung:</em></div>
                                 <div> alexander linß</div>
-                                <div>alexanderlinss@web.de</div>
                                 <br></br>
                                 <div><em>fotografien:</em></div>
                                 <div>franz schumann</div>
