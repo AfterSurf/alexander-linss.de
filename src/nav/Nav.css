@@ -162,7 +162,7 @@ h1, h2, strong {
     top: 0;
     z-index: 9;
     background-color: #000;
-    height: 7vh;
+    /* height: 7vh; */
 }
 
 .logo-link {
@@ -170,7 +170,7 @@ h1, h2, strong {
     padding: 0.8em 0;
     text-decoration: none;
     line-height: 0;
-    /* width: 15rem; */
+    min-width: 15rem;
 }
 
 /* EDIT: einmal wird alles auf das navElement referenziert und einmal auf die nav klasse */
