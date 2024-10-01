@@ -4,15 +4,15 @@ import Styles from "./Points.module.css";
 const FavTech = () => {
   return (
     <div className={Styles.why_text}>
-      <div>Welche Technologien sind interessant?</div>
-      <div>mit welchen technologien arbeite ich gerne;</div>
+      <div>Am liebsten arbeite ich aktuell mit: </div>
       <ul>
-        <li>React</li>
-        <li>Next.js</li>
+        <li>React.js / Next.js</li>
         <li>Node.js</li>
+        <li>CSS modules</li>
+        <li>Figma</li>
       </ul>
-      <div>welche Projelte von mir sind zZ online:</div>
-      <a href="https://licht-musik.eu/" target="_blank" rel="noreferrer">LICHT</a>
+      <br/>
+      <div>Hier ein Projekt von mir:<a href="https://licht-musik.eu/" target="_blank" rel="noreferrer">LICHT</a></div>
     </div>
   );
 };
