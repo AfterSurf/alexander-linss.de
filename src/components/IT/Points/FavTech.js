@@ -12,7 +12,7 @@ const FavTech = () => {
         <li>Figma</li>
       </ul>
       <br/>
-      <div>Hier ein Projekt von mir:<a href="https://licht-musik.eu/" target="_blank" rel="noreferrer">LICHT</a></div>
+      <div>Hier eine Website von mir:<a href="https://licht-musik.eu/" target="_blank" rel="noreferrer">LICHT</a></div>
     </div>
   );
 };
