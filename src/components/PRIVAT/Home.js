@@ -9,7 +9,7 @@ const Home = () => {
   return (
     // id richtig benamen homePrivatContainer
     <section ref={homeRef} id="homeContainerPrivat">
-      <div className={styles.titel}>Private</div>
+      <div className={styles.titel}>Privat</div>
       <pre>
         <div className={styles.homePrivatText}>
           <div className={`${styles.quote} ${styles.titel2}`}>
@@ -22,11 +22,11 @@ const Home = () => {
           <div className={`${styles.ownWords} ${styles.titel2}`}>
             <p>Gesagt, getan.</p>
             <br></br>
-            <p>Das Coden gibt Freiheiten, gleichzeitig zu Recht</p>
-            <p>etablierte Standards und best practices.</p>
-            <p>Es gibt einem die Möglichkeit etwas zu erschaffen.</p>
+            <p>Das Coden gibt mir die Freiheit kreativ zu arbeiten und etwas zu erschaffen.</p>
+            <p>Umso besser man wird, um so mehr Möglichkeiten eröffnen sich.</p>
+            <p>Das motiviert nicht stehen zu bleiben und sich engagiert weiter zu entwickeln.</p>
             <br></br>
-            <p>Frontend bedeutet für mich Technik + Design.</p>
+            <p>Frontend bedeutet für mich Technik plus Design.</p>
           </div>
         </div>
       </pre>

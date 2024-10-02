@@ -19,10 +19,10 @@ const Projekte = () => {
             <h3>Projekte</h3>
             <div className={styles.aufgaben}>
               <Aufgabe
-                title="Product Overview (react.js and graphQL)"
-                description="Style uns verschiedene Produkte, zeige sie nach Kategorien (responsive) an und mach die Artikel likeable "
+                title="Phone Magic"
+                description="Liste aus Telefonnummern, mit Suchfeld, responsive und GraphQL-Backend."
                 img={imageProducts}
-                link2project={"https://github.com/AfterSurf/SPARX"}
+                link2project={"https://github.com/AfterSurf/SPARX/tree/main"}
               />
               <Aufgabe
                 title="www.alexander-linss.de"

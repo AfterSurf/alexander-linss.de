@@ -108,6 +108,10 @@
 /* media queries */
 @media (width <= 1000px ) {
 
+  .ownWords {
+    padding: 1.5rem 1.5rem 0;
+  }
+
   #vitaContainerPrivat  {
     display: flex;
     flex-direction: column;
