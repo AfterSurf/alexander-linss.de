@@ -4,7 +4,6 @@ import { useNav } from "../../customHooks/useNav";
 import styles from "./itStyles.module.css"
 import imageProducts from "../../pictures/products.jpg";
 import imageWebsite from "../../pictures/laptop.jpg";
-import image from "../../pictures/heaven.jpg";
 import Aufgabe from "../Interviews/Aufgabe";
 
 const Projekte = () => {
@@ -13,7 +12,6 @@ const Projekte = () => {
   return (
     <>
       <section ref={projectsRef} id="projectsItContainer">
-        {/* <img src={image} alt="unsplash-img" className={styles.projectImage} /> */}
         <pre className={styles.projectText}>
           <div>
             <h3>Projekte</h3>
