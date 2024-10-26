@@ -2,9 +2,16 @@ import React from "react";
 import { useState } from "react";
 import styles from "./Points.module.css";
 // eslint-disable-next-line
-import 'boxicons';
+import Icon from "../../Icon";
 
-const Points = ({title, Component, alternativTitle}) => {
+type PointsInputProps = {
+    title: string,
+    className?: string,
+    Component: any, // toDo
+    alternativTitle: string
+}
+
+const Points = ({title, Component, alternativTitle}: PointsInputProps) => {
     const [open, setOpen] = useState(false)
 
     function clickHandler() {
@@ -15,7 +22,7 @@ const Points = ({title, Component, alternativTitle}) => {
         <>
            <div className={styles.point}>
                 <div onClick={clickHandler}  className={`${styles.title} ${open ? styles.title_border: ""} ${open ? "" : styles.title_hover}`}> 
-                    <box-icon name="chevron-right" rotate={open ? "90" : ""} size="sm" /> 
+                    <Icon name="chevron-right" rotate={open ? "90" : ""} size="sm" /> 
                     {open && alternativTitle ?  alternativTitle : title}{open ? ":" : "?"}
                 </div>
                 {open ? <div>{Component}</div> : <></>}

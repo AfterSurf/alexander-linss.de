@@ -44,3 +44,15 @@ beide Startseiten (IT/Privat) folgen dem gleichen Style
 ## Plan
 ### 26. September
 -Texte für Tech/Privat implementieren und online stellen 
+
+### 26. September
+
+-neue Todos: 
+    * TypeScript 
+    * styles überarbeiten
+    * tests implementieren 
+
+### typescript
+
+https://www.technigo.io/explained/convert-react-javascript-to-typescript
+https://www.typescriptlang.org/docs/handbook/intro.html

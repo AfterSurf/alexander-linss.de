@@ -37,7 +37,7 @@ const Home = () => {
 var text = `Das ist der technischen Teil der Website.`;
 text = "AAA";
 
-function getTextComponent(text, className) {
+function getTextComponent(text: string, className: string) {
 return (  <>
   <pre className={styles[className]}>
     <h3>{text}</h3>

@@ -27,9 +27,14 @@ const text =
     </div>
 </>
 
-const Impressum = (props) => {
+type ImpressumInputProps = {
+    showImpressum: boolean,
+    setShowImpressum: Function
+}
 
-    if(props.impressumState === true) {
+const Impressum = ({showImpressum,setShowImpressum}:ImpressumInputProps) => {
+
+    if(showImpressum === true) {
                 return (
                     <div>
                         <div className={styles.overlay_d_0}> 
@@ -43,7 +48,7 @@ const Impressum = (props) => {
                             <div className={styles.impressumStyles}>
                                <div className={styles.titleLine}> 
                                 IMPRESSUM
-                                <div className={styles.closeImpressum} onClick={() => props.setShowImpressum(false)}>x</div> 
+                                <div className={styles.closeImpressum} onClick={() => setShowImpressum(false)}>x</div> 
                                 </div>
                                 <br></br>
                                 <em>verantwortlich für alle inhalte dieser internetseite:</em>

@@ -1,4 +1,3 @@
-import React from "react";
 import { useNav } from "../../customHooks/useNav";
 import styles from "./privatStyles.module.css";
 
@@ -30,7 +29,6 @@ const Home = () => {
           </div>
         </div>
       </pre>
-      {/* styles from page.css */}
     </section>
   );
 };

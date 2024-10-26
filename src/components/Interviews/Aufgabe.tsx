@@ -1,7 +1,14 @@
 import React from "react";
 import styles from "./Aufgabe.module.css";
 
-const Aufgabe = ({ title, description, img, link2project }) => {
+type AufgabenInputProps = {
+  title: string,
+  description: string, 
+  img: string,
+  link2project: string
+}
+
+const Aufgabe = ({ title, description, img, link2project }: AufgabenInputProps) => {
 
   return (
     <div  className={styles.aufgabe}>

@@ -3,11 +3,16 @@ import Impressum  from "./Impressum"
 import LandingPage from "./LandingPage"
 import styles from "./Page.module.css"
 
-const Main = (props) => 
+type MainInputProps = {
+    showImpressum: boolean,
+	setShowImpressum: Function
+}
+
+const Main = ({showImpressum,setShowImpressum}:MainInputProps) => 
 {
 	return (
 		<>
-			{props.showImpressum ? <Impressum setShowImpressum={props.setShowImpressum}/> : <></>}
+			{showImpressum ? <Impressum showImpressum={showImpressum} setShowImpressum={setShowImpressum}/> : <></>}
 			<main className={styles.mainStyle}>
 				<LandingPage />
 			</main>
