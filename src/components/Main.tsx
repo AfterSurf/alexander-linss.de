@@ -12,7 +12,7 @@ const Main = ({showImpressum,setShowImpressum}:MainInputProps) =>
 {
 	return (
 		<>
-			{showImpressum ? <Impressum showImpressum={showImpressum} setShowImpressum={setShowImpressum}/> : <></>}
+			{showImpressum ? <Impressum showImpressum={!showImpressum} setShowImpressum={setShowImpressum}/> : <></>}
 			<main className={styles.mainStyle}>
 				<LandingPage />
 			</main>

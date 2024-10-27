@@ -7,11 +7,11 @@ const IT = ({showImpressum,setShowImpressum}:any) => { // todo
   return (
     <>
         {/* rename: showImpressum */}
-      {showImpressum ? (
+      {showImpressum ? 
         <Impressum setShowImpressum={setShowImpressum} showImpressum={!showImpressum} />
-      ) : (
+       : 
         <></>
-      )}
+      }
       <main className="mainStyle">
         <Home />
         <Projekte />
