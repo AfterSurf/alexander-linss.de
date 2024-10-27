@@ -1,6 +1,4 @@
-//import styles from "./Form.module.css"
-
-import styles from "./form.module.css"
+import styles from "./Form.module.css"
 
 const Form = () => {
     const onSubmit = () => {
