@@ -4,8 +4,12 @@ import { navLinksPrivat, navLinksIT } from "./navLinks";
 import "./Nav.css";
 import logo from "./AlexanderLinssNone.svg";
 
-const Nav = (props) => {
-  const { page, setShowImpressum } = props;
+type NavInputProps = {
+  page: string, 
+  setShowImpressum: Function
+}
+
+const Nav = ({ page, setShowImpressum }: NavInputProps) => {
   const [isOpen, setIsOpen] = useState(false);
   let navArray = [];
 

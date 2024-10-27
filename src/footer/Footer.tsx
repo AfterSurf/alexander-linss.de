@@ -1,7 +1,12 @@
 import React from "react";
 import styles from "./Footer.module.css"
 
-export default function footer({setShowImpressum, showImpressum}) {
+type FooterInputProps = {
+  setShowImpressum: Function,
+  showImpressum: Boolean
+}
+
+export default function Footer({setShowImpressum, showImpressum}: FooterInputProps) {
   return (
     <>
       <div className={styles.footer}>
