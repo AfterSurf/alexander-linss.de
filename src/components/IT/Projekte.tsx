@@ -1,4 +1,3 @@
-import React from "react";
 import { useNav } from "../../customHooks/useNav";
 
 import styles from "./itStyles.module.css"

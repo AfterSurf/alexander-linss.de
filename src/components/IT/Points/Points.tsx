@@ -1,7 +1,5 @@
-import React from "react";
 import { useState } from "react";
 import styles from "./Points.module.css";
-// eslint-disable-next-line
 import Icon from "../../Icon";
 
 type PointsInputProps = {

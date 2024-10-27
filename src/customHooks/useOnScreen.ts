@@ -1,6 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, MutableRefObject } from 'react';
 
-export const useOnScreen = ref => {
+type useOnScreenInput = {
+	ref:React.RefObject<HTMLInputElement>
+}
+
+export const useOnScreen = (ref: MutableRefObject<HTMLElement>) => {
 	const [isOnScreen, setOnScreen] = useState(false);
 
 	const observer = new IntersectionObserver(

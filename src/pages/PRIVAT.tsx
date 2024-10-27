@@ -5,11 +5,12 @@ import Impressum from "../components/Impressum"
 
 import styles from "../components/PRIVAT/privatStyles.module.css";
 
-const PRIVAT = (props) => {
+const PRIVAT = ({showImpressum,setShowImpressum}:any) => {
   return (
     <>
-      {props.showImpressum ? (
-        <Impressum setShowImpressum={props.setShowImpressum} />
+    {/* rename: showImpressum */}
+      {showImpressum ? (
+        <Impressum setShowImpressum={setShowImpressum} showImpressum={!showImpressum} />
       ) : (
         <></>
       )}

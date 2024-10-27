@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { useState } from "react";
 
 import { Nav } from "./nav";
@@ -9,7 +9,11 @@ import Footer from "./footer/Footer";
 import NavProvider from "./context/NavContext";
 import "./index.css";
 
-function App({page}) {
+type AppInputProps = {
+  page?: string
+}
+
+function App({page}:AppInputProps) {
   const [showImpressum, setShowImpressum] = useState(false);
   if (page === "it") {
     return (

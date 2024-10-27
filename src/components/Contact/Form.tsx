@@ -1,11 +1,11 @@
-import React from "react"
-import styles from "./Form.module.css"
-const Form = () => {
+//import styles from "./Form.module.css"
 
+import styles from "./form.module.css"
+
+const Form = () => {
     const onSubmit = () => {
         console.log("Ich wurde geclickt.")
     }
-
     return (
         <div className={styles.form_column}>
             <div className={styles.container}>

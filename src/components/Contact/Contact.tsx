@@ -1,4 +1,3 @@
-import React from "react";
 import { useNav } from "../../customHooks/useNav.js";
 
 import styles from "./Contact.module.css"
