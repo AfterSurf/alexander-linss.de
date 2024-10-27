@@ -12,6 +12,7 @@ export default function Footer({setShowImpressum, showImpressum}: FooterInputPro
       <div className={styles.footer}>
         <p
           onClick={() => {
+            console.log("clicked showImpressum")
             setShowImpressum(!showImpressum);
           }}
          className={styles.impressum}>

@@ -32,7 +32,7 @@ type ImpressumInputProps = {
 }
 
 const Impressum = ({showImpressum,setShowImpressum}:ImpressumInputProps) => {
-
+    console.log("inpressum: ",showImpressum)
     if(showImpressum === true) {
                 return (
                     <div>

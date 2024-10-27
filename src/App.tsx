@@ -13,8 +13,10 @@ type AppInputProps = {
   page?: string
 }
 
+// kann man verschlanken
 function App({page}:AppInputProps) {
   const [showImpressum, setShowImpressum] = useState(false);
+  console.log("rendered app")
   if (page === "it") {
     return (
       <div className="appContainer">
