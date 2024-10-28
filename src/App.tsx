@@ -1,11 +1,11 @@
 import React from "react";
 import { useState } from "react";
 
-import { Nav } from "./nav";
+import { Nav } from "./components/nav";
 import { Main } from "./pages";
 import IT from "./pages/IT";
 import PRIVAT from "./pages/PRIVAT";
-import Footer from "./footer/Footer";
+import Footer from "./components/footer/Footer";
 import NavProvider from "./context/NavContext";
 import "./index.css";
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import Impressum  from "./Impressum"
-import LandingPage from "./LandingPage"
+import Impressum  from "./impressum/Impressum"
+import LandingPage from "./landingPage/LandingPage"
 import styles from "./Page.module.css"
 import { getImpressumProps } from "./types/types"
 

@@ -1,7 +1,7 @@
 import { useNav } from "../../customHooks/useNav.js";
 
 import styles from "./Contact.module.css"
-import Form from "./Form.js";
+import Form from "./Form.jsx";
 
 
 
