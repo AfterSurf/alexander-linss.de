@@ -1,7 +1,5 @@
 import {createContext, useState } from 'react';
 
-// schauen was hier nötig ist
-// export const NavContext = createContext({activeNavLinkId: "", setActiveNavLinkId: ""});
 export const NavContext = createContext({});
 
 type NavProviderInputProps = {

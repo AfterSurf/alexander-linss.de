@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { NavContext } from '../context/NavContext';
 
+// # todo
 type NavLinkInputProps = {
 	navLinkId: any, 
 	scrollToId: any,
@@ -15,9 +16,9 @@ const NavLink = ({ navLinkId, scrollToId , setIsOpen, setShowImpressum} : NavLin
 		setActiveNavLinkId(navLinkId);
 		if(document.getElementById(scrollToId) !== null) {
 			if(window.innerWidth > 601) {
-				document.getElementById(scrollToId)?.scrollIntoView({ behavior: 'smooth' }); // auf  mobile will ich auto
+				document.getElementById(scrollToId)?.scrollIntoView({ behavior: 'smooth' }); 
 			} else {
-				document.getElementById(scrollToId)?.scrollIntoView({ behavior: 'auto' }); // auf  mobile will ich auto
+				document.getElementById(scrollToId)?.scrollIntoView({ behavior: 'auto' }); // auto for mobile
 			}
 			setIsOpen(false)
 		} else {

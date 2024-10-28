@@ -1,4 +1,5 @@
 import styles from "./Impressum.module.css"
+import { getImpressumProps } from "./types/types"
 
 const text =
 <>
@@ -26,59 +27,54 @@ const text =
     </div>
 </>
 
-type ImpressumInputProps = {
-    showImpressum: boolean,
-    setShowImpressum: Function
-}
-
-const Impressum = ({showImpressum,setShowImpressum}:ImpressumInputProps) => {
+const Impressum = ({showImpressum,setShowImpressum}:getImpressumProps) => {
     console.log("inpressum: ",showImpressum)
     if(showImpressum === true) {
-                return (
-                    <div>
-                        <div className={styles.overlay_d_0}> 
+        return (
+            <div>
+                <div  className={`${styles.overlay_desktop} ${styles.impressum}`}> 
+                    <div className={styles.impressumStyles}>
+                       <div className={styles.titleLine}> 
+                        IMPRESSUM
+                        <div className={styles.closeImpressum} onClick={() => setShowImpressum(false)}>x</div> 
                         </div>
+                        <br></br>
+                        <em>verantwortlich für alle inhalte dieser internetseite:</em>
+                        <br></br>
+                        <br></br>
+                        <div>alexander linß</div>
+                        <div>wiedebachstraße 12</div>
+                        <div>04277 leipzig</div>
+                        <br></br>
+                        <div>+49 157 78955216</div>
+                        <div>alexanderlinss@web.de</div>
+                        <br></br>
+                        <br></br>
+                        <em>haftung für links: </em>
+                        <br></br>
+                        <br></br>
+                        {text}
+                        <br></br>
+                        <br></br>
+                        <div><em>programmierung:</em></div>
+                        <div> alexander linß</div>
+                        <br></br>
+                        <div><em>fotografien:</em></div>
+                        <div>franz schumann</div>
+                        <div>daniel kipshagen</div>
+                        <br></br>
+                        <div>&#9400; 2024 Alexander Linß</div>
                     </div>
-                )
+                </div>
+            </div>
+        )
     } else {
-                return (
-                    <div>
-                        <div  className={`${styles.overlay_desktop} ${styles.impressum}`}> 
-                            <div className={styles.impressumStyles}>
-                               <div className={styles.titleLine}> 
-                                IMPRESSUM
-                                <div className={styles.closeImpressum} onClick={() => setShowImpressum(false)}>x</div> 
-                                </div>
-                                <br></br>
-                                <em>verantwortlich für alle inhalte dieser internetseite:</em>
-                                <br></br>
-                                <br></br>
-                                <div>alexander linß</div>
-                                <div>wiedebachstraße 12</div>
-                                <div>04277 leipzig</div>
-                                <br></br>
-                                <div>+49 157 78955216</div>
-                                <div>alexanderlinss@web.de</div>
-                                <br></br>
-                                <br></br>
-                                <em>haftung für links: </em>
-                                <br></br>
-                                <br></br>
-                                {text}
-                                <br></br>
-                                <br></br>
-                                <div><em>programmierung:</em></div>
-                                <div> alexander linß</div>
-                                <br></br>
-                                <div><em>fotografien:</em></div>
-                                <div>franz schumann</div>
-                                <div>daniel kipshagen</div>
-                                <br></br>
-                                <div>&#9400; 2024 Alexander Linß</div>
-                            </div>
-                        </div>
-                    </div>
-                )
+        return (
+            <div>
+                <div className={styles.overlay_d_0}> 
+                </div>
+            </div>
+        )
     }
 }
 

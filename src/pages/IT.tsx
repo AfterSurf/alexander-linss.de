@@ -3,12 +3,15 @@ import Projekte from "../components/IT/Projekte";
 import Home from "../components/IT/Home";
 import Impressum from "../components/Impressum"
 
-const IT = ({showImpressum,setShowImpressum}:any) => { // todo
+import { getImpressumProps } from "../components/types/types";
+
+
+
+const IT = ({showImpressum,setShowImpressum}:getImpressumProps) => {
   return (
     <>
-        {/* rename: showImpressum */}
       {showImpressum ? 
-        <Impressum setShowImpressum={setShowImpressum} showImpressum={!showImpressum} />
+        <Impressum setShowImpressum={setShowImpressum} showImpressum={showImpressum} />
        : 
         <></>
       }

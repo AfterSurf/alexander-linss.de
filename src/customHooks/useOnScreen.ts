@@ -1,9 +1,5 @@
 import { useState, useEffect, MutableRefObject } from 'react';
 
-type useOnScreenInput = {
-	ref:React.RefObject<HTMLInputElement>
-}
-
 export const useOnScreen = (ref: MutableRefObject<HTMLElement>) => {
 	const [isOnScreen, setOnScreen] = useState(false);
 

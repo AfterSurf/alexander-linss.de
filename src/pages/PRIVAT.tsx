@@ -4,13 +4,13 @@ import Vita from "../components/PRIVAT/Vita";
 import Impressum from "../components/Impressum"
 
 import styles from "../components/PRIVAT/privatStyles.module.css";
+import { getImpressumProps } from "../components/types/types";
 
-const PRIVAT = ({showImpressum,setShowImpressum}:any) => {
+const PRIVAT = ({showImpressum,setShowImpressum}:getImpressumProps) => {
   return (
     <>
-    {/* rename: showImpressum */}
       {showImpressum ? (
-        <Impressum setShowImpressum={setShowImpressum} showImpressum={!showImpressum} />
+        <Impressum setShowImpressum={setShowImpressum} showImpressum={showImpressum} />
       ) : (
         <></>
       )}
