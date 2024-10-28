@@ -56,3 +56,10 @@ beide Startseiten (IT/Privat) folgen dem gleichen Style
 
 https://www.technigo.io/explained/convert-react-javascript-to-typescript
 https://www.typescriptlang.org/docs/handbook/intro.html
+
+
+### testing
+
+-best practices:
+    -wie ist ein Testfile aufgebaut? 
+    -wo werden die Variablen definiert? 

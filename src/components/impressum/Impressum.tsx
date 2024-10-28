@@ -1,8 +1,9 @@
 import styles from "./Impressum.module.css"
-import { getImpressumProps } from "./types/types"
+
+import { getImpressumProps } from "../types/types"
 
 const text =
-<>
+<div data-testid="component">
     <div className={styles.textLines}>
         <div>unser angebot enthält links zu externen webseiten dritter, auf deren inhalte</div>
         <div>wir keinen einfluss haben. deshalb können wir für diese fremden inhalte auch keine</div>
@@ -25,10 +26,9 @@ const text =
         einer rechtsverletzung nicht zumutbar. bei bekanntwerden von rechtsverletzungen
         werden wir derartige links umgehend entfernen.
     </div>
-</>
+</div>
 
 const Impressum = ({showImpressum,setShowImpressum}:getImpressumProps) => {
-    console.log("inpressum: ",showImpressum)
     if(showImpressum === true) {
         return (
             <div>

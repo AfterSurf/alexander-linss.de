@@ -15,7 +15,7 @@ export default function Footer({setShowImpressum, showImpressum}: getImpressumPr
          className={styles.impressum}>
           Impressum
         </p>
-        <p> &copy; 2024 Alexander Linß</p>
+        <p>&copy; 2024 Alexander Linß</p>
       </div>
     </>
   );
