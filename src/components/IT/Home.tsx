@@ -27,7 +27,6 @@ const Home = () => {
         
         {profileComponent4}
         {profileComponent5}
-        {/* {profileComponent6} */}
       </div>
     </section>
   );
@@ -46,16 +45,11 @@ return (  <>
 
 
 const textComponent = getTextComponent("Technics","gridElement1")
-// const profileComponent1 = getTextComponent("gridElement4","gridElement4")
-// const profileComponent2 =  getTextComponent("gridElement5","gridElement5")
-const profileComponent6 =  getTextComponent("gridElement6","gridElement6")
-
 
 const profileComponent4 = (
   <>
     <div className={styles["gridElement4"]}>
       <pre>
-        {/* <h3>Profile:</h3> */}
         <div className={styles.socialmedia}>
           <a
             target="_blank"
@@ -74,7 +68,6 @@ const profileComponent5 = (
   <>
     <div className={styles["gridElement5"]}>
       <pre>
-        {/* <h3>Profile:</h3> */}
         <div className={styles.socialmedia}>
           <a
             target="_blank"

@@ -1,10 +1,10 @@
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import Aufgabe from "./Aufgabe";
 
 
 
 describe("Aufgabe component", () => {
-  it("should render Aufgabe component correctly", () => {    
+  it("should render Aufgabe component correctly",async () => {    
 
     const title = "title";
     const description = "description";
@@ -12,6 +12,9 @@ describe("Aufgabe component", () => {
     const link2project = "link2project"
 
     render(<Aufgabe title={title} description={description} img={img} link2project={link2project}/>);
-    // add more!
+    const impressumHeadline = await screen.findAllByText("title");
+    const itemsResponsibility = await screen.findAllByText("description")
+    expect(impressumHeadline).toHaveLength(1)
+    expect(itemsResponsibility).toHaveLength(1)
   });
 });
