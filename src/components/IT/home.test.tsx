@@ -15,7 +15,6 @@ describe("Home component", () => {
     const Button2 = await screen.findAllByText("Wo bin ich zu Hause?");
     expect(Button2).toHaveLength(1)
   });
-  // weitere Test ausführen zur interaktion (clicken)
 
   it("Buttons should be clickable + text", async () => {    
     render(<Home/>);

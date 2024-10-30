@@ -5,7 +5,6 @@ import Aufgabe from "./Aufgabe";
 
 describe("Aufgabe component", () => {
   it("should render Aufgabe component correctly",async () => {    
-
     const title = "title";
     const description = "description";
     const img = "https://link2Image.com";
