@@ -3,7 +3,7 @@ import { useNav } from "../../customHooks/useNav";
 import styles from "./itStyles.module.css"
 import imageProducts from "../../pictures/products.jpg";
 import imageWebsite from "../../pictures/laptop.jpg";
-import Aufgabe from "../Interviews/Aufgabe";
+import Aufgabe from "../interviews/Aufgabe";
 
 const Projekte = () => {
   const projectsRef = useNav("Projects");

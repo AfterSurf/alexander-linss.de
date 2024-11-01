@@ -7,7 +7,7 @@ import { getImpressumProps } from "../components/types/types";
 
 
 
-const IT = ({showImpressum,setShowImpressum}:getImpressumProps) => {
+const It = ({showImpressum,setShowImpressum}:getImpressumProps) => {
   return (
     <>
       {showImpressum ? 
@@ -23,4 +23,4 @@ const IT = ({showImpressum,setShowImpressum}:getImpressumProps) => {
   );
 };
 
-export default IT;
+export default It;

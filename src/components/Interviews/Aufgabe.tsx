@@ -1,4 +1,5 @@
-import styles from "./Aufgabe.module.css";
+// import styles from "./AufgabeOLD.module.css";
+import styles from "./Aufgabe.module.scss";
 
 type AufgabenInputProps = {
   title: string,

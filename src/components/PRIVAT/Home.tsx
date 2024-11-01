@@ -1,5 +1,5 @@
 import { useNav } from "../../customHooks/useNav";
-import styles from "./privatStyles.module.css";
+import styles from "./Privat.module.css";
 
 // quote: https://www.goodreads.com/quotes/558213-learn-the-rules-like-a-pro-so-you-can-break
 

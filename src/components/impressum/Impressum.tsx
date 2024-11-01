@@ -1,4 +1,4 @@
-import styles from "./Impressum.module.css"
+import styles from "./Impressum.module.scss"
 
 import { getImpressumProps } from "../types/types"
 
@@ -32,7 +32,7 @@ const Impressum = ({showImpressum,setShowImpressum}:getImpressumProps) => {
     if(showImpressum === true) {
         return (
             <div>
-                <div  className={`${styles.overlay_desktop} ${styles.impressum}`}> 
+                <div className={styles.overlay_desktop}> 
                     <div className={styles.impressumStyles}>
                        <div className={styles.titleLine}> 
                         IMPRESSUM

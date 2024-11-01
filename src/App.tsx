@@ -3,8 +3,8 @@ import { useState } from "react";
 
 import { Nav } from "./components/nav";
 import { Main } from "./pages";
-import IT from "./pages/IT";
-import PRIVAT from "./pages/PRIVAT";
+import It from "./pages/It";
+import Privat from "./pages/Privat";
 import Footer from "./components/footer/Footer";
 import NavProvider from "./context/NavContext";
 import "./index.css";
@@ -22,7 +22,7 @@ function App({page}:AppInputProps) {
       <div className="appContainer">
         <NavProvider>
           <Nav page={page} setShowImpressum={setShowImpressum} />
-          <IT
+          <It
             showImpressum={showImpressum}
             setShowImpressum={setShowImpressum}
           />
@@ -38,7 +38,7 @@ function App({page}:AppInputProps) {
       <div className="appContainer">
         <NavProvider>
           <Nav page={page} setShowImpressum={setShowImpressum} />
-          <PRIVAT
+          <Privat
             showImpressum={showImpressum}
             setShowImpressum={setShowImpressum}
           />

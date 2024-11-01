@@ -1,6 +1,6 @@
 import { useNav } from "../../customHooks/useNav";
 
-import styles from "./privatStyles.module.css";
+import styles from "./Privat.module.css";
 import image from "../../pictures/alex_bw.jpg";
 
 const Vita = () => {

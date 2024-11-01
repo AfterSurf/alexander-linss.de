@@ -112,13 +112,6 @@
   width: 90vw;
 }
 
-
-@media (width < 1553px){
-/* .aufgaben {
-  grid-template-rows: none
-} */
-}
-
 @media (width <= 880px) {
   .projectImage {
     display: none;
@@ -129,11 +122,6 @@
     grid-template-rows:repeat(2, 1fr);
     grid-template-columns: repeat(1, 1fr);
   }
-
-  /* .PointsContainer {
-    grid-template-columns: 50vw;
-    grid-template-rows: auto auto auto auto auto auto;
-  } */
 
   .PointsContainer {
     align-items: safe;

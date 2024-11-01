@@ -1,9 +1,9 @@
 import { useNav } from "../../customHooks/useNav";
 import styles from "./itStyles.module.css";
 
-import Points from "./Points/Points";
-import Why from "./Points/Why";
-import FavTech from "./Points/FavTech";
+import Points from "./points/Points";
+import Why from "./points/Why";
+import FavTech from "./points/FavTech";
 
 const Home = () => {
   const homeRef = useNav("Home");

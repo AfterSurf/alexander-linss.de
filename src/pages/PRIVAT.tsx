@@ -3,10 +3,10 @@ import Home from "../components/privat/Home";
 import Vita from "../components/privat/Vita";
 import Impressum from "../components/impressum/Impressum"
 
-import styles from "../components/PRIVAT/privatStyles.module.css";
+import styles from "../components/privat/Privat.module.css";
 import { getImpressumProps } from "../components/types/types";
 
-const PRIVAT = ({showImpressum,setShowImpressum}:getImpressumProps) => {
+const Privat = ({showImpressum,setShowImpressum}:getImpressumProps) => {
   return (
     <>
       {showImpressum ? (
@@ -22,4 +22,4 @@ const PRIVAT = ({showImpressum,setShowImpressum}:getImpressumProps) => {
   );
 };
 
-export default PRIVAT;
+export default Privat;

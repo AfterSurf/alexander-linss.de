@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { NavContext } from '../context/NavContext';
+import { NavContext } from '../../context/NavContext';
 
 // # todo
 type NavLinkInputProps = {

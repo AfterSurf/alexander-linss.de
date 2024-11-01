@@ -1,0 +1,20 @@
+$white-color: white; 
+
+.footer {
+  background-color: $white-color;
+  display: flex;
+  flex: 1;
+  border-top: 1px solid $white-color;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 0;
+  position: sticky;
+  width: 100%;
+  z-index: 9;
+  padding: 0.5rem 0;
+  line-height: 0;
+}
+
+.impressum {
+  cursor: pointer;
+}

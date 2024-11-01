@@ -1,13 +1,18 @@
-.overlay_desktop {
+$white-color: white; 
+$black-color: black;
+$black-color-light: rgb(11, 10, 10, 0.7);
+
+
+.overlay_desktop { // used
   height: 100%;
   width: 100%;
   position: fixed;
   z-index: 10;
   top: 0;
   left: 0;
+  line-height: 1.5;
   /* safari fallback */
-  background-color: rgb(50, 45, 45);
-  background-color: rgb(11, 10, 10, 0.7);
+  background-color: $black-color-light;
 
   overflow-y: hidden;
   overflow: scroll;
@@ -22,24 +27,24 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #2c2d2b;
+  background-color: $black-color;
   overflow-y: hidden;
   transition: 0.5s;
 }
 
-.overlay_desktop a {
+.overlay_desktop a { // unsed ?! (kein a)
   margin: 1% 0;
   padding: 15px 0;
   text-decoration: none;
   font-size: 1.5rem;
-  color: #000;
+  color: $black-color;
   display: block;
   transition: 0.3s;
 }
 
 .overlay_d a:hover,
 .overlay_d a:focus {
-  color: #f1f1f1;
+  color: $white-color;
 }
 
 .overlay_d .closebtn_d {
@@ -64,16 +69,13 @@
 }
 
 /* impressumStyles */
-.impressum {
-  line-height: 1.5;
-}
 
-.impressumStyles {
+.impressumStyles { // used aber eigebtl. Dopplung mit overlay_desktop
   text-align: center;
   width: 100%;
 
   padding: 0 1rem 0.5rem;
-  color: white;
+  color: $white-color;
   margin: 2rem 0;
 
   position: absolute;
@@ -83,19 +85,20 @@
   transform: translate(-50%, -50%);
 }
 
-.closeImpressum {
+.closeImpressum { // used
   margin-left: 90%;
 
-  border: white;
-  padding-left: 0.11rem;
-  padding-bottom: 0.11rem;
+  border: $white-color;
+  padding: 0 0 0.11rem 0.11rem;
+  // padding-left: 0.11rem;
+  // padding-bottom: 0.11rem;
   font-weight: 900;
   font-size: 1.4rem;
   margin-top: -1.3rem;
   padding-right: 6rem;
 }
 
-.closeImpressum:hover {
+.closeImpressum:hover { // used
   cursor: pointer;
 }
 
@@ -104,15 +107,15 @@
 }
 
 @media (width <= 600px) {
-  .textLines {
+  .textLines { // used
     display: none;
   }
 
-  .textFlow {
+  .textFlow { // used 
     display: unset;
   }
 
-  .closeImpressum {
+  .closeImpressum { // used
     margin-top: 0;
   }
 

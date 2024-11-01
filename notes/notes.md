@@ -30,6 +30,8 @@ https://boxicons.com/
 css modules einführen (oder andere "css templates" - sass, scss ... )
 oder Tailwind oder Uno (https://unocss.dev/guide/)
 
+- Playwright
+
 ### idee
 beide Startseiten (IT/Privat) folgen dem gleichen Style 
 
