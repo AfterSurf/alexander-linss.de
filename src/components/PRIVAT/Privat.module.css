@@ -4,6 +4,21 @@
 
 /* HOME */
 
+/* Privat */
+@import url("https://fontlibrary.org//face/exo");
+
+.homeContainerPrivat {
+  display: grid !important;
+  background-color: rgb(241, 179, 33);
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 0.4fr repeat(2, 0.5fr);
+  grid-template-areas:
+    "titel1";
+  gap: 1.1rem;
+  place-items: center;
+}
+
+
 .homePrivatText {
   color: white;;
   font-size: 1.4rem; 
@@ -58,32 +73,29 @@
   color: white;
   font-size: 3rem;
   font-weight: 500;
-  /* padding: 1em; */
   text-align: center;
   margin-bottom: 2rem;
   padding-top: 1rem;
 }
 
 .quote {
-  /* background-color: red; */
   grid-area: titel2;
 }
 
 .ownWords {
-  /* background-color: blue; */
   grid-area: titel3;
 }
 
 /* VITA */
 
-#vitaContainerPrivat {
+.vitaContainerPrivat {
   color: white;
   background-color: rgb(65, 112, 167);
   padding: 3rem 0;
   font-size: 1rem;
 }
 
-#vitaContainerPrivat > * {
+.vitaContainerPrivat > * {
   padding: 8vw;
   width: 40vw;
   text-wrap: wrap;
@@ -96,7 +108,6 @@
   object-fit: contain;
 }
 
-/* Hier nochmal schauen, dass der Text mit dem Bild abschließt */
 .vitaText {
   margin-top: -9rem;
 }
@@ -112,12 +123,12 @@
     padding: 1.5rem 1.5rem 0;
   }
 
-  #vitaContainerPrivat  {
+  .vitaContainerPrivat  {
     display: flex;
     flex-direction: column;
   }
 
-  #vitaContainerPrivat > * {
+  .vitaContainerPrivat > * {
     padding:0 5vw 5vw;
     width: 80vw;
   }
@@ -127,3 +138,5 @@
   }
   
 }
+
+

@@ -6,7 +6,7 @@ import image from "../../pictures/alex_bw.jpg";
 const Vita = () => {
   const contactRef = useNav("Vita");
   return (
-    <section ref={contactRef} id="vitaContainerPrivat">
+    <section ref={contactRef} id="vitaContainerPrivat" className={styles.vitaContainerPrivat}>
       <pre>
         <div className={styles.vitaText}>
           <h3>Vita</h3>

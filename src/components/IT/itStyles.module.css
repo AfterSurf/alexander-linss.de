@@ -126,7 +126,7 @@
   .PointsContainer {
     align-items: safe;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 0.5fr) 5rem 5rem 15rem;
+    grid-template-rows: 0.4fr repeat(2, 0.5fr) 5rem 5rem 15rem;
     grid-template-areas: 
     "titel1"
     "titel2"

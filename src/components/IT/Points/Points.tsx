@@ -1,6 +1,5 @@
 import { useState } from "react";
 import styles from "./Points.module.css";
-import Icon from "../../Icon";
 
 type PointsInputProps = {
     title: string,
@@ -19,8 +18,8 @@ const Points = ({title, Component, alternativTitle}: PointsInputProps) => {
     return (
         <>
            <div className={styles.point}>
-                <div onClick={clickHandler}  className={`${styles.title} ${open ? styles.title_border: ""} ${open ? "" : styles.title_hover}`}> 
-                    <Icon name="chevron-right" rotate={open ? "90" : ""} size="sm" /> 
+                <div onClick={clickHandler}  className={`${styles.title} ${open ? styles.title_border: ""} ${open ? "" : styles.title_hover}`}>
+                    { open ? <i className="bx bx-chevron-down"/> : <i className="bx bx-chevron-right"/> }
                     {open && alternativTitle ?  alternativTitle : title}{open ? ":" : "?"}
                 </div>
                 {open ? <div>{Component}</div> : <></>}

@@ -6,8 +6,7 @@ import styles from "./Privat.module.css";
 const Home = () => {
   const homeRef = useNav("Home");
   return (
-    // id richtig benamen homePrivatContainer
-    <section ref={homeRef} id="homeContainerPrivat">
+    <section ref={homeRef} id="homeContainerPrivat" className={styles.homeContainerPrivat}>
       <div className={styles.titel}>Privat</div>
       <pre>
         <div className={styles.homePrivatText}>

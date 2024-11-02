@@ -7,7 +7,7 @@ import It from "./pages/It";
 import Privat from "./pages/Privat";
 import Footer from "./components/footer/Footer";
 import NavProvider from "./context/NavContext";
-import "./index.css";
+import "./index.scss";
 
 type AppInputProps = {
   page?: string

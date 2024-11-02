@@ -8,7 +8,7 @@ $max-width: 30em;
   max-width: 80%;
   margin: auto;
   background-color: $color-background;
-  height: 30rem;
+  height: 25rem;
 }
 
 .aufgabenTitle {
@@ -20,7 +20,7 @@ $max-width: 30em;
 
   min-width: $min-width;
   max-width: $max-width;
-  height: 4rem;
+  height: 2rem;
 }
 
 .aufgabenText {
@@ -31,15 +31,20 @@ $max-width: 30em;
 }
 
 .aufgabenImage {
-  margin: 1rem;
-  width: 15rem;
+  max-width: 15rem;
   height: auto;
   margin: 1rem 1.5rem;
+  width: 100%;
 }
 
 @media (width < 1553px){
   .aufgabe {
     max-width: 65%;
     height: 100%;
+  }
+}
+@media (width < 700px){
+  .aufgabenImage {
+    width: 80%;
   }
 }
