@@ -1,5 +1,5 @@
 import { useNav } from "../../customHooks/useNav";
-import styles from "./itStyles.module.css";
+import styles from "./itStyles.module.scss";
 
 import Points from "./points/Points";
 import Why from "./points/Why";

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./Points.module.css";
+import styles from "./Points.module.scss";
 
 type PointsInputProps = {
     title: string,

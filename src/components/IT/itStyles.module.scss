@@ -1,0 +1,149 @@
+
+
+/* home */
+.frontText {
+  width: 90vw;
+}
+
+.frontText > h3 {
+  min-width: 100%; /* this is to prevent shorter text animate to right */
+  white-space: wrap;
+  font-size: 2.5em;
+  animation: marquee 4s ease-in-out forwards;
+  overflow-wrap: break-word;
+}
+
+.socialmedia {
+  font-size: 1.3rem;
+}
+
+.socialmedia > a {
+  margin: auto;
+  background-color: rgb(222, 90, 90);
+  padding: 1.2rem 0;
+  border-radius: 4.5rem;
+  width: 10rem;
+  text-align: center;
+  margin: 0 1rem;
+  color: black;
+}
+
+.socialmedia > a:link {
+  text-decoration: none;
+}
+
+.socialmedia > a:visited {
+  text-decoration: none;
+}
+
+.socialmedia > a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  background-color: rgb(148, 211, 170);
+}
+
+.socialmedia > a:active {
+  text-decoration: underline;
+}
+
+/* project:  */
+.projectImage {
+  object-position: 50% 50%;
+  object-fit: cover;
+}
+
+.projectText {
+  white-space: wrap;
+  margin-bottom: 2rem;
+  /* Falls es mehr Projekte als platz gibt */
+  margin: auto;
+}
+
+.aufgaben {
+  display: grid;
+  grid-template-rows: 0.5fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.PointsContainer {
+  align-items: safe;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 0.5fr) 5rem 5rem 15rem;
+  grid-template-areas: 
+  "titel1"
+  "titel2"
+  "titel3" 
+  "titel4"
+  "titel5" 
+  "titel6"
+  ;
+  gap: 1.1rem;
+  place-items: center;
+  justify-content: content;
+  margin-bottom: 2rem;
+}
+
+.gridElement1 {
+  background-color: rgb(19, 163, 113);
+  grid-area: titel1;
+  width: 100%;
+  height: 100%;
+}
+.gridElement2 {
+  background-color: blue;
+  grid-area: titel2;
+}
+.gridElement3 {
+  background-color: yellow;
+  grid-area: titel3;
+}
+.gridElement4 {
+  grid-area: titel4;
+}
+.gridElement5 {
+  grid-area: titel5;
+}
+.gridElement6 {
+  background-color: red;
+  grid-area: titel6;
+  margin-bottom: 3rem;
+  width: 90vw;
+}
+
+@media (width <= 880px) {
+  .projectImage {
+    display: none;
+  }
+
+  .aufgaben {
+    display: grid;
+    grid-template-rows:repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .PointsContainer {
+    align-items: safe;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 0.4fr repeat(2, 0.5fr) 5rem 5rem 15rem;
+    grid-template-areas: 
+    "titel1"
+    "titel2"
+    "titel3" 
+    "titel4"
+    "titel5" 
+    "titel6"
+    ;
+    gap: 1.1rem;
+  }
+
+  .gridElement2 {
+    margin: 2rem 0;
+  }
+  .gridElement3 {
+    margin: 2rem 0;
+  }
+}

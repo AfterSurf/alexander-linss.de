@@ -1,8 +1,8 @@
-import Styles from "./Points.module.css";
+import styles from "./Points.module.scss";
 
 const FavTech = () => {
   return (
-    <div className={Styles.why_text}>
+    <div className={styles.why_text}>
       <div>Am liebsten arbeite ich aktuell mit: </div>
       <ul>
         <li>React.js / Next.js</li>

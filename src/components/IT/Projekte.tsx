@@ -1,6 +1,6 @@
 import { useNav } from "../../customHooks/useNav";
 
-import styles from "./itStyles.module.css"
+import styles from "./itStyles.module.scss"
 import imageProducts from "../../pictures/products.jpg";
 import imageWebsite from "../../pictures/laptop.jpg";
 import Aufgabe from "../interviews/Aufgabe";
