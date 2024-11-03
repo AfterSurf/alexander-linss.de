@@ -21,9 +21,7 @@ const Nav = ({ page, setShowImpressum }: NavInputProps) => {
     navArray = navLinksIT;
   } else if (page === "privat") {
     navArray = navLinksPrivat;
-  } 
-
-  else {
+  } else {
     return (
     <>      
       <div className={style.header_content}>         
@@ -33,6 +31,8 @@ const Nav = ({ page, setShowImpressum }: NavInputProps) => {
       </div>
     </>)
   }
+
+// wird das hier unten überhaupt erreicht?
 
   return (
     <>

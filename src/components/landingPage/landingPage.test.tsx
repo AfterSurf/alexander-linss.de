@@ -3,7 +3,7 @@ import LandingPage from "./LandingPage";
 
 describe("LandingPage component",  () => {
   it("should render LandingPage component correctly", async () => {
-    render(<LandingPage />);
+    render(<LandingPage/>);
     const header = await screen.findAllByText("Alexander Linß");
     const techButton = await screen.findAllByText("TECH")
     const privatButton = await screen.findAllByText("PRIVAT")
