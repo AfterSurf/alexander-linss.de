@@ -1,9 +1,10 @@
 import { render, screen } from "@testing-library/react";
 import LandingPage from "./LandingPage";
+import { BrowserRouter } from "react-router-dom";
 
 describe("LandingPage component",  () => {
   it("should render LandingPage component correctly", async () => {
-    render(<LandingPage/>);
+    render(<BrowserRouter><LandingPage/></BrowserRouter>);
     const header = await screen.findAllByText("Alexander Linß");
     const techButton = await screen.findAllByText("TECH")
     const privatButton = await screen.findAllByText("PRIVAT")
