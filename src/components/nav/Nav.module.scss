@@ -1,0 +1,286 @@
+$darkAccent: rgba(2, 0, 36, 1);
+$lightAccent: #f3d6e2;
+
+
+nav {
+	position: sticky;
+	z-index: 10;
+	top: 0;
+	padding: 1.35em 0;
+	color: white;
+	background-color: $darkAccent;
+	max-height: 4em;
+}
+
+nav span {
+	font-size: 18px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.2s ease;
+	transition-delay: 0.25s;
+	margin: 1em;
+	padding-bottom: 0.3em;
+}
+
+nav span:hover {
+	cursor: pointer;
+	border-bottom: 1px solid white;
+}
+
+nav span:hover i {
+	color: gold;
+}
+
+nav span.activeClass i {
+	color: gold;
+}
+
+nav span.activeClass {
+	border-bottom-color: $lightAccent;
+}
+
+/* ==================== 
+Typography
+===================== */
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #404040;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* ==================
+    Typography
+===================== */
+
+h1, h2, strong {
+    font-weight: 700;
+}
+
+.logo {
+    /* width: 100%; */
+    width: 238px;
+    height: 38px;
+    min-width: 115px;
+
+}
+
+.accent-color {
+    color: #FFE600;
+}
+
+.page-title,
+.subtitle {
+    grid-column: 2 / -2;
+    color: #000;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 3rem;
+    margin-bottom: 0;
+    justify-self: center;
+}
+
+.page-title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(65, 112, 167);;
+    margin-top: -40px;
+    margin-left: 15px;
+}
+
+.subtitle {
+    margin:.5em 0 3em;
+    font-size: 1.125rem;
+}
+
+.section-title {
+    font-size: 1.125rem;
+    color: #000;
+    margin-top: 1.25em;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin-top:10px;
+    background: #FFE600;
+}
+
+.section-title-center::after {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title:first-child {
+    margin-top: 0;
+}
+
+
+/* ==================
+    general layout
+===================== */
+
+.main-grid {
+    display: grid;
+    grid-template-columns: minmax(1em, 1fr) minmax(0px, 500px) minmax(1em, 1fr);
+    grid-column-gap: 2em;
+}
+
+@media (min-width: 600px) {
+    .main-grid {
+        grid-template-columns: minmax(1em, 1fr) repeat(3, minmax(150px, 320px)) minmax(1em, 1fr);
+    }
+}
+
+/* navigation */
+
+.header {
+    background: black;
+}
+
+.header-home {
+    /* background: transparent; */
+    position: absolute;
+    width: 100%;
+}
+
+
+.header-content {
+    display: flex;
+    grid-column: 2 / -2;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: #000;
+}
+
+.logo-link {
+    background-color: #FFE600;
+    padding: 0.8em 0;
+    text-decoration: none;
+    line-height: 0;
+    min-width: 15rem;
+}
+
+/* EDIT: einmal wird alles auf das navElement referenziert und einmal auf die nav klasse */
+
+.nav {
+    position: fixed;
+    background: #000;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 100%;
+    transform: translateX(0);
+    transition: transform 250ms;
+}
+
+.navigation-open {
+    transform: translateX(-100%);
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 39;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #000;
+}
+
+.nav-list > span:hover {
+    cursor: pointer;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #FFE600;
+}
+
+.close-nav {
+    border: 0;
+    background: 0;
+    color: #FFE600;
+    font-weight: 700;
+    font-size: 3rem;
+    cursor: pointer;
+    padding: .5em;
+    position: absolute;
+}
+
+.open-nav {
+    border: 0;
+    background: 0;
+    color: #000;
+    cursor: pointer;
+    padding: .5em;
+    margin-left: auto;
+    font-size: 1.5em;
+}
+
+.open-nav-button {
+    color: yellow
+}
+
+.current {
+    border-bottom: 1px solid #FFE600;
+}
+
+@media (min-width: 600px) {
+    .open-nav,
+    .close-nav {
+        display: none;
+    }
+    
+    .nav {
+        position: initial;
+        width: auto;
+    }
+    
+    .nav-list {
+        flex-direction: row;
+        justify-content: flex-start;
+
+        height: 2rem;
+        z-index: 1;
+
+    }
+    
+    .nav-item {
+        margin-left: 2em;
+    }
+    
+    .nav-link {
+        font-size: 1rem;
+    }
+    
+    .header-home .nav {
+        background: transparent;
+    }
+}

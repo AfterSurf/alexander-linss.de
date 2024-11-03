@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { navLinksPrivat, navLinksIT } from "./navLinks";
-import "./Nav.css";
 import logo from "./AlexanderLinssNone.svg";
+
+// #toDo
+//import "./Nav.css";
+import styles from "./Nav.module.scss"
+
 
 type NavInputProps = {
   page: string, 
