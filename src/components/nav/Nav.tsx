@@ -6,6 +6,7 @@ import logo from "./AlexanderLinssNone.svg";
 // #toDo
 //import "./Nav.css";
 import style from "./Nav.module.scss"
+import extraStyles from "./NavExtra.module.scss"
 
 
 type NavInputProps = {
