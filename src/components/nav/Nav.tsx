@@ -5,7 +5,7 @@ import logo from "./AlexanderLinssNone.svg";
 
 // #toDo
 //import "./Nav.css";
-import styles from "./Nav.module.scss"
+import style from "./Nav.module.scss"
 
 
 type NavInputProps = {
@@ -29,9 +29,9 @@ const Nav = ({ page, setShowImpressum }: NavInputProps) => {
   else {
     return (
     <>      
-      <div className="header-content">         
-        <a className="logo-link" href="/">
-          <img src={logo} alt="Your SVG" className="logo" />
+      <div className={style.header_content}>         
+        <a className={style.logo_link} href="/">
+          <img src={logo} alt="Your SVG" className={style.logo} />
         </a>
       </div>
     </>)
@@ -39,30 +39,30 @@ const Nav = ({ page, setShowImpressum }: NavInputProps) => {
 
   return (
     <>
-      <div className="header-content">
-        <a className="logo-link" href="/">
-          <img src={logo} alt="Your SVG" className="logo" />
+      <div className={style.header_content}>
+        <a className={style.logo_link} href="/">
+          <img src={logo} alt="Your SVG" className={style.logo} />
         </a>
         <button
           aria-label="open navigation"
-          className="open-nav open-nav-button"
+          className={`${style.open_nav} ${style.open_nav_button}`}
           onClick={() => {
             setIsOpen(true);
           }}
         >
           {burger}
         </button>
-        <nav className={isOpen ? "nav navigation-open" : "nav"}>
+        <nav className={isOpen ? `${style.nav} ${style.navigation_open}` : style.nav}>
           <button
             aria-label="close navigation"
-            className="close-nav"
+            className={style.close_nav}
             onClick={() => {
               setIsOpen(false);
             }}
           >
             &times;
           </button>
-          <div className="nav-list">
+          <div className={style.nav_list}>
             {navArray?.map(({ navLinkId, scrollToId }, idx) => (
               <NavLink
                 key={idx}

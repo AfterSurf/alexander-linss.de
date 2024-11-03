@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { NavContext } from '../../context/NavContext';
+import style from "./Nav.module.scss"
 
 // # todo
 type NavLinkInputProps = {
@@ -11,7 +12,7 @@ type NavLinkInputProps = {
 
 const NavLink = ({ navLinkId, scrollToId , setIsOpen, setShowImpressum} : NavLinkInputProps) => {
 	const { activeNavLinkId, setActiveNavLinkId }:any = useContext(NavContext); // #todo ts
-	const setShowImpressumIntern = setShowImpressum;
+	// const setShowImpressumIntern = setShowImpressum;
 	const handleClick = () => {
 		setActiveNavLinkId(navLinkId);
 		if(document.getElementById(scrollToId) !== null) {
@@ -29,10 +30,10 @@ const NavLink = ({ navLinkId, scrollToId , setIsOpen, setShowImpressum} : NavLin
 	return (
 		<span
 			id={navLinkId}
-			className={activeNavLinkId === navLinkId ? 'activeClass' : ''}
+			className={activeNavLinkId === navLinkId ? style.activeClass : ''}
 			onClick={() => {
 				handleClick(); 
-				setShowImpressumIntern(false)
+				setShowImpressum(false)
 			}}
 		>
 			{navLinkId}
