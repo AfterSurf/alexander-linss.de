@@ -42,7 +42,7 @@ const textComponent = (
 const profileComponent4 = (
   <>
     <div className={style.gridElement4}>
-      <pre>
+      {/* <pre> */}
         <div className={style.socialmedia}>
           <a
             target="_blank"
@@ -52,7 +52,7 @@ const profileComponent4 = (
             Linked:in
           </a>
         </div>
-      </pre>
+      {/* </pre> */}
     </div>
   </>
 );
@@ -60,7 +60,7 @@ const profileComponent4 = (
 const profileComponent5 = (
   <>
     <div className={style.gridElement5}>
-      <pre>
+      {/* <pre> */}
         <div className={style.socialmedia}>
           <a
             target="_blank"
@@ -70,7 +70,7 @@ const profileComponent5 = (
             Git:Hub
           </a>
         </div>
-      </pre>
+      {/* </pre> */}
     </div>
   </>
 );

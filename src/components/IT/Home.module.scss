@@ -1,4 +1,4 @@
-// todo
+@use "src/_shared-vars" as shared;
 
 .PointsContainer {
   align-items: safe;
@@ -51,7 +51,7 @@
 
 
 .socialmedia {
-    font-size: 1.3rem;
+    font-size: shared.$socialmedia-font-size;
   }
   
   .socialmedia > a {

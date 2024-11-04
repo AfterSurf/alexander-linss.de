@@ -6,7 +6,7 @@ const Vita = () => {
   const contactRef = useNav("Vita");
   return (
     <section ref={contactRef} id="vitaContainerPrivat" className={style.vitaContainerPrivat}>
-      <pre>
+      <div>
         <div className={style.vitaText}>
           <h3>Vita</h3>
           <p>2024 immer noch verliebt in JavaScript und das Web </p>
@@ -25,7 +25,7 @@ const Vita = () => {
           </p>
           <p>2014 Bachelor - Sports and Economics</p>
         </div>
-      </pre>
+      </div>
 
       <img className={style.vitaPic} src={image} alt="unsplash-img" />
     </section>

@@ -1,8 +1,10 @@
+@use "src/_shared-vars" as shared;
+
 .vitaContainerPrivat {
   color: white;
   background-color: rgb(65, 112, 167);
   padding: 3rem 0;
-  font-size: 1rem;
+  // font-size: shared.$paragraph-font-size;
 }
 
 .vitaContainerPrivat > * {
@@ -22,9 +24,16 @@
   margin-top: -9rem;
 }
 
+.vitaText > h3 {
+  font-size: shared.$title-font-size;
+}
+
 .vitaText > p {
+  font-size: shared.$paragraph-font-size;
   width: 100%;
 }
+
+
 
 @media (width <= 1000px) {
   .vitaContainerPrivat {

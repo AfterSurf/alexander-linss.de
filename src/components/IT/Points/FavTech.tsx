@@ -2,7 +2,7 @@ import styles from "./Points.module.scss";
 
 const FavTech = () => {
   return (
-    <div className={styles.why_text}>
+    <div className={styles.favTech_text}>
       <div>Am liebsten arbeite ich aktuell mit: </div>
       <ul>
         <li>React.js / Next.js</li>

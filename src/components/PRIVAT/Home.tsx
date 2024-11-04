@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section ref={homeRef} id="homeContainerPrivat" className={style.homeContainerPrivat}>
       <div className={style.titel}>Privat</div>
-      <pre>
+      {/* <pre> */}
         <div className={style.homePrivatText}>
           <div className={style.quote}>
             <h4 className={style.aboutText}>"Learn the rules like a pro,</h4>
@@ -27,7 +27,7 @@ const Home = () => {
             <p>Frontend bedeutet für mich Technik plus Design.</p>
           </div>
         </div>
-      </pre>
+      {/* </pre> */}
     </section>
   );
 };

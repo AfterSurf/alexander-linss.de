@@ -1,3 +1,4 @@
+@use "src/_shared-vars" as shared;
 @import url("https://fontlibrary.org//face/exo");
 
 .homeContainerPrivat {
@@ -12,7 +13,7 @@
 
 .homePrivatText {
   color: white;
-  font-size: 1.4rem;
+  font-size: shared.$paragraph-font-size;
   text-wrap: wrap;
 }
 
@@ -23,7 +24,7 @@
   height: 100%;
   justify-content: center;
   color: white;
-  font-size: 3rem;
+  font-size: shared.$title-font-size;
   font-weight: 500;
   text-align: center;
   margin-bottom: 2rem;
@@ -38,14 +39,16 @@
   grid-area: titel3;
 }
 
+// quote
 .aboutText {
-  font-size: large;
+  font-size: shared.$paragraph-font-size;
   font-style: italic;
   line-height: 1.3;
 }
 
+// quote
 .aboutTextAutor {
-  font-size: large;
+  font-size: shared.$paragraph-font-size;;
   padding-left: 16rem;
   padding-top: 0.1rem;
   line-height: 2;
@@ -55,7 +58,7 @@
   padding: 2rem 0;
   transition: 3s;
   left: 0;
-  font-size: 2rem;
+  font-size: shared.$paragraph-font-size;;
 }
 
 .aboutText > p:hover {

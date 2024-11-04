@@ -1,3 +1,4 @@
+@use "src/_shared-vars" as shared;
 $title-background-color-hover:rgb(148, 211, 170) ;
 
 .point {
@@ -12,7 +13,7 @@ $title-background-color-hover:rgb(148, 211, 170) ;
 }
 
 .title {
-  font-size: 1.8rem;
+  font-size: shared.$subtitle-font-size;
   display: flex;
   flex-direction: row;
   padding: 1rem 0;
@@ -36,9 +37,9 @@ $title-background-color-hover:rgb(148, 211, 170) ;
   padding: 0 2rem;
 }
 
-.why_text {
+.why_text, .favTech_text {
   margin: 1rem;
-  font-size: large;
+  font-size: shared.$paragraph-font-size;
   line-height: 2rem;
   height: 12rem;
 }
