@@ -21,13 +21,11 @@ https://boxicons.com/
 ### offene Todos:
 
 -CookyBanner einbauen
--Daniel + Patrick als Fotografen eintragen --> impressum generell updaten
 -GitHub ready machen
--responsive design implementieren und testen 
+-einheitliche Schriftarten 
 
 ### weitere Optiemierungen
 
-css modules einführen (oder andere "css templates" - sass, scss ... )
 oder Tailwind oder Uno (https://unocss.dev/guide/)
 
 - Playwright
@@ -46,22 +44,3 @@ beide Startseiten (IT/Privat) folgen dem gleichen Style
 ## Plan
 ### 26. September
 -Texte für Tech/Privat implementieren und online stellen 
-
-### 26. September
-
--neue Todos: 
-    * TypeScript 
-    * styles überarbeiten
-    * tests implementieren 
-
-### typescript
-
-https://www.technigo.io/explained/convert-react-javascript-to-typescript
-https://www.typescriptlang.org/docs/handbook/intro.html
-
-
-### testing
-
--best practices:
-    -wie ist ein Testfile aufgebaut? 
-    -wo werden die Variablen definiert? 

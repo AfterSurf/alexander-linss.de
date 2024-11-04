@@ -2,6 +2,12 @@
 
 Hier kann man sich den Code zur Website anschauen.
 
-## des weiteren
+## Warum diese Seite? 
 
-Ist diese seite gedacht, um coding challenges zu lösen, die eine oder andere Technologie auszuprobieren (inkl. deployment) oder um sich einfach nur kreativ auszuleben.
+Diese Seite stellt mich vor.   
+Diese Seite gibt mir Raum zum Ausprobieren: 
+- zum einen die Entwicklung der Seite an sich
+- zum anderen sind GitHub Projekte verlinkt, in denen ich verschiedene Technologien oder Ideen durchspiele.
+
+Viel Spaß beim Stöbern.
+
