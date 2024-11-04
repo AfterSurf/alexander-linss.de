@@ -1,6 +1,6 @@
 import { useNav } from "../../customHooks/useNav";
 
-import styles from "./itStyles.module.scss"
+import style from "./Projekte.module.scss"
 import imageProducts from "../../pictures/products.jpg";
 import imageWebsite from "../../pictures/laptop.jpg";
 import Aufgabe from "../interviews/Aufgabe";
@@ -11,10 +11,10 @@ const Projekte = () => {
   return (
     <>
       <section ref={projectsRef} id="projectsItContainer">
-        <pre className={styles.projectText}>
+        <pre className={style.projectText}>
           <div>
             <h3>Projekte</h3>
-            <div className={styles.aufgaben}>
+            <div className={style.aufgaben}>
               <Aufgabe
                 title="Phone Magic"
                 description="Liste aus Telefonnummern, mit Suchfeld, responsive und GraphQL-Backend."

@@ -1,5 +1,5 @@
 import { useNav } from "../../customHooks/useNav";
-import styles from "./itStyles.module.scss";
+import style from "./Home.module.scss"
 
 import Points from "./points/Points";
 import Why from "./points/Why";
@@ -9,22 +9,21 @@ const Home = () => {
   const homeRef = useNav("Home");
   return (
     <section ref={homeRef} id="homeItContainer">
-      <div className={styles.PointsContainer}>
-
+      <div className={style.PointsContainer}>
         {textComponent}
-          <Points
-            className={styles.gridElement2}
-            title="Warum diese Seite"
-            alternativTitle="Darum diese Seite"
-            Component={<Why />}
-          />
-          <Points
-            className={styles.gridElement3}
-            title="Wo bin ich zu Hause"
-            alternativTitle="Hier bin ich zu Hause"
-            Component={<FavTech />}
-          />
-        
+        <Points
+          className={style.gridElement2}
+          title="Warum diese Seite"
+          alternativTitle="Darum diese Seite"
+          Component={<Why />}
+        />
+        <Points
+          className={style.gridElement3}
+          title="Wo bin ich zu Hause"
+          alternativTitle="Hier bin ich zu Hause"
+          Component={<FavTech />}
+        />
+
         {profileComponent4}
         {profileComponent5}
       </div>
@@ -32,25 +31,19 @@ const Home = () => {
   );
 };
 
-var text = `Das ist der technischen Teil der Website.`;
-text = "AAA";
-
-function getTextComponent(text: string, className: string) {
-return (  <>
-  <pre className={styles[className]}>
-    <h3>{text}</h3>
-  </pre>
-</>)
-}
-
-
-const textComponent = getTextComponent("Technics","gridElement1")
+const textComponent = (
+  <>
+    <pre className={style.gridElement1}>
+      <h3>Technics</h3>
+    </pre>
+  </>
+);
 
 const profileComponent4 = (
   <>
-    <div className={styles["gridElement4"]}>
+    <div className={style.gridElement4}>
       <pre>
-        <div className={styles.socialmedia}>
+        <div className={style.socialmedia}>
           <a
             target="_blank"
             rel="noreferrer"
@@ -66,9 +59,9 @@ const profileComponent4 = (
 
 const profileComponent5 = (
   <>
-    <div className={styles["gridElement5"]}>
+    <div className={style.gridElement5}>
       <pre>
-        <div className={styles.socialmedia}>
+        <div className={style.socialmedia}>
           <a
             target="_blank"
             rel="noreferrer"
@@ -81,6 +74,5 @@ const profileComponent5 = (
     </div>
   </>
 );
-
 
 export default Home;
