@@ -12,7 +12,6 @@ type NavLinkInputProps = {
 
 const NavLink = ({ navLinkId, scrollToId , setIsOpen, setShowImpressum} : NavLinkInputProps) => {
 	const { activeNavLinkId, setActiveNavLinkId }:any = useContext(NavContext); // #todo ts
-	// const setShowImpressumIntern = setShowImpressum;
 	const handleClick = () => {
 		setActiveNavLinkId(navLinkId);
 		if(document.getElementById(scrollToId) !== null) {

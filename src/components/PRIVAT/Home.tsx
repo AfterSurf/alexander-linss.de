@@ -1,23 +1,23 @@
 import { useNav } from "../../customHooks/useNav";
-import styles from "./Privat.module.css";
+import style from "./Home.module.scss"
 
 // quote: https://www.goodreads.com/quotes/558213-learn-the-rules-like-a-pro-so-you-can-break
 
 const Home = () => {
   const homeRef = useNav("Home");
   return (
-    <section ref={homeRef} id="homeContainerPrivat" className={styles.homeContainerPrivat}>
-      <div className={styles.titel}>Privat</div>
+    <section ref={homeRef} id="homeContainerPrivat" className={style.homeContainerPrivat}>
+      <div className={style.titel}>Privat</div>
       <pre>
-        <div className={styles.homePrivatText}>
-          <div className={`${styles.quote} ${styles.titel2}`}>
-            <h4 className={styles.aboutText}>"Learn the rules like a pro,</h4>
-            <h4 className={styles.aboutText}>
+        <div className={style.homePrivatText}>
+          <div className={style.quote}>
+            <h4 className={style.aboutText}>"Learn the rules like a pro,</h4>
+            <h4 className={style.aboutText}>
               so you can break them like an artist."
             </h4>
-            <h4 className={styles.aboutTextAutor}>- P. Picasso</h4>
+            <h4 className={style.aboutTextAutor}>- P. Picasso</h4>
           </div>
-          <div className={`${styles.ownWords} ${styles.titel2}`}>
+          <div className={style.ownWords}>
             <p>Gesagt, getan.</p>
             <br></br>
             <p>Das Coden gibt mir die Freiheit kreativ zu arbeiten und etwas zu erschaffen.</p>

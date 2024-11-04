@@ -1,3 +1,43 @@
-// toDo
+.vitaContainerPrivat {
+  color: white;
+  background-color: rgb(65, 112, 167);
+  padding: 3rem 0;
+  font-size: 1rem;
+}
 
-.test {}
+.vitaContainerPrivat > * {
+  padding: 2vw;
+  width: 40vw;
+  text-wrap: wrap;
+  text-align: left;
+}
+
+.vitaPic {
+  max-height: 60vh;
+  max-width: 30rem;
+  object-fit: contain;
+}
+
+.vitaText {
+  margin-top: -9rem;
+}
+
+.vitaText > p {
+  width: 100%;
+}
+
+@media (width <= 1000px) {
+  .vitaContainerPrivat {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vitaContainerPrivat > * {
+    padding: 0 5vw 5vw;
+    width: 80vw;
+  }
+
+  .vitaText {
+    margin-top: 0;
+  }
+}

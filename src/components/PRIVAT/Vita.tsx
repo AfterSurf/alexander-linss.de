@@ -1,14 +1,13 @@
 import { useNav } from "../../customHooks/useNav";
-
-import styles from "./Privat.module.css";
+import style from "./Vita.module.scss";
 import image from "../../pictures/alex_bw.jpg";
 
 const Vita = () => {
   const contactRef = useNav("Vita");
   return (
-    <section ref={contactRef} id="vitaContainerPrivat" className={styles.vitaContainerPrivat}>
+    <section ref={contactRef} id="vitaContainerPrivat" className={style.vitaContainerPrivat}>
       <pre>
-        <div className={styles.vitaText}>
+        <div className={style.vitaText}>
           <h3>Vita</h3>
           <p>2024 immer noch verliebt in JavaScript und das Web </p>
           <p>2023 Frontend in e-commerce</p>
@@ -28,7 +27,7 @@ const Vita = () => {
         </div>
       </pre>
 
-      <img className={styles.vitaPic} src={image} alt="unsplash-img" />
+      <img className={style.vitaPic} src={image} alt="unsplash-img" />
     </section>
   );
 };

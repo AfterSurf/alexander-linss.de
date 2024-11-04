@@ -1,7 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import Home from "./Home";
 
-// mock
 import { IntersectionObserverMock } from "../../__mocks__/intersectionObserver";
 
 beforeEach(IntersectionObserverMock);

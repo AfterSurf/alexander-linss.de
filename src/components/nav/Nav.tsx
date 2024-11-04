@@ -32,8 +32,6 @@ const Nav = ({ page, setShowImpressum }: NavInputProps) => {
     </>)
   }
 
-// wird das hier unten überhaupt erreicht?
-
   return (
     <>
       <div className={style.header_content}>
