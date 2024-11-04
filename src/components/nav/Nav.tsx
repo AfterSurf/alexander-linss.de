@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import NavLink from "./NavLink";
-import { navLinksPrivat, navLinksIT } from "./navLinks";
+import { navLinksPrivat, navLinksIT } from "./NavLinks";
 import logo from "./AlexanderLinssNone.svg";
 
 import style from "./Nav.module.scss"
