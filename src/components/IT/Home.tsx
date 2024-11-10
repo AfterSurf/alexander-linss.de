@@ -8,7 +8,7 @@ import FavTech from "./points/FavTech";
 const Home = () => {
   const homeRef = useNav("Home");
   return (
-    <section ref={homeRef} id="homeItContainer">
+    <section ref={homeRef} id="homeItContainer" className={style.homeItContainer}>
       <div className={style.PointsContainer}>
         {textComponent}
         <Points
@@ -33,9 +33,9 @@ const Home = () => {
 
 const textComponent = (
   <>
-    <pre className={style.gridElement1}>
+    <div className={style.gridElement1}>
       <h3>Technics</h3>
-    </pre>
+    </div>
   </>
 );
 

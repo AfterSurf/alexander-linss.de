@@ -10,10 +10,10 @@ const Projekte = () => {
 
   return (
     <>
-      <section ref={projectsRef} id="projectsItContainer">
-        <pre className={style.projectText}>
+      <section ref={projectsRef} id="projectsItContainer" className={style.projectsItContainer}>
+        <div className={style.projectText}>
           <div>
-            <h3>Projekte</h3>
+            <h3 className={style.projectTitle}>Projekte</h3>
             <div className={style.aufgaben}>
               <Aufgabe
                 title="Phone Magic"
@@ -29,7 +29,7 @@ const Projekte = () => {
               />
             </div>
           </div>
-        </pre>
+        </div>
       </section>
     </>
   );

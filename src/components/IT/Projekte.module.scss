@@ -1,3 +1,20 @@
+@use "src/_shared-vars" as shared;
+
+.projectsItContainer {
+  // color: white;
+  // background-color: rgb(90, 182, 119);
+  // color: shared.$it-projects-font-color;
+  color: white;
+  background-color: shared.$it-projects-background;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: normal;
+  justify-content: unset;
+}
+
+.projectTitle {
+  color: black;
+}
 
 .projectText {
     white-space: wrap;

@@ -29,7 +29,7 @@ $title-background-color-hover:rgb(148, 211, 170) ;
 }
 
 .title_hover:hover {
-  background-color: $title-background-color-hover;
+  background-color: shared.$it-home-hover-color;
   border-radius: 35px;
 }
 

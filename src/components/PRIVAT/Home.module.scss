@@ -3,7 +3,7 @@
 
 .homeContainerPrivat {
   display: grid !important;
-  background-color: rgb(241, 179, 33);
+  background-color: shared.$privat-home-container-background;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: 0.4fr repeat(2, 0.5fr);
   grid-template-areas: "titel1";
@@ -12,13 +12,14 @@
 }
 
 .homePrivatText {
-  color: white;
+  color: shared.$private-home-text-color;
   font-size: shared.$paragraph-font-size;
   text-wrap: wrap;
 }
 
 .titel {
-  background-color: rgb(19, 163, 113);
+  // background-color: rgb(19, 163, 113);
+  background-color:  shared.$privat-home-title-background;
   grid-area: titel1;
   width: 100%;
   height: 100%;

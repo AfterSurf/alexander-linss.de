@@ -1,5 +1,15 @@
 @use "src/_shared-vars" as shared;
 
+/* global containers */
+.homeItContainer {
+  color: shared.$it-home-container-main;
+  // background-color: rgb(136, 196, 235);
+  background-color: shared.$it-home-container-background;
+  display: block;
+  border-bottom: 1px solid black !important;
+}
+
+
 .PointsContainer {
   align-items: safe;
   grid-template-columns: repeat(1, 1fr);
@@ -18,10 +28,12 @@
 }
 
 .gridElement1 {
-  background-color: rgb(19, 163, 113);
+  // background-color: rgb(19, 163, 113);
+  // background-color: shared.$it-home-title-background;
   grid-area: titel1;
   width: 100%;
   height: 100%;
+  color: black !important;
 }
 
 .gridElement2 {
@@ -62,7 +74,7 @@
     width: 10rem;
     text-align: center;
     margin: 0 1rem;
-    color: black;
+    color: white;
   }
   
   .socialmedia > a:link {
@@ -76,7 +88,9 @@
   .socialmedia > a:hover {
     text-decoration: underline;
     text-underline-offset: 2px;
-    background-color: rgb(148, 211, 170);
+    background-color: shared.$it-home-hover-color;
+    color: black;
+    border: 1px solid black;
   }
   
   .socialmedia > a:active {

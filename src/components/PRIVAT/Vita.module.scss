@@ -1,10 +1,9 @@
 @use "src/_shared-vars" as shared;
 
 .vitaContainerPrivat {
-  color: white;
-  background-color: rgb(65, 112, 167);
+  color: shared.$privat-vita-color;
+  background-color: shared.$privat-vita-background-color;
   padding: 3rem 0;
-  // font-size: shared.$paragraph-font-size;
 }
 
 .vitaContainerPrivat > * {
