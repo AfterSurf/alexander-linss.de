@@ -32,6 +32,16 @@
     overflow-y: auto;
     overflow-x: hidden;
   }
+
+  @media (width > 1500px) {
+    .aufgaben {
+      display: grid;
+      // grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      gap: none;
+    }
+  
+  }
   
   @media (width <= 880px) {
     .aufgaben {

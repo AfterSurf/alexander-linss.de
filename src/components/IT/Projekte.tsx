@@ -1,6 +1,7 @@
 import { useNav } from "../../customHooks/useNav";
 
 import style from "./Projekte.module.scss"
+import imageFridge from  "../../pictures/fridge.jpg";
 import imageProducts from "../../pictures/products.jpg";
 import imageWebsite from "../../pictures/laptop.jpg";
 import Aufgabe from "../interviews/Aufgabe";
@@ -15,6 +16,12 @@ const Projekte = () => {
           <div>
             <h3 className={style.projectTitle}>Projekte</h3>
             <div className={style.aufgaben}>
+            <Aufgabe
+                title="Fill Your Fridge"
+                description="Java SpringBoot REST-Api zur Verwaltung von Einkaufslisten."
+                img={imageFridge}
+                link2project={"https://github.com/AfterSurf/FillYourFridge/"}
+              />
               <Aufgabe
                 title="Phone Magic"
                 description="Liste aus Telefonnummern, mit Suchfeld, responsive und GraphQL-Backend."
