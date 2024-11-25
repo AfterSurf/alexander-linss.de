@@ -57,3 +57,14 @@ $max-width: 30em;
     width: 100%;
   }
 }
+
+@media (width < 410px){
+  .aufgabenImage {
+    padding:0 1rem;
+  }
+  .aufgabenTitle {
+    padding: 0 1.2rem;
+    width: 100%;
+    margin: 1.5rem auto 1.2rem;
+  }
+}
