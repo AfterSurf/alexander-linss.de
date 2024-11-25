@@ -5,7 +5,11 @@ import image from "../../pictures/alex_bw.jpg";
 const Vita = () => {
   const contactRef = useNav("Vita");
   return (
-    <section ref={contactRef} id="vitaContainerPrivat" className={style.vitaContainerPrivat}>
+    <section
+      ref={contactRef}
+      id="vitaContainerPrivat"
+      className={style.vitaContainerPrivat}
+    >
       <div>
         <div className={style.vitaText}>
           <h3>Vita</h3>
@@ -13,8 +17,8 @@ const Vita = () => {
           <p>2023 Frontend in e-commerce</p>
           <p>2022 Frontend in Healthtech </p>
           <p>
-            seit 2021 Vollzeit Frontend (react.js, next.js, vue.js, html und css
-            )
+            seit 2021 Vollzeit Frontend (react.js, next.js, vue.js, html und
+            css)
           </p>
           <p>2019 Vollzeit Webdevelopement (Node.js, docker, ...)</p>
           <br></br>

@@ -1,9 +1,6 @@
 @use "src/_shared-vars" as shared;
 
 .projectsItContainer {
-  // color: white;
-  // background-color: rgb(90, 182, 119);
-  // color: shared.$it-projects-font-color;
   color: white;
   background-color: shared.$it-projects-background;
   display: flex;
@@ -17,38 +14,34 @@
 }
 
 .projectText {
-    white-space: wrap;
-    margin-bottom: 2rem;
-    /* Falls es mehr Projekte als platz gibt */
-    margin: auto;
-  }
-  
+  white-space: wrap;
+  margin-bottom: 2rem;
+  /* Falls es mehr Projekte als platz gibt */
+  margin: auto;
+}
+
+.aufgaben {
+  display: grid;
+  grid-template-rows: 0.5fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+@media (width > 1500px) {
   .aufgaben {
     display: grid;
-    grid-template-rows: 0.5fr;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    height: 60vh;
-    overflow-y: auto;
-    overflow-x: hidden;
+    grid-template-columns: repeat(3, 1fr);
+    gap: none;
   }
+}
 
-  @media (width > 1500px) {
-    .aufgaben {
-      display: grid;
-      // grid-template-rows: repeat(3, 1fr);
-      grid-template-columns: repeat(3, 1fr);
-      gap: none;
-    }
-  
+@media (width <= 880px) {
+  .aufgaben {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
-  
-  @media (width <= 880px) {
-    .aufgaben {
-      display: grid;
-      grid-template-rows: repeat(2, 1fr);
-      grid-template-columns: repeat(1, 1fr);
-    }
-  
-  }
-  
+}
